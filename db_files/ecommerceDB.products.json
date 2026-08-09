@@ -1,0 +1,6329 @@
+[{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e25f"
+  },
+  "name": "Smart Watch",
+  "price": 3999,
+  "category": "electronics",
+  "rating": 4.7,
+  "stock": 10,
+  "brand": "VoltEdge",
+  "description": "AMOLED fitness smartwatch with health tracking and Bluetooth calling.",
+  "image": "https://images.unsplash.com/photo-1546868871-af0de0ae72be?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "smart",
+    "voltedge",
+    "watch",
+    "device",
+    "devices",
+    "electronic",
+    "electronics",
+    "tech"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e260"
+  },
+  "name": "Noise Cancelling Headphones",
+  "price": 6999,
+  "category": "electronics",
+  "rating": 4.8,
+  "stock": 50,
+  "brand": "SonicNest",
+  "description": "Over-ear ANC headphones with immersive sound and 40-hour battery life.",
+  "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "cancelling",
+    "headphones",
+    "noise",
+    "sonicnest",
+    "device",
+    "devices",
+    "electronic",
+    "electronics"
+  ],
+  "review_count": 6
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e261"
+  },
+  "name": "4K Smart TV",
+  "price": 34999,
+  "category": "electronics",
+  "rating": 4.6,
+  "stock": 10,
+  "brand": "ViewSphere",
+  "description": "55-inch 4K smart television with HDR streaming apps and voice assistant support.",
+  "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "smart",
+    "viewsphere",
+    "device",
+    "devices",
+    "electronic",
+    "electronics",
+    "tech",
+    "and"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e262"
+  },
+  "name": "Wireless Earbuds",
+  "price": 2499,
+  "category": "electronics",
+  "rating": 4.3,
+  "stock": 10,
+  "brand": "PulsePod",
+  "description": "Compact true wireless earbuds with ENC calling and fast USB-C charging.",
+  "image": "https://images.unsplash.com/photo-1590658268037-6bf12f032f55?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "earbuds",
+    "pulsepod",
+    "wireless",
+    "device",
+    "devices",
+    "electronic",
+    "electronics",
+    "tech"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e263"
+  },
+  "name": "Gaming Laptop",
+  "price": 59999,
+  "category": "electronics",
+  "rating": 4.8,
+  "stock": 10,
+  "brand": "CoreForge",
+  "description": "High-performance gaming laptop with RTX graphics and fast refresh display.",
+  "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "coreforge",
+    "gaming",
+    "laptop",
+    "device",
+    "devices",
+    "electronic",
+    "electronics",
+    "tech"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e264"
+  },
+  "name": "Bluetooth Soundbar",
+  "price": 5799,
+  "category": "electronics",
+  "rating": 4.4,
+  "stock": 10,
+  "brand": "SonicNest",
+  "description": "Cinematic soundbar with Bluetooth streaming and deep bass enhancement.",
+  "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "bluetooth",
+    "sonicnest",
+    "soundbar",
+    "device",
+    "devices",
+    "electronic",
+    "electronics",
+    "tech"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e265"
+  },
+  "name": "Portable SSD 1TB",
+  "price": 8499,
+  "category": "electronics",
+  "rating": 4.6,
+  "stock": 10,
+  "brand": "DataSprint",
+  "description": "Shock-resistant 1TB portable SSD with ultra-fast file transfer speeds.",
+  "image": "https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "1tb",
+    "datasprint",
+    "portable",
+    "ssd",
+    "device",
+    "devices",
+    "electronic",
+    "electronics"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e266"
+  },
+  "name": "Mirrorless Camera Kit",
+  "price": 45999,
+  "category": "electronics",
+  "rating": 4.7,
+  "stock": 10,
+  "brand": "LumaShot",
+  "description": "Travel-friendly mirrorless camera kit with 4K recording and interchangeable lens.",
+  "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "camera",
+    "kit",
+    "lumashot",
+    "mirrorless",
+    "device",
+    "devices",
+    "electronic",
+    "electronics"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e267"
+  },
+  "name": "Minimal Sneakers",
+  "price": 4299,
+  "category": "fashion",
+  "rating": 4.4,
+  "stock": 10,
+  "brand": "UrbanStep",
+  "description": "Everyday sneakers with cushioned sole and clean minimalist styling.",
+  "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "minimal",
+    "sneakers",
+    "urbanstep",
+    "apparel",
+    "clothing",
+    "fashion",
+    "outfit",
+    "style"
+  ],
+  "review_count": 2
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e268"
+  },
+  "name": "Wool Blend Jacket",
+  "price": 5499,
+  "category": "fashion",
+  "rating": 4.2,
+  "stock": 9,
+  "brand": "NorthWeave",
+  "description": "Tailored wool blend jacket suited for smart casual and office wear.",
+  "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "blend",
+    "jacket",
+    "northweave",
+    "wool",
+    "apparel",
+    "clothing",
+    "fashion",
+    "outfit"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e269"
+  },
+  "name": "Leather Wallet",
+  "price": 899,
+  "category": "fashion",
+  "rating": 4,
+  "stock": 10,
+  "brand": "HideCraft",
+  "description": "Slim bi-fold leather wallet with RFID protection and multiple card slots.",
+  "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "hidecraft",
+    "leather",
+    "wallet",
+    "apparel",
+    "clothing",
+    "fashion",
+    "outfit",
+    "style"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e26a"
+  },
+  "name": "Classic Denim Shirt",
+  "price": 1899,
+  "category": "fashion",
+  "rating": 4.2,
+  "stock": 10,
+  "brand": "BlueHarbor",
+  "description": "Soft-wash denim shirt designed for versatile everyday layering.",
+  "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "blueharbor",
+    "classic",
+    "denim",
+    "shirt",
+    "apparel",
+    "clothing",
+    "fashion",
+    "outfit"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e26b"
+  },
+  "name": "Formal Oxford Shoes",
+  "price": 3799,
+  "category": "fashion",
+  "rating": 4.3,
+  "stock": 9,
+  "brand": "StrideMark",
+  "description": "Polished Oxford shoes with durable outsole for office and occasion wear.",
+  "image": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "formal",
+    "oxford",
+    "shoes",
+    "stridemark",
+    "apparel",
+    "clothing",
+    "fashion",
+    "outfit"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e26c"
+  },
+  "name": "Structured Tote Bag",
+  "price": 2599,
+  "category": "fashion",
+  "rating": 4.5,
+  "stock": 8,
+  "brand": "ModeCarry",
+  "description": "Spacious structured tote bag with zip compartments for daily essentials.",
+  "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "bag",
+    "modecarry",
+    "structured",
+    "tote",
+    "apparel",
+    "clothing",
+    "fashion",
+    "outfit"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e26d"
+  },
+  "name": "Polarized Sunglasses",
+  "price": 1499,
+  "category": "fashion",
+  "rating": 4.1,
+  "stock": 10,
+  "brand": "SunFrame",
+  "description": "Polarized UV-protection sunglasses with lightweight premium frame.",
+  "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "polarized",
+    "sunframe",
+    "sunglasses",
+    "apparel",
+    "clothing",
+    "fashion",
+    "outfit",
+    "style"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e26e"
+  },
+  "name": "Athleisure Joggers",
+  "price": 1799,
+  "category": "fashion",
+  "rating": 4.2,
+  "stock": 10,
+  "brand": "MoveFlex",
+  "description": "Breathable athleisure joggers built for commute, lounge, and workout use.",
+  "image": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "athleisure",
+    "joggers",
+    "moveflex",
+    "apparel",
+    "clothing",
+    "fashion",
+    "outfit",
+    "style"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e26f"
+  },
+  "name": "Executive Office Chair",
+  "price": 12999,
+  "category": "furniture",
+  "rating": 4.3,
+  "stock": 10,
+  "brand": "ErgoSpace",
+  "description": "Ergonomic office chair with lumbar support, tilt lock, and padded armrests.",
+  "image": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "chair",
+    "ergospace",
+    "executive",
+    "office",
+    "decor",
+    "furniture",
+    "sofa",
+    "table"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e270"
+  },
+  "name": "Studio Table Lamp",
+  "price": 2199,
+  "category": "furniture",
+  "rating": 4.1,
+  "stock": 10,
+  "brand": "GlowForm",
+  "description": "Minimal studio lamp with warm lighting and adjustable metal neck.",
+  "image": "https://images.unsplash.com/photo-1507473885765-e6ed057ab6fe?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "glowform",
+    "lamp",
+    "studio",
+    "table",
+    "chair",
+    "decor",
+    "furniture",
+    "sofa"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e271"
+  },
+  "name": "Dining Table Set",
+  "price": 24999,
+  "category": "furniture",
+  "rating": 4.5,
+  "stock": 10,
+  "brand": "OakLoom",
+  "description": "Six-seater dining table set with solid wood finish and comfortable seating.",
+  "image": "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "dining",
+    "oakloom",
+    "set",
+    "table",
+    "chair",
+    "decor",
+    "furniture",
+    "sofa"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e272"
+  },
+  "name": "Walnut Sofa Set",
+  "price": 32999,
+  "category": "furniture",
+  "rating": 4.6,
+  "stock": 10,
+  "brand": "CasaVerve",
+  "description": "Premium walnut-tone sofa set with plush upholstery and sturdy frame.",
+  "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "casaverve",
+    "set",
+    "sofa",
+    "walnut",
+    "chair",
+    "decor",
+    "furniture",
+    "table"
+  ],
+  "review_count": 2
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e273"
+  },
+  "name": "Bookshelf Cabinet",
+  "price": 8799,
+  "category": "furniture",
+  "rating": 4.3,
+  "stock": 10,
+  "brand": "OakLoom",
+  "description": "Open bookshelf cabinet for decor, books, and home office storage.",
+  "image": "https://images.unsplash.com/photo-1594620302200-9a762244a156?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "bookshelf",
+    "cabinet",
+    "oakloom",
+    "chair",
+    "decor",
+    "furniture",
+    "sofa",
+    "table"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e274"
+  },
+  "name": "Queen Bed Frame",
+  "price": 18999,
+  "category": "furniture",
+  "rating": 4.4,
+  "stock": 10,
+  "brand": "DreamTimber",
+  "description": "Modern queen-size bed frame with slatted support and under-bed clearance.",
+  "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "bed",
+    "dreamtimber",
+    "frame",
+    "queen",
+    "chair",
+    "decor",
+    "furniture",
+    "sofa"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e275"
+  },
+  "name": "Coffee Table Nest",
+  "price": 6499,
+  "category": "furniture",
+  "rating": 4.2,
+  "stock": 10,
+  "brand": "CasaVerve",
+  "description": "Nested coffee table pair for modern living rooms and compact spaces.",
+  "image": "https://images.unsplash.com/photo-1532372320572-cda25653a26d?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "casaverve",
+    "coffee",
+    "nest",
+    "table",
+    "chair",
+    "decor",
+    "furniture",
+    "sofa"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e276"
+  },
+  "name": "Recliner Lounge Seat",
+  "price": 15499,
+  "category": "furniture",
+  "rating": 4.4,
+  "stock": 10,
+  "brand": "ComfortArc",
+  "description": "Padded lounge recliner designed for relaxation, reading, and TV time.",
+  "image": "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "comfortarc",
+    "lounge",
+    "recliner",
+    "seat",
+    "chair",
+    "decor",
+    "furniture",
+    "sofa"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e277"
+  },
+  "name": "Mechanical Keyboard",
+  "price": 3299,
+  "category": "gadgets",
+  "rating": 4.5,
+  "stock": 10,
+  "brand": "KeyForge",
+  "description": "Tactile mechanical keyboard with RGB backlight and hotkey support.",
+  "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "keyboard",
+    "keyforge",
+    "mechanical",
+    "accessories",
+    "accessory",
+    "gadget",
+    "gadgets",
+    "portable"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e278"
+  },
+  "name": "Smartphone Gimbal",
+  "price": 4999,
+  "category": "gadgets",
+  "rating": 4.4,
+  "stock": 10,
+  "brand": "MotionGrip",
+  "description": "3-axis smartphone gimbal for smooth reels, travel clips, and vlogging.",
+  "image": "https://images.unsplash.com/photo-1583573636246-18cb2246697f?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "gimbal",
+    "motiongrip",
+    "smartphone",
+    "accessories",
+    "accessory",
+    "gadget",
+    "gadgets",
+    "portable"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e279"
+  },
+  "name": "Portable Projector",
+  "price": 8999,
+  "category": "gadgets",
+  "rating": 4.3,
+  "stock": 10,
+  "brand": "BeamBox",
+  "description": "Compact portable projector for home movie nights and quick presentations.",
+  "image": "https://images.unsplash.com/photo-1626379953822-baec19c3accd?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "beambox",
+    "portable",
+    "projector",
+    "accessories",
+    "accessory",
+    "gadget",
+    "gadgets",
+    "and"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e27a"
+  },
+  "name": "Drone Explorer Mini",
+  "price": 21999,
+  "category": "gadgets",
+  "rating": 4.6,
+  "stock": 10,
+  "brand": "SkyPix",
+  "description": "Foldable mini drone with stabilized camera and intelligent flight modes.",
+  "image": "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "drone",
+    "explorer",
+    "mini",
+    "skypix",
+    "accessories",
+    "accessory",
+    "gadget",
+    "gadgets"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e27b"
+  },
+  "name": "USB-C Hub Pro",
+  "price": 2499,
+  "category": "gadgets",
+  "rating": 4.3,
+  "stock": 10,
+  "brand": "DockFlow",
+  "description": "7-in-1 USB-C hub with HDMI, card reader, and pass-through charging.",
+  "image": "https://images.unsplash.com/photo-1625842268584-8f3296236761?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "dockflow",
+    "hub",
+    "pro",
+    "usb",
+    "accessories",
+    "accessory",
+    "gadget",
+    "gadgets"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e27c"
+  },
+  "name": "Action Camera 4K",
+  "price": 11999,
+  "category": "gadgets",
+  "rating": 4.4,
+  "stock": 10,
+  "brand": "TrailCam",
+  "description": "Rugged 4K action camera with stabilization and waterproof housing.",
+  "image": "https://images.unsplash.com/photo-1564466809058-bf4114d55352?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "action",
+    "camera",
+    "trailcam",
+    "accessories",
+    "accessory",
+    "gadget",
+    "gadgets",
+    "portable"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e27d"
+  },
+  "name": "E-Reader Lite",
+  "price": 7999,
+  "category": "gadgets",
+  "rating": 4.5,
+  "stock": 10,
+  "brand": "ReadEase",
+  "description": "Glare-free e-reader with adjustable front light and long battery life.",
+  "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "lite",
+    "readease",
+    "reader",
+    "accessories",
+    "accessory",
+    "gadget",
+    "gadgets",
+    "portable"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e27e"
+  },
+  "name": "Air Purifier",
+  "price": 8999,
+  "category": "homeappliances",
+  "rating": 4.4,
+  "stock": 10,
+  "brand": "PureNest",
+  "description": "HEPA air purifier designed for bedrooms, offices, and allergy relief.",
+  "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "air",
+    "purenest",
+    "purifier",
+    "appliance",
+    "appliances",
+    "home",
+    "homeappliances",
+    "kitchen"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e27f"
+  },
+  "name": "Robotic Vacuum Cleaner",
+  "price": 16999,
+  "category": "homeappliances",
+  "rating": 4.5,
+  "stock": 10,
+  "brand": "CleanOrbit",
+  "description": "App-controlled robotic vacuum with smart mapping and scheduled cleaning.",
+  "image": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "cleaner",
+    "cleanorbit",
+    "robotic",
+    "vacuum",
+    "appliance",
+    "appliances",
+    "home",
+    "homeappliances"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e280"
+  },
+  "name": "Front Load Washing Machine",
+  "price": 28999,
+  "category": "homeappliances",
+  "rating": 4.6,
+  "stock": 10,
+  "brand": "WashCraft",
+  "description": "Energy-efficient front load washing machine with steam wash programs.",
+  "image": "https://images.unsplash.com/photo-1626806819282-2c1dc01a5e0d?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "front",
+    "load",
+    "machine",
+    "washcraft",
+    "washing",
+    "appliance",
+    "appliances",
+    "home"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e281"
+  },
+  "name": "Microwave Oven Grill",
+  "price": 10499,
+  "category": "homeappliances",
+  "rating": 4.3,
+  "stock": 10,
+  "brand": "CookSphere",
+  "description": "Multi-function microwave oven with grilling and quick defrost modes.",
+  "image": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "cooksphere",
+    "grill",
+    "microwave",
+    "oven",
+    "appliance",
+    "appliances",
+    "home",
+    "homeappliances"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e282"
+  },
+  "name": "Double Door Refrigerator",
+  "price": 31999,
+  "category": "homeappliances",
+  "rating": 4.7,
+  "stock": 10,
+  "brand": "FrostLine",
+  "description": "Spacious double door refrigerator with inverter cooling and toughened shelves.",
+  "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "door",
+    "double",
+    "frostline",
+    "refrigerator",
+    "appliance",
+    "appliances",
+    "home",
+    "homeappliances"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e283"
+  },
+  "name": "Induction Cooktop",
+  "price": 2799,
+  "category": "homeappliances",
+  "rating": 4.2,
+  "stock": 10,
+  "brand": "CookSphere",
+  "description": "Fast-heating induction cooktop with preset menus and touch control.",
+  "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "cooksphere",
+    "cooktop",
+    "induction",
+    "appliance",
+    "appliances",
+    "home",
+    "homeappliances",
+    "kitchen"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e284"
+  },
+  "name": "Espresso Coffee Maker",
+  "price": 7499,
+  "category": "homeappliances",
+  "rating": 4.4,
+  "stock": 10,
+  "brand": "BrewNest",
+  "description": "Compact espresso machine with milk frother for cafe-style coffee at home.",
+  "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "brewnest",
+    "coffee",
+    "espresso",
+    "maker",
+    "appliance",
+    "appliances",
+    "home",
+    "homeappliances"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e285"
+  },
+  "name": "Room Heater Deluxe",
+  "price": 3599,
+  "category": "homeappliances",
+  "rating": 4.1,
+  "stock": 10,
+  "brand": "WarmCore",
+  "description": "Portable room heater with adjustable thermostat and overheat protection.",
+  "image": "https://images.unsplash.com/photo-1585128792020-803d29415281?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "deluxe",
+    "heater",
+    "room",
+    "warmcore",
+    "appliance",
+    "appliances",
+    "home",
+    "homeappliances"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa2ec"
+  },
+  "name": "Essence Mascara Lash Princess",
+  "price": 799.2,
+  "category": "beauty",
+  "rating": 2.56,
+  "stock": 99,
+  "brand": "Essence",
+  "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+  "image": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp",
+  "tags": [
+    "beauty",
+    "mascara"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa2ed"
+  },
+  "name": "Eyeshadow Palette with Mirror",
+  "price": 1599.1999999999998,
+  "category": "beauty",
+  "rating": 2.86,
+  "stock": 34,
+  "brand": "Glamour Beauty",
+  "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+  "image": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp",
+  "tags": [
+    "beauty",
+    "eyeshadow"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa2ee"
+  },
+  "name": "Powder Canister",
+  "price": 1199.2,
+  "category": "beauty",
+  "rating": 4.64,
+  "stock": 88,
+  "brand": "Velvet Touch",
+  "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+  "image": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/1.webp",
+  "tags": [
+    "beauty",
+    "face powder"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa2ef"
+  },
+  "name": "Red Lipstick",
+  "price": 1039.2,
+  "category": "beauty",
+  "rating": 4.36,
+  "stock": 90,
+  "brand": "Chic Cosmetics",
+  "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+  "image": "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/1.webp",
+  "tags": [
+    "beauty",
+    "lipstick"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa2f0"
+  },
+  "name": "Red Nail Polish",
+  "price": 719.2,
+  "category": "beauty",
+  "rating": 4.32,
+  "stock": 78,
+  "brand": "Nail Couture",
+  "description": "The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home.",
+  "image": "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/1.webp",
+  "tags": [
+    "beauty",
+    "nail polish"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa2f1"
+  },
+  "name": "Calvin Klein CK One",
+  "price": 3999.2000000000003,
+  "category": "fragrances",
+  "rating": 4.37,
+  "stock": 29,
+  "brand": "Calvin Klein",
+  "description": "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.",
+  "image": "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/1.webp",
+  "tags": [
+    "fragrances",
+    "perfumes"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa2f2"
+  },
+  "name": "Chanel Coco Noir Eau De",
+  "price": 10399.2,
+  "category": "fragrances",
+  "rating": 4.26,
+  "stock": 58,
+  "brand": "Chanel",
+  "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
+  "image": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/1.webp",
+  "tags": [
+    "fragrances",
+    "perfumes"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa2f3"
+  },
+  "name": "Dior J'adore",
+  "price": 7199.2,
+  "category": "fragrances",
+  "rating": 3.8,
+  "stock": 98,
+  "brand": "Dior",
+  "description": "J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.",
+  "image": "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/1.webp",
+  "tags": [
+    "fragrances",
+    "perfumes"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa2f4"
+  },
+  "name": "Dolce Shine Eau de",
+  "price": 5599.2,
+  "category": "fragrances",
+  "rating": 3.96,
+  "stock": 4,
+  "brand": "Dolce & Gabbana",
+  "description": "Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.",
+  "image": "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/1.webp",
+  "tags": [
+    "fragrances",
+    "perfumes"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa2f5"
+  },
+  "name": "Gucci Bloom Eau de",
+  "price": 6399.2,
+  "category": "fragrances",
+  "rating": 2.74,
+  "stock": 91,
+  "brand": "Gucci",
+  "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
+  "image": "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/1.webp",
+  "tags": [
+    "fragrances",
+    "perfumes"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa2f6"
+  },
+  "name": "Annibale Colombo Bed",
+  "price": 151999.2,
+  "category": "furniture",
+  "rating": 4.77,
+  "stock": 88,
+  "brand": "Annibale Colombo",
+  "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
+  "image": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/1.webp",
+  "tags": [
+    "furniture",
+    "beds"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa2f7"
+  },
+  "name": "Annibale Colombo Sofa",
+  "price": 199999.19999999998,
+  "category": "furniture",
+  "rating": 3.92,
+  "stock": 60,
+  "brand": "Annibale Colombo",
+  "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
+  "image": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/1.webp",
+  "tags": [
+    "furniture",
+    "sofas"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa2f8"
+  },
+  "name": "Bedside Table African Cherry",
+  "price": 23999.2,
+  "category": "furniture",
+  "rating": 2.87,
+  "stock": 64,
+  "brand": "Furniture Co.",
+  "description": "The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.",
+  "image": "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/1.webp",
+  "tags": [
+    "furniture",
+    "bedside tables"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa2f9"
+  },
+  "name": "Knoll Saarinen Executive Conference Chair",
+  "price": 39999.2,
+  "category": "furniture",
+  "rating": 4.88,
+  "stock": 26,
+  "brand": "Knoll",
+  "description": "The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.",
+  "image": "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/1.webp",
+  "tags": [
+    "furniture",
+    "office chairs"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa2fa"
+  },
+  "name": "Wooden Bathroom Sink With Mirror",
+  "price": 63999.2,
+  "category": "furniture",
+  "rating": 3.59,
+  "stock": 7,
+  "brand": "Bath Trends",
+  "description": "The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.",
+  "image": "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/1.webp",
+  "tags": [
+    "furniture",
+    "bathroom"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa2fb"
+  },
+  "name": "Apple",
+  "price": 159.2,
+  "category": "groceries",
+  "rating": 4.19,
+  "stock": 8,
+  "brand": "groceries",
+  "description": "Fresh and crisp apples, perfect for snacking or incorporating into various recipes.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/apple/1.webp",
+  "tags": [
+    "fruits"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa2fc"
+  },
+  "name": "Beef Steak",
+  "price": 1039.2,
+  "category": "groceries",
+  "rating": 4.47,
+  "stock": 86,
+  "brand": "groceries",
+  "description": "High-quality beef steak, great for grilling or cooking to your preferred level of doneness.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/beef-steak/1.webp",
+  "tags": [
+    "meat"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa2fd"
+  },
+  "name": "Cat Food",
+  "price": 719.2,
+  "category": "groceries",
+  "rating": 3.13,
+  "stock": 46,
+  "brand": "groceries",
+  "description": "Nutritious cat food formulated to meet the dietary needs of your feline friend.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/cat-food/1.webp",
+  "tags": [
+    "pet supplies",
+    "cat food"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa2fe"
+  },
+  "name": "Chicken Meat",
+  "price": 799.2,
+  "category": "groceries",
+  "rating": 3.19,
+  "stock": 97,
+  "brand": "groceries",
+  "description": "Fresh and tender chicken meat, suitable for various culinary preparations.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/1.webp",
+  "tags": [
+    "meat"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa2ff"
+  },
+  "name": "Cooking Oil",
+  "price": 399.20000000000005,
+  "category": "groceries",
+  "rating": 4.8,
+  "stock": 10,
+  "brand": "groceries",
+  "description": "Versatile cooking oil suitable for frying, sautéing, and various culinary applications.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/1.webp",
+  "tags": [
+    "cooking essentials"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa300"
+  },
+  "name": "Cucumber",
+  "price": 119.2,
+  "category": "groceries",
+  "rating": 4.07,
+  "stock": 84,
+  "brand": "groceries",
+  "description": "Crisp and hydrating cucumbers, ideal for salads, snacks, or as a refreshing side.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/cucumber/1.webp",
+  "tags": [
+    "vegetables"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa301"
+  },
+  "name": "Dog Food",
+  "price": 879.2,
+  "category": "groceries",
+  "rating": 4.55,
+  "stock": 71,
+  "brand": "groceries",
+  "description": "Specially formulated dog food designed to provide essential nutrients for your canine companion.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/dog-food/1.webp",
+  "tags": [
+    "pet supplies",
+    "dog food"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa302"
+  },
+  "name": "Eggs",
+  "price": 239.20000000000002,
+  "category": "groceries",
+  "rating": 2.53,
+  "stock": 9,
+  "brand": "groceries",
+  "description": "Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/eggs/1.webp",
+  "tags": [
+    "dairy"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa303"
+  },
+  "name": "Fish Steak",
+  "price": 1199.2,
+  "category": "groceries",
+  "rating": 3.78,
+  "stock": 74,
+  "brand": "groceries",
+  "description": "Quality fish steak, suitable for grilling, baking, or pan-searing.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/fish-steak/1.webp",
+  "tags": [
+    "seafood"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa304"
+  },
+  "name": "Green Bell Pepper",
+  "price": 103.2,
+  "category": "groceries",
+  "rating": 3.25,
+  "stock": 33,
+  "brand": "groceries",
+  "description": "Fresh and vibrant green bell pepper, perfect for adding color and flavor to your dishes.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/green-bell-pepper/1.webp",
+  "tags": [
+    "vegetables"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa305"
+  },
+  "name": "Green Chili Pepper",
+  "price": 79.2,
+  "category": "groceries",
+  "rating": 3.66,
+  "stock": 3,
+  "brand": "groceries",
+  "description": "Spicy green chili pepper, ideal for adding heat to your favorite recipes.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/green-chili-pepper/1.webp",
+  "tags": [
+    "vegetables"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa306"
+  },
+  "name": "Honey Jar",
+  "price": 559.2,
+  "category": "groceries",
+  "rating": 3.97,
+  "stock": 34,
+  "brand": "groceries",
+  "description": "Pure and natural honey in a convenient jar, perfect for sweetening beverages or drizzling over food.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/honey-jar/1.webp",
+  "tags": [
+    "condiments"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa307"
+  },
+  "name": "Ice Cream",
+  "price": 439.20000000000005,
+  "category": "groceries",
+  "rating": 3.39,
+  "stock": 27,
+  "brand": "groceries",
+  "description": "Creamy and delicious ice cream, available in various flavors for a delightful treat.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/ice-cream/1.webp",
+  "tags": [
+    "desserts"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa308"
+  },
+  "name": "Juice",
+  "price": 319.20000000000005,
+  "category": "groceries",
+  "rating": 3.94,
+  "stock": 50,
+  "brand": "groceries",
+  "description": "Refreshing fruit juice, packed with vitamins and great for staying hydrated.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/juice/1.webp",
+  "tags": [
+    "beverages"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa309"
+  },
+  "name": "Kiwi",
+  "price": 199.20000000000002,
+  "category": "groceries",
+  "rating": 4.93,
+  "stock": 99,
+  "brand": "groceries",
+  "description": "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/kiwi/1.webp",
+  "tags": [
+    "fruits"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa30a"
+  },
+  "name": "Lemon",
+  "price": 63.2,
+  "category": "groceries",
+  "rating": 3.53,
+  "stock": 31,
+  "brand": "groceries",
+  "description": "Zesty and tangy lemons, versatile for cooking, baking, or making refreshing beverages.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/lemon/1.webp",
+  "tags": [
+    "fruits"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa30b"
+  },
+  "name": "Milk",
+  "price": 279.20000000000005,
+  "category": "groceries",
+  "rating": 2.61,
+  "stock": 27,
+  "brand": "groceries",
+  "description": "Fresh and nutritious milk, a staple for various recipes and daily consumption.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/milk/1.webp",
+  "tags": [
+    "dairy"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa30c"
+  },
+  "name": "Mulberry",
+  "price": 399.20000000000005,
+  "category": "groceries",
+  "rating": 4.95,
+  "stock": 99,
+  "brand": "groceries",
+  "description": "Sweet and juicy mulberries, perfect for snacking or adding to desserts and cereals.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/mulberry/1.webp",
+  "tags": [
+    "fruits"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa30d"
+  },
+  "name": "Nescafe Coffee",
+  "price": 639.2,
+  "category": "groceries",
+  "rating": 4.82,
+  "stock": 57,
+  "brand": "groceries",
+  "description": "Quality coffee from Nescafe, available in various blends for a rich and satisfying cup.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/nescafe-coffee/1.webp",
+  "tags": [
+    "beverages",
+    "coffee"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa30e"
+  },
+  "name": "Potatoes",
+  "price": 183.2,
+  "category": "groceries",
+  "rating": 4.81,
+  "stock": 13,
+  "brand": "groceries",
+  "description": "Versatile and starchy potatoes, great for roasting, mashing, or as a side dish.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/potatoes/1.webp",
+  "tags": [
+    "vegetables"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa30f"
+  },
+  "name": "Protein Powder",
+  "price": 1599.1999999999998,
+  "category": "groceries",
+  "rating": 4.18,
+  "stock": 80,
+  "brand": "groceries",
+  "description": "Nutrient-packed protein powder, ideal for supplementing your diet with essential proteins.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/protein-powder/1.webp",
+  "tags": [
+    "health supplements"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa310"
+  },
+  "name": "Red Onions",
+  "price": 159.2,
+  "category": "groceries",
+  "rating": 4.2,
+  "stock": 82,
+  "brand": "groceries",
+  "description": "Flavorful and aromatic red onions, perfect for adding depth to your savory dishes.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/red-onions/1.webp",
+  "tags": [
+    "vegetables"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa311"
+  },
+  "name": "Rice",
+  "price": 479.20000000000005,
+  "category": "groceries",
+  "rating": 3.18,
+  "stock": 59,
+  "brand": "groceries",
+  "description": "High-quality rice, a staple for various cuisines and a versatile base for many dishes.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/rice/1.webp",
+  "tags": [
+    "grains"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa312"
+  },
+  "name": "Soft Drinks",
+  "price": 159.2,
+  "category": "groceries",
+  "rating": 4.75,
+  "stock": 53,
+  "brand": "groceries",
+  "description": "Assorted soft drinks in various flavors, perfect for refreshing beverages.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/soft-drinks/1.webp",
+  "tags": [
+    "beverages"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa313"
+  },
+  "name": "Strawberry",
+  "price": 319.20000000000005,
+  "category": "groceries",
+  "rating": 3.08,
+  "stock": 46,
+  "brand": "groceries",
+  "description": "Sweet and succulent strawberries, great for snacking, desserts, or blending into smoothies.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/strawberry/1.webp",
+  "tags": [
+    "fruits"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa314"
+  },
+  "name": "Tissue Paper Box",
+  "price": 199.20000000000002,
+  "category": "groceries",
+  "rating": 2.69,
+  "stock": 86,
+  "brand": "groceries",
+  "description": "Convenient tissue paper box for everyday use, providing soft and absorbent tissues.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/tissue-paper-box/1.webp",
+  "tags": [
+    "household essentials"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa315"
+  },
+  "name": "Water",
+  "price": 79.2,
+  "category": "groceries",
+  "rating": 4.96,
+  "stock": 53,
+  "brand": "groceries",
+  "description": "Pure and refreshing bottled water, essential for staying hydrated throughout the day.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/water/1.webp",
+  "tags": [
+    "beverages"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa316"
+  },
+  "name": "Decoration Swing",
+  "price": 4799.2,
+  "category": "home-decoration",
+  "rating": 3.16,
+  "stock": 47,
+  "brand": "home-decoration",
+  "description": "The Decoration Swing is a charming addition to your home decor. Crafted with intricate details, it adds a touch of elegance and whimsy to any room.",
+  "image": "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/1.webp",
+  "tags": [
+    "home decor",
+    "swing"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa317"
+  },
+  "name": "Family Tree Photo Frame",
+  "price": 2399.2,
+  "category": "home-decoration",
+  "rating": 4.53,
+  "stock": 77,
+  "brand": "home-decoration",
+  "description": "The Family Tree Photo Frame is a sentimental and stylish way to display your cherished family memories. With multiple photo slots, it tells the story of your loved ones.",
+  "image": "https://cdn.dummyjson.com/product-images/home-decoration/family-tree-photo-frame/1.webp",
+  "tags": [
+    "home decor",
+    "photo frame"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa318"
+  },
+  "name": "House Showpiece Plant",
+  "price": 3199.2000000000003,
+  "category": "home-decoration",
+  "rating": 4.67,
+  "stock": 28,
+  "brand": "home-decoration",
+  "description": "The House Showpiece Plant is an artificial plant that brings a touch of nature to your home without the need for maintenance. It adds greenery and style to any space.",
+  "image": "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/1.webp",
+  "tags": [
+    "home decor",
+    "artificial plants"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa319"
+  },
+  "name": "Plant Pot",
+  "price": 1199.2,
+  "category": "home-decoration",
+  "rating": 3.01,
+  "stock": 59,
+  "brand": "home-decoration",
+  "description": "The Plant Pot is a stylish container for your favorite plants. With a sleek design, it complements your indoor or outdoor garden, adding a modern touch to your plant display.",
+  "image": "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/1.webp",
+  "tags": [
+    "home decor",
+    "plant accessories"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa31a"
+  },
+  "name": "Table Lamp",
+  "price": 3999.2000000000003,
+  "category": "home-decoration",
+  "rating": 3.55,
+  "stock": 9,
+  "brand": "home-decoration",
+  "description": "The Table Lamp is a functional and decorative lighting solution for your living space. With a modern design, it provides both ambient and task lighting, enhancing the atmosphere.",
+  "image": "https://cdn.dummyjson.com/product-images/home-decoration/table-lamp/1.webp",
+  "tags": [
+    "home decor",
+    "lighting"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa31b"
+  },
+  "name": "Bamboo Spatula",
+  "price": 639.2,
+  "category": "kitchen-accessories",
+  "rating": 3.27,
+  "stock": 37,
+  "brand": "kitchen-accessories",
+  "description": "The Bamboo Spatula is a versatile kitchen tool made from eco-friendly bamboo. Ideal for flipping, stirring, and serving various dishes.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/bamboo-spatula/1.webp",
+  "tags": [
+    "kitchen tools",
+    "utensils"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa31c"
+  },
+  "name": "Black Aluminium Cup",
+  "price": 479.20000000000005,
+  "category": "kitchen-accessories",
+  "rating": 4.46,
+  "stock": 75,
+  "brand": "kitchen-accessories",
+  "description": "The Black Aluminium Cup is a stylish and durable cup suitable for both hot and cold beverages. Its sleek black design adds a modern touch to your drinkware collection.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-aluminium-cup/1.webp",
+  "tags": [
+    "drinkware",
+    "cups"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa31d"
+  },
+  "name": "Black Whisk",
+  "price": 799.2,
+  "category": "kitchen-accessories",
+  "rating": 3.9,
+  "stock": 73,
+  "brand": "kitchen-accessories",
+  "description": "The Black Whisk is a kitchen essential for whisking and beating ingredients. Its ergonomic handle and sleek design make it a practical and stylish tool.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-whisk/1.webp",
+  "tags": [
+    "kitchen tools",
+    "utensils"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa31e"
+  },
+  "name": "Boxed Blender",
+  "price": 3199.2000000000003,
+  "category": "kitchen-accessories",
+  "rating": 4.56,
+  "stock": 9,
+  "brand": "kitchen-accessories",
+  "description": "The Boxed Blender is a powerful and compact blender perfect for smoothies, shakes, and more. Its convenient design and multiple functions make it a versatile kitchen appliance.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/1.webp",
+  "tags": [
+    "kitchen appliances",
+    "blenders"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa31f"
+  },
+  "name": "Carbon Steel Wok",
+  "price": 2399.2,
+  "category": "kitchen-accessories",
+  "rating": 4.05,
+  "stock": 40,
+  "brand": "kitchen-accessories",
+  "description": "The Carbon Steel Wok is a versatile cooking pan suitable for stir-frying, sautéing, and deep frying. Its sturdy construction ensures even heat distribution for delicious meals.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/carbon-steel-wok/1.webp",
+  "tags": [
+    "cookware",
+    "woks"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa320"
+  },
+  "name": "Chopping Board",
+  "price": 1039.2,
+  "category": "kitchen-accessories",
+  "rating": 3.7,
+  "stock": 14,
+  "brand": "kitchen-accessories",
+  "description": "The Chopping Board is an essential kitchen accessory for food preparation. Made from durable material, it provides a safe and hygienic surface for cutting and chopping.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/chopping-board/1.webp",
+  "tags": [
+    "kitchen tools",
+    "cutting boards"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa321"
+  },
+  "name": "Citrus Squeezer Yellow",
+  "price": 719.2,
+  "category": "kitchen-accessories",
+  "rating": 4.63,
+  "stock": 22,
+  "brand": "kitchen-accessories",
+  "description": "The Citrus Squeezer in Yellow is a handy tool for extracting juice from citrus fruits. Its vibrant color adds a cheerful touch to your kitchen gadgets.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/citrus-squeezer-yellow/1.webp",
+  "tags": [
+    "kitchen tools",
+    "juicers"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa322"
+  },
+  "name": "Egg Slicer",
+  "price": 559.2,
+  "category": "kitchen-accessories",
+  "rating": 3.09,
+  "stock": 40,
+  "brand": "kitchen-accessories",
+  "description": "The Egg Slicer is a convenient tool for slicing boiled eggs evenly. It's perfect for salads, sandwiches, and other dishes where sliced eggs are desired.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/egg-slicer/1.webp",
+  "tags": [
+    "kitchen tools",
+    "slicers"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa323"
+  },
+  "name": "Electric Stove",
+  "price": 3999.2000000000003,
+  "category": "kitchen-accessories",
+  "rating": 4.11,
+  "stock": 21,
+  "brand": "kitchen-accessories",
+  "description": "The Electric Stove provides a portable and efficient cooking solution. Ideal for small kitchens or as an additional cooking surface for various culinary needs.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/1.webp",
+  "tags": [
+    "kitchen appliances",
+    "cooktops"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa324"
+  },
+  "name": "Fine Mesh Strainer",
+  "price": 799.2,
+  "category": "kitchen-accessories",
+  "rating": 3.04,
+  "stock": 85,
+  "brand": "kitchen-accessories",
+  "description": "The Fine Mesh Strainer is a versatile tool for straining liquids and sifting dry ingredients. Its fine mesh ensures efficient filtering for smooth cooking and baking.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/fine-mesh-strainer/1.webp",
+  "tags": [
+    "kitchen tools",
+    "strainers"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa325"
+  },
+  "name": "Fork",
+  "price": 319.20000000000005,
+  "category": "kitchen-accessories",
+  "rating": 3.11,
+  "stock": 7,
+  "brand": "kitchen-accessories",
+  "description": "The Fork is a classic utensil for various dining and serving purposes. Its durable and ergonomic design makes it a reliable choice for everyday use.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/fork/1.webp",
+  "tags": [
+    "kitchen tools",
+    "utensils"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa326"
+  },
+  "name": "Glass",
+  "price": 399.20000000000005,
+  "category": "kitchen-accessories",
+  "rating": 4.02,
+  "stock": 46,
+  "brand": "kitchen-accessories",
+  "description": "The Glass is a versatile and elegant drinking vessel suitable for a variety of beverages. Its clear design allows you to enjoy the colors and textures of your drinks.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/glass/1.webp",
+  "tags": [
+    "drinkware",
+    "glasses"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa327"
+  },
+  "name": "Grater Black",
+  "price": 879.2,
+  "category": "kitchen-accessories",
+  "rating": 3.21,
+  "stock": 84,
+  "brand": "kitchen-accessories",
+  "description": "The Grater in Black is a handy kitchen tool for grating cheese, vegetables, and more. Its sleek design and sharp blades make food preparation efficient and easy.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/grater-black/1.webp",
+  "tags": [
+    "kitchen tools",
+    "graters"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa328"
+  },
+  "name": "Hand Blender",
+  "price": 2799.2000000000003,
+  "category": "kitchen-accessories",
+  "rating": 3.86,
+  "stock": 84,
+  "brand": "kitchen-accessories",
+  "description": "The Hand Blender is a versatile kitchen appliance for blending, pureeing, and mixing. Its compact design and powerful motor make it a convenient tool for various recipes.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/hand-blender/1.webp",
+  "tags": [
+    "kitchen appliances",
+    "blenders"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa329"
+  },
+  "name": "Ice Cube Tray",
+  "price": 479.20000000000005,
+  "category": "kitchen-accessories",
+  "rating": 4.71,
+  "stock": 13,
+  "brand": "kitchen-accessories",
+  "description": "The Ice Cube Tray is a practical accessory for making ice cubes in various shapes. Perfect for keeping your drinks cool and adding a fun element to your beverages.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/ice-cube-tray/1.webp",
+  "tags": [
+    "kitchen tools",
+    "ice cube trays"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa32a"
+  },
+  "name": "Kitchen Sieve",
+  "price": 639.2,
+  "category": "kitchen-accessories",
+  "rating": 3.09,
+  "stock": 68,
+  "brand": "kitchen-accessories",
+  "description": "The Kitchen Sieve is a versatile tool for sifting and straining dry and wet ingredients. Its fine mesh design ensures smooth results in your cooking and baking.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/kitchen-sieve/1.webp",
+  "tags": [
+    "kitchen tools",
+    "strainers"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa32b"
+  },
+  "name": "Knife",
+  "price": 1199.2,
+  "category": "kitchen-accessories",
+  "rating": 3.26,
+  "stock": 7,
+  "brand": "kitchen-accessories",
+  "description": "The Knife is an essential kitchen tool for chopping, slicing, and dicing. Its sharp blade and ergonomic handle make it a reliable choice for food preparation.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/knife/1.webp",
+  "tags": [
+    "kitchen tools",
+    "cutlery"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa32c"
+  },
+  "name": "Lunch Box",
+  "price": 1039.2,
+  "category": "kitchen-accessories",
+  "rating": 4.93,
+  "stock": 94,
+  "brand": "kitchen-accessories",
+  "description": "The Lunch Box is a convenient and portable container for packing and carrying your meals. With compartments for different foods, it's perfect for on-the-go dining.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/lunch-box/1.webp",
+  "tags": [
+    "kitchen tools",
+    "storage"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69de83a6cc0ab4bcd53fa32d"
+  },
+  "name": "Microwave Oven",
+  "price": 7199.2,
+  "category": "kitchen-accessories",
+  "rating": 4.82,
+  "stock": 59,
+  "brand": "kitchen-accessories",
+  "description": "The Microwave Oven is a versatile kitchen appliance for quick and efficient cooking, reheating, and defrosting. Its compact size makes it suitable for various kitchen setups.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/1.webp",
+  "tags": [
+    "kitchen appliances",
+    "microwaves"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1dc"
+  },
+  "name": "Smart Watch",
+  "price": 3999,
+  "category": "electronics",
+  "rating": 4.7,
+  "stock": 10,
+  "brand": "VoltEdge",
+  "description": "AMOLED fitness smartwatch with health tracking and Bluetooth calling.",
+  "image": "https://images.unsplash.com/photo-1546868871-af0de0ae72be?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "smart",
+    "voltedge",
+    "watch",
+    "device",
+    "devices",
+    "electronic",
+    "electronics",
+    "tech"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1dd"
+  },
+  "name": "Noise Cancelling Headphones",
+  "price": 6999,
+  "category": "electronics",
+  "rating": 4.8,
+  "stock": 50,
+  "brand": "SonicNest",
+  "description": "Over-ear ANC headphones with immersive sound and 40-hour battery life.",
+  "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "cancelling",
+    "headphones",
+    "noise",
+    "sonicnest",
+    "device",
+    "devices",
+    "electronic",
+    "electronics"
+  ],
+  "review_count": 6
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1de"
+  },
+  "name": "4K Smart TV",
+  "price": 34999,
+  "category": "electronics",
+  "rating": 4.6,
+  "stock": 10,
+  "brand": "ViewSphere",
+  "description": "55-inch 4K smart television with HDR streaming apps and voice assistant support.",
+  "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "smart",
+    "viewsphere",
+    "device",
+    "devices",
+    "electronic",
+    "electronics",
+    "tech"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1df"
+  },
+  "name": "Wireless Earbuds",
+  "price": 2499,
+  "category": "electronics",
+  "rating": 4.3,
+  "stock": 10,
+  "brand": "PulsePod",
+  "description": "Compact true wireless earbuds with ENC calling and fast USB-C charging.",
+  "image": "https://images.unsplash.com/photo-1590658268037-6bf12f032f55?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "earbuds",
+    "pulsepod",
+    "wireless",
+    "device",
+    "devices",
+    "electronic",
+    "electronics",
+    "tech"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1e0"
+  },
+  "name": "Gaming Laptop",
+  "price": 59999,
+  "category": "electronics",
+  "rating": 4.8,
+  "stock": 10,
+  "brand": "CoreForge",
+  "description": "High-performance gaming laptop with RTX graphics and fast refresh display.",
+  "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "coreforge",
+    "gaming",
+    "laptop",
+    "device",
+    "devices",
+    "electronic",
+    "electronics",
+    "tech"
+  ],
+  "review_count": 7
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1e1"
+  },
+  "name": "Bluetooth Soundbar",
+  "price": 5799,
+  "category": "electronics",
+  "rating": 4.4,
+  "stock": 10,
+  "brand": "SonicNest",
+  "description": "Cinematic soundbar with Bluetooth streaming and deep bass enhancement.",
+  "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "bluetooth",
+    "sonicnest",
+    "soundbar",
+    "device",
+    "devices",
+    "electronic",
+    "electronics",
+    "tech"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1e2"
+  },
+  "name": "Portable SSD 1TB",
+  "price": 8499,
+  "category": "electronics",
+  "rating": 4.6,
+  "stock": 10,
+  "brand": "DataSprint",
+  "description": "Shock-resistant 1TB portable SSD with ultra-fast file transfer speeds.",
+  "image": "https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "1tb",
+    "datasprint",
+    "portable",
+    "ssd",
+    "device",
+    "devices",
+    "electronic",
+    "electronics"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1e3"
+  },
+  "name": "Mirrorless Camera Kit",
+  "price": 45999,
+  "category": "electronics",
+  "rating": 4.7,
+  "stock": 10,
+  "brand": "LumaShot",
+  "description": "Travel-friendly mirrorless camera kit with 4K recording and interchangeable lens.",
+  "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "camera",
+    "kit",
+    "lumashot",
+    "mirrorless",
+    "device",
+    "devices",
+    "electronic",
+    "electronics"
+  ],
+  "review_count": 6
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1e4"
+  },
+  "name": "Tablet Pro 11",
+  "price": 42999,
+  "category": "electronics",
+  "rating": 4.7,
+  "stock": 15,
+  "brand": "CoreForge",
+  "description": "11-inch tablet with high-resolution display, stylus support and all-day battery.",
+  "image": "https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "tablet",
+    "coreforge",
+    "device",
+    "devices",
+    "electronic",
+    "electronics",
+    "tech"
+  ],
+  "review_count": 8
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1e5"
+  },
+  "name": "Wireless Charging Pad",
+  "price": 1599,
+  "category": "electronics",
+  "rating": 4.2,
+  "stock": 30,
+  "brand": "VoltEdge",
+  "description": "15W fast wireless charging pad compatible with all Qi-enabled devices.",
+  "image": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "charging",
+    "pad",
+    "voltedge",
+    "wireless",
+    "device",
+    "electronic",
+    "electronics",
+    "tech"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1e6"
+  },
+  "name": "Smart Speaker",
+  "price": 4499,
+  "category": "electronics",
+  "rating": 4.3,
+  "stock": 20,
+  "brand": "SonicNest",
+  "description": "AI-powered smart speaker with 360° sound and voice assistant integration.",
+  "image": "https://images.unsplash.com/photo-1543512214-318c7553f230?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "smart",
+    "speaker",
+    "sonicnest",
+    "device",
+    "electronic",
+    "electronics",
+    "tech"
+  ],
+  "review_count": 6
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1e7"
+  },
+  "name": "Desktop Monitor 27\"",
+  "price": 22999,
+  "category": "electronics",
+  "rating": 4.5,
+  "stock": 12,
+  "brand": "ViewSphere",
+  "description": "27-inch IPS QHD monitor with 144Hz refresh rate and USB-C connectivity.",
+  "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "monitor",
+    "viewsphere",
+    "display",
+    "device",
+    "electronic",
+    "electronics",
+    "tech"
+  ],
+  "review_count": 7
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1e8"
+  },
+  "name": "Mechanical Gaming Mouse",
+  "price": 2999,
+  "category": "electronics",
+  "rating": 4.6,
+  "stock": 25,
+  "brand": "CoreForge",
+  "description": "High-DPI gaming mouse with RGB lighting and programmable buttons.",
+  "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "mouse",
+    "gaming",
+    "coreforge",
+    "device",
+    "electronic",
+    "electronics",
+    "tech"
+  ],
+  "review_count": 9
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1e9"
+  },
+  "name": "USB Webcam HD",
+  "price": 3499,
+  "category": "electronics",
+  "rating": 4.1,
+  "stock": 18,
+  "brand": "LumaShot",
+  "description": "1080p autofocus webcam with built-in noise-canceling mic for video calls.",
+  "image": "https://images.unsplash.com/photo-1587826080692-f439cd0b70da?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "webcam",
+    "lumashot",
+    "camera",
+    "device",
+    "electronic",
+    "electronics",
+    "tech"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1ea"
+  },
+  "name": "Power Bank 20000mAh",
+  "price": 2299,
+  "category": "electronics",
+  "rating": 4.4,
+  "stock": 35,
+  "brand": "VoltEdge",
+  "description": "Slim 20000mAh power bank with 65W PD fast charging and dual USB-A ports.",
+  "image": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "powerbank",
+    "voltedge",
+    "charging",
+    "portable",
+    "electronic",
+    "electronics",
+    "tech"
+  ],
+  "review_count": 11
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1eb"
+  },
+  "name": "Smart Home Hub",
+  "price": 6499,
+  "category": "electronics",
+  "rating": 4.2,
+  "stock": 14,
+  "brand": "VoltEdge",
+  "description": "Central smart home controller compatible with Zigbee, Z-Wave, and Wi-Fi devices.",
+  "image": "https://images.unsplash.com/photo-1558002038-bb4237b50b11?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "smarthome",
+    "hub",
+    "voltedge",
+    "device",
+    "electronic",
+    "electronics",
+    "tech"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1ec"
+  },
+  "name": "Laser Printer",
+  "price": 14999,
+  "category": "electronics",
+  "rating": 4.3,
+  "stock": 8,
+  "brand": "DataSprint",
+  "description": "Monochrome laser printer with duplex printing and Wi-Fi connectivity.",
+  "image": "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "printer",
+    "laser",
+    "datasprint",
+    "device",
+    "electronic",
+    "electronics",
+    "office"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1ed"
+  },
+  "name": "VR Headset",
+  "price": 27999,
+  "category": "electronics",
+  "rating": 4.5,
+  "stock": 7,
+  "brand": "CoreForge",
+  "description": "Standalone VR headset with 6DoF tracking and 90Hz immersive display.",
+  "image": "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "vr",
+    "headset",
+    "coreforge",
+    "gaming",
+    "device",
+    "electronic",
+    "electronics",
+    "tech"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1ee"
+  },
+  "name": "Digital Photo Frame",
+  "price": 3799,
+  "category": "electronics",
+  "rating": 4,
+  "stock": 20,
+  "brand": "ViewSphere",
+  "description": "10-inch cloud-connected digital photo frame with auto-brightness and Wi-Fi.",
+  "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "photo",
+    "frame",
+    "viewsphere",
+    "device",
+    "electronic",
+    "electronics"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1ef"
+  },
+  "name": "Portable DAC Amplifier",
+  "price": 8999,
+  "category": "electronics",
+  "rating": 4.6,
+  "stock": 9,
+  "brand": "SonicNest",
+  "description": "High-fidelity portable DAC/amp for audiophile-grade headphone listening.",
+  "image": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "dac",
+    "amplifier",
+    "sonicnest",
+    "audio",
+    "electronic",
+    "electronics",
+    "tech"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1f0"
+  },
+  "name": "Minimal Sneakers",
+  "price": 4299,
+  "category": "fashion",
+  "rating": 4.4,
+  "stock": 10,
+  "brand": "UrbanStep",
+  "description": "Everyday sneakers with cushioned sole and clean minimalist styling.",
+  "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "minimal",
+    "sneakers",
+    "urbanstep",
+    "apparel",
+    "clothing",
+    "fashion",
+    "outfit",
+    "style"
+  ],
+  "review_count": 2
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1f1"
+  },
+  "name": "Wool Blend Jacket",
+  "price": 5499,
+  "category": "fashion",
+  "rating": 4.2,
+  "stock": 9,
+  "brand": "NorthWeave",
+  "description": "Tailored wool blend jacket suited for smart casual and office wear.",
+  "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "blend",
+    "jacket",
+    "northweave",
+    "wool",
+    "apparel",
+    "clothing",
+    "fashion",
+    "outfit"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1f2"
+  },
+  "name": "Leather Wallet",
+  "price": 899,
+  "category": "fashion",
+  "rating": 4,
+  "stock": 10,
+  "brand": "HideCraft",
+  "description": "Slim bi-fold leather wallet with RFID protection and multiple card slots.",
+  "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "hidecraft",
+    "leather",
+    "wallet",
+    "apparel",
+    "clothing",
+    "fashion",
+    "outfit",
+    "style"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1f3"
+  },
+  "name": "Classic Denim Shirt",
+  "price": 1899,
+  "category": "fashion",
+  "rating": 4.2,
+  "stock": 10,
+  "brand": "BlueHarbor",
+  "description": "Soft-wash denim shirt designed for versatile everyday layering.",
+  "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "blueharbor",
+    "classic",
+    "denim",
+    "shirt",
+    "apparel",
+    "clothing",
+    "fashion",
+    "outfit"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1f4"
+  },
+  "name": "Formal Oxford Shoes",
+  "price": 3799,
+  "category": "fashion",
+  "rating": 4.3,
+  "stock": 9,
+  "brand": "StrideMark",
+  "description": "Polished Oxford shoes with durable outsole for office and occasion wear.",
+  "image": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "formal",
+    "oxford",
+    "shoes",
+    "stridemark",
+    "apparel",
+    "clothing",
+    "fashion",
+    "outfit"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1f5"
+  },
+  "name": "Structured Tote Bag",
+  "price": 2599,
+  "category": "fashion",
+  "rating": 4.5,
+  "stock": 8,
+  "brand": "ModeCarry",
+  "description": "Spacious structured tote bag with zip compartments for daily essentials.",
+  "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "bag",
+    "modecarry",
+    "structured",
+    "tote",
+    "apparel",
+    "clothing",
+    "fashion",
+    "outfit"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1f6"
+  },
+  "name": "Polarized Sunglasses",
+  "price": 1499,
+  "category": "fashion",
+  "rating": 4.1,
+  "stock": 10,
+  "brand": "SunFrame",
+  "description": "Polarized UV-protection sunglasses with lightweight premium frame.",
+  "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "polarized",
+    "sunframe",
+    "sunglasses",
+    "apparel",
+    "clothing",
+    "fashion",
+    "outfit",
+    "style"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1f7"
+  },
+  "name": "Athleisure Joggers",
+  "price": 1799,
+  "category": "fashion",
+  "rating": 4.2,
+  "stock": 10,
+  "brand": "MoveFlex",
+  "description": "Breathable athleisure joggers built for commute, lounge, and workout use.",
+  "image": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "athleisure",
+    "joggers",
+    "moveflex",
+    "apparel",
+    "clothing",
+    "fashion",
+    "outfit",
+    "style"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1f8"
+  },
+  "name": "Casual Linen Shirt",
+  "price": 1699,
+  "category": "fashion",
+  "rating": 4.3,
+  "stock": 12,
+  "brand": "BlueHarbor",
+  "description": "Lightweight linen shirt perfect for warm weather and casual outings.",
+  "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "linen",
+    "shirt",
+    "blueharbor",
+    "casual",
+    "apparel",
+    "clothing",
+    "fashion",
+    "style"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1f9"
+  },
+  "name": "Running Shoes",
+  "price": 3499,
+  "category": "fashion",
+  "rating": 4.5,
+  "stock": 15,
+  "brand": "UrbanStep",
+  "description": "High-cushion running shoes with breathable mesh upper and anti-slip sole.",
+  "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "running",
+    "shoes",
+    "urbanstep",
+    "sport",
+    "apparel",
+    "clothing",
+    "fashion",
+    "style"
+  ],
+  "review_count": 8
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1fa"
+  },
+  "name": "Canvas Backpack",
+  "price": 1999,
+  "category": "fashion",
+  "rating": 4.2,
+  "stock": 20,
+  "brand": "ModeCarry",
+  "description": "Durable canvas backpack with laptop compartment and organizer pockets.",
+  "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "backpack",
+    "canvas",
+    "modecarry",
+    "bag",
+    "apparel",
+    "clothing",
+    "fashion",
+    "outfit"
+  ],
+  "review_count": 6
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1fb"
+  },
+  "name": "Slim Chino Pants",
+  "price": 2299,
+  "category": "fashion",
+  "rating": 4.1,
+  "stock": 10,
+  "brand": "BlueHarbor",
+  "description": "Slim-fit chino pants in stretch fabric for comfortable all-day wear.",
+  "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "chino",
+    "pants",
+    "blueharbor",
+    "slim",
+    "apparel",
+    "clothing",
+    "fashion",
+    "outfit"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1fc"
+  },
+  "name": "Leather Belt",
+  "price": 799,
+  "category": "fashion",
+  "rating": 4,
+  "stock": 25,
+  "brand": "HideCraft",
+  "description": "Genuine leather reversible belt with polished pin-buckle clasp.",
+  "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "belt",
+    "leather",
+    "hidecraft",
+    "apparel",
+    "clothing",
+    "fashion",
+    "style"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1fd"
+  },
+  "name": "Fleece Hoodie",
+  "price": 2199,
+  "category": "fashion",
+  "rating": 4.4,
+  "stock": 18,
+  "brand": "MoveFlex",
+  "description": "Cozy fleece hoodie with kangaroo pocket and adjustable drawstring.",
+  "image": "https://images.unsplash.com/photo-1556821840-3a63f15732ce?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "hoodie",
+    "fleece",
+    "moveflex",
+    "casual",
+    "apparel",
+    "clothing",
+    "fashion",
+    "style"
+  ],
+  "review_count": 7
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1fe"
+  },
+  "name": "Fedora Hat",
+  "price": 999,
+  "category": "fashion",
+  "rating": 4,
+  "stock": 15,
+  "brand": "SunFrame",
+  "description": "Classic wool-blend fedora hat for stylish sun and wind protection.",
+  "image": "https://images.unsplash.com/photo-1514327605112-b887c0e61c0a?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "hat",
+    "fedora",
+    "sunframe",
+    "apparel",
+    "clothing",
+    "fashion",
+    "style"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb1ff"
+  },
+  "name": "Puffer Jacket",
+  "price": 4799,
+  "category": "fashion",
+  "rating": 4.6,
+  "stock": 10,
+  "brand": "NorthWeave",
+  "description": "Lightweight puffer jacket with water-resistant shell and thermal insulation.",
+  "image": "https://images.unsplash.com/photo-1548126032-079a0fb0099d?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "puffer",
+    "jacket",
+    "northweave",
+    "winter",
+    "apparel",
+    "clothing",
+    "fashion",
+    "outfit"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb200"
+  },
+  "name": "Slip-on Loafers",
+  "price": 2899,
+  "category": "fashion",
+  "rating": 4.3,
+  "stock": 12,
+  "brand": "StrideMark",
+  "description": "Comfortable leather slip-on loafers ideal for casual and semi-formal occasions.",
+  "image": "https://images.unsplash.com/photo-1478146896981-b80fe463b330?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "loafers",
+    "shoes",
+    "stridemark",
+    "apparel",
+    "clothing",
+    "fashion",
+    "outfit"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb201"
+  },
+  "name": "Crossbody Bag",
+  "price": 1899,
+  "category": "fashion",
+  "rating": 4.4,
+  "stock": 14,
+  "brand": "ModeCarry",
+  "description": "Compact crossbody bag with adjustable strap and multiple inner pockets.",
+  "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "crossbody",
+    "bag",
+    "modecarry",
+    "apparel",
+    "clothing",
+    "fashion",
+    "style"
+  ],
+  "review_count": 6
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb202"
+  },
+  "name": "Analog Wrist Watch",
+  "price": 3199,
+  "category": "fashion",
+  "rating": 4.5,
+  "stock": 10,
+  "brand": "HideCraft",
+  "description": "Minimalist analog watch with stainless steel case and genuine leather strap.",
+  "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "watch",
+    "analog",
+    "hidecraft",
+    "apparel",
+    "fashion",
+    "style",
+    "accessories"
+  ],
+  "review_count": 7
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb203"
+  },
+  "name": "Crew-Neck Sweatshirt",
+  "price": 1799,
+  "category": "fashion",
+  "rating": 4.2,
+  "stock": 20,
+  "brand": "MoveFlex",
+  "description": "Cotton-blend crew-neck sweatshirt for layering in cool weather.",
+  "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "sweatshirt",
+    "crewneck",
+    "moveflex",
+    "casual",
+    "apparel",
+    "clothing",
+    "fashion"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb204"
+  },
+  "name": "Executive Office Chair",
+  "price": 12999,
+  "category": "furniture",
+  "rating": 4.3,
+  "stock": 10,
+  "brand": "ErgoSpace",
+  "description": "Ergonomic office chair with lumbar support, tilt lock, and padded armrests.",
+  "image": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "chair",
+    "ergospace",
+    "executive",
+    "office",
+    "decor",
+    "furniture",
+    "sofa",
+    "table"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb205"
+  },
+  "name": "Studio Table Lamp",
+  "price": 2199,
+  "category": "furniture",
+  "rating": 4.1,
+  "stock": 10,
+  "brand": "GlowForm",
+  "description": "Minimal studio lamp with warm lighting and adjustable metal neck.",
+  "image": "https://images.unsplash.com/photo-1507473885765-e6ed057ab6fe?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "glowform",
+    "lamp",
+    "studio",
+    "table",
+    "chair",
+    "decor",
+    "furniture",
+    "sofa"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb206"
+  },
+  "name": "Dining Table Set",
+  "price": 24999,
+  "category": "furniture",
+  "rating": 4.5,
+  "stock": 10,
+  "brand": "OakLoom",
+  "description": "Six-seater dining table set with solid wood finish and comfortable seating.",
+  "image": "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "dining",
+    "oakloom",
+    "set",
+    "table",
+    "chair",
+    "decor",
+    "furniture",
+    "sofa"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb207"
+  },
+  "name": "Walnut Sofa Set",
+  "price": 32999,
+  "category": "furniture",
+  "rating": 4.6,
+  "stock": 10,
+  "brand": "CasaVerve",
+  "description": "Premium walnut-tone sofa set with plush upholstery and sturdy frame.",
+  "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "casaverve",
+    "set",
+    "sofa",
+    "walnut",
+    "chair",
+    "decor",
+    "furniture",
+    "table"
+  ],
+  "review_count": 2
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb208"
+  },
+  "name": "Bookshelf Cabinet",
+  "price": 8799,
+  "category": "furniture",
+  "rating": 4.3,
+  "stock": 10,
+  "brand": "OakLoom",
+  "description": "Open bookshelf cabinet for decor, books, and home office storage.",
+  "image": "https://images.unsplash.com/photo-1594620302200-9a762244a156?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "bookshelf",
+    "cabinet",
+    "oakloom",
+    "chair",
+    "decor",
+    "furniture",
+    "sofa",
+    "table"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb209"
+  },
+  "name": "Queen Bed Frame",
+  "price": 18999,
+  "category": "furniture",
+  "rating": 4.4,
+  "stock": 10,
+  "brand": "DreamTimber",
+  "description": "Modern queen-size bed frame with slatted support and under-bed clearance.",
+  "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "bed",
+    "dreamtimber",
+    "frame",
+    "queen",
+    "chair",
+    "decor",
+    "furniture",
+    "sofa"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb20a"
+  },
+  "name": "Coffee Table Nest",
+  "price": 6499,
+  "category": "furniture",
+  "rating": 4.2,
+  "stock": 10,
+  "brand": "CasaVerve",
+  "description": "Nested coffee table pair for modern living rooms and compact spaces.",
+  "image": "https://images.unsplash.com/photo-1532372320572-cda25653a26d?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "casaverve",
+    "coffee",
+    "nest",
+    "table",
+    "chair",
+    "decor",
+    "furniture",
+    "sofa"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb20b"
+  },
+  "name": "Recliner Lounge Seat",
+  "price": 15499,
+  "category": "furniture",
+  "rating": 4.4,
+  "stock": 10,
+  "brand": "ComfortArc",
+  "description": "Padded lounge recliner designed for relaxation, reading, and TV time.",
+  "image": "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "comfortarc",
+    "lounge",
+    "recliner",
+    "seat",
+    "chair",
+    "decor",
+    "furniture",
+    "sofa"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb20c"
+  },
+  "name": "Floating Wall Shelf",
+  "price": 3299,
+  "category": "furniture",
+  "rating": 4.2,
+  "stock": 18,
+  "brand": "OakLoom",
+  "description": "Minimalist floating wall shelf set for books, plants, and display items.",
+  "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "shelf",
+    "wall",
+    "floating",
+    "oakloom",
+    "decor",
+    "furniture",
+    "storage"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb20d"
+  },
+  "name": "Wooden Study Desk",
+  "price": 9999,
+  "category": "furniture",
+  "rating": 4.4,
+  "stock": 8,
+  "brand": "DreamTimber",
+  "description": "Solid wood study desk with built-in drawer and cable management slot.",
+  "image": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "desk",
+    "study",
+    "dreamtimber",
+    "wood",
+    "furniture",
+    "table",
+    "office"
+  ],
+  "review_count": 6
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb20e"
+  },
+  "name": "Floor Standing Mirror",
+  "price": 5799,
+  "category": "furniture",
+  "rating": 4.3,
+  "stock": 12,
+  "brand": "GlowForm",
+  "description": "Full-length floor standing mirror with elegant gold-trim wooden frame.",
+  "image": "https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "mirror",
+    "floor",
+    "glowform",
+    "decor",
+    "furniture",
+    "bedroom",
+    "style"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb20f"
+  },
+  "name": "Wardrobe 3-Door",
+  "price": 21999,
+  "category": "furniture",
+  "rating": 4.5,
+  "stock": 6,
+  "brand": "DreamTimber",
+  "description": "Spacious 3-door wardrobe with hanging space, shelves, and mirror panel.",
+  "image": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "wardrobe",
+    "dreamtimber",
+    "storage",
+    "bedroom",
+    "furniture",
+    "decor"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb210"
+  },
+  "name": "Outdoor Garden Bench",
+  "price": 7499,
+  "category": "furniture",
+  "rating": 4.1,
+  "stock": 10,
+  "brand": "OakLoom",
+  "description": "Weather-resistant teak garden bench for patios, balconies, and outdoor spaces.",
+  "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "bench",
+    "garden",
+    "oakloom",
+    "outdoor",
+    "furniture",
+    "teak",
+    "decor"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb211"
+  },
+  "name": "TV Entertainment Unit",
+  "price": 12499,
+  "category": "furniture",
+  "rating": 4.3,
+  "stock": 9,
+  "brand": "CasaVerve",
+  "description": "Low-profile TV unit with cable organizer and open shelving in walnut finish.",
+  "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "tv",
+    "unit",
+    "casaverve",
+    "living",
+    "furniture",
+    "storage",
+    "decor"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb212"
+  },
+  "name": "Bar Stool Set of 2",
+  "price": 6999,
+  "category": "furniture",
+  "rating": 4.2,
+  "stock": 14,
+  "brand": "ErgoSpace",
+  "description": "Height-adjustable bar stools with footrest and padded seat cushion.",
+  "image": "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "barstool",
+    "ergospace",
+    "stool",
+    "kitchen",
+    "furniture",
+    "chair",
+    "decor"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb213"
+  },
+  "name": "Accent Armchair",
+  "price": 9499,
+  "category": "furniture",
+  "rating": 4.5,
+  "stock": 8,
+  "brand": "ComfortArc",
+  "description": "Plush velvet accent armchair with tapered wooden legs and pillow back.",
+  "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "armchair",
+    "comfortarc",
+    "accent",
+    "velvet",
+    "furniture",
+    "chair",
+    "decor"
+  ],
+  "review_count": 6
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb214"
+  },
+  "name": "Kids Bunk Bed",
+  "price": 16999,
+  "category": "furniture",
+  "rating": 4.4,
+  "stock": 7,
+  "brand": "DreamTimber",
+  "description": "Safe twin over twin bunk bed with safety rails and sturdy pine wood frame.",
+  "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "bunkbed",
+    "kids",
+    "dreamtimber",
+    "bedroom",
+    "furniture",
+    "bed",
+    "decor"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb215"
+  },
+  "name": "Console Hall Table",
+  "price": 5299,
+  "category": "furniture",
+  "rating": 4.1,
+  "stock": 11,
+  "brand": "CasaVerve",
+  "description": "Slim console table for hallway or living room with lower storage shelf.",
+  "image": "https://images.unsplash.com/photo-1532372320572-cda25653a26d?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "console",
+    "table",
+    "casaverve",
+    "hallway",
+    "furniture",
+    "decor"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb216"
+  },
+  "name": "Annibale Colombo Bed",
+  "price": 151999,
+  "category": "furniture",
+  "rating": 4.77,
+  "stock": 88,
+  "brand": "Annibale Colombo",
+  "description": "Luxurious and elegant bed frame crafted with high-quality materials for a stylish bedroom.",
+  "image": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/1.webp",
+  "tags": [
+    "furniture",
+    "beds",
+    "luxury",
+    "premium",
+    "decor"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb217"
+  },
+  "name": "Annibale Colombo Sofa",
+  "price": 199999,
+  "category": "furniture",
+  "rating": 3.92,
+  "stock": 60,
+  "brand": "Annibale Colombo",
+  "description": "Sophisticated and comfortable sofa featuring exquisite design and premium upholstery.",
+  "image": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/1.webp",
+  "tags": [
+    "furniture",
+    "sofas",
+    "luxury",
+    "premium",
+    "decor"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb218"
+  },
+  "name": "Mechanical Keyboard",
+  "price": 3299,
+  "category": "gadgets",
+  "rating": 4.5,
+  "stock": 10,
+  "brand": "KeyForge",
+  "description": "Tactile mechanical keyboard with RGB backlight and hotkey support.",
+  "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "keyboard",
+    "keyforge",
+    "mechanical",
+    "accessories",
+    "accessory",
+    "gadget",
+    "gadgets",
+    "portable"
+  ],
+  "review_count": 9
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb219"
+  },
+  "name": "Smartphone Gimbal",
+  "price": 4999,
+  "category": "gadgets",
+  "rating": 4.4,
+  "stock": 10,
+  "brand": "MotionGrip",
+  "description": "3-axis smartphone gimbal for smooth reels, travel clips, and vlogging.",
+  "image": "https://images.unsplash.com/photo-1583573636246-18cb2246697f?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "gimbal",
+    "motiongrip",
+    "smartphone",
+    "accessories",
+    "accessory",
+    "gadget",
+    "gadgets",
+    "portable"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb21a"
+  },
+  "name": "Portable Projector",
+  "price": 8999,
+  "category": "gadgets",
+  "rating": 4.3,
+  "stock": 10,
+  "brand": "BeamBox",
+  "description": "Compact portable projector for home movie nights and quick presentations.",
+  "image": "https://images.unsplash.com/photo-1626379953822-baec19c3accd?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "beambox",
+    "portable",
+    "projector",
+    "accessories",
+    "accessory",
+    "gadget",
+    "gadgets"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb21b"
+  },
+  "name": "Drone Explorer Mini",
+  "price": 21999,
+  "category": "gadgets",
+  "rating": 4.6,
+  "stock": 10,
+  "brand": "SkyPix",
+  "description": "Foldable mini drone with stabilized camera and intelligent flight modes.",
+  "image": "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "drone",
+    "explorer",
+    "mini",
+    "skypix",
+    "accessories",
+    "accessory",
+    "gadget",
+    "gadgets"
+  ],
+  "review_count": 6
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb21c"
+  },
+  "name": "USB-C Hub Pro",
+  "price": 2499,
+  "category": "gadgets",
+  "rating": 4.3,
+  "stock": 10,
+  "brand": "DockFlow",
+  "description": "7-in-1 USB-C hub with HDMI, card reader, and pass-through charging.",
+  "image": "https://images.unsplash.com/photo-1625842268584-8f3296236761?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "dockflow",
+    "hub",
+    "pro",
+    "usb",
+    "accessories",
+    "accessory",
+    "gadget",
+    "gadgets"
+  ],
+  "review_count": 7
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb21d"
+  },
+  "name": "Action Camera 4K",
+  "price": 11999,
+  "category": "gadgets",
+  "rating": 4.4,
+  "stock": 10,
+  "brand": "TrailCam",
+  "description": "Rugged 4K action camera with stabilization and waterproof housing.",
+  "image": "https://images.unsplash.com/photo-1564466809058-bf4114d55352?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "action",
+    "camera",
+    "trailcam",
+    "accessories",
+    "accessory",
+    "gadget",
+    "gadgets",
+    "portable"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb21e"
+  },
+  "name": "E-Reader Lite",
+  "price": 7999,
+  "category": "gadgets",
+  "rating": 4.5,
+  "stock": 10,
+  "brand": "ReadEase",
+  "description": "Glare-free e-reader with adjustable front light and long battery life.",
+  "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "lite",
+    "readease",
+    "reader",
+    "accessories",
+    "accessory",
+    "gadget",
+    "gadgets",
+    "portable"
+  ],
+  "review_count": 6
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb21f"
+  },
+  "name": "Bluetooth Tracker Tag",
+  "price": 1299,
+  "category": "gadgets",
+  "rating": 4.2,
+  "stock": 40,
+  "brand": "TrailCam",
+  "description": "Compact Bluetooth tracker tag to locate keys, bags, and everyday items.",
+  "image": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "tracker",
+    "bluetooth",
+    "trailcam",
+    "accessories",
+    "gadget",
+    "gadgets",
+    "portable"
+  ],
+  "review_count": 11
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb220"
+  },
+  "name": "Smart Ring Fitness",
+  "price": 9499,
+  "category": "gadgets",
+  "rating": 4.3,
+  "stock": 12,
+  "brand": "MotionGrip",
+  "description": "Lightweight smart ring tracking sleep, heart rate, and activity 24/7.",
+  "image": "https://images.unsplash.com/photo-1546868871-af0de0ae72be?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "smartring",
+    "fitness",
+    "motiongrip",
+    "health",
+    "gadget",
+    "gadgets",
+    "wearable"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb221"
+  },
+  "name": "Portable Keyboard Piano",
+  "price": 5499,
+  "category": "gadgets",
+  "rating": 4.1,
+  "stock": 8,
+  "brand": "KeyForge",
+  "description": "25-key foldable MIDI controller with built-in speaker and USB connectivity.",
+  "image": "https://images.unsplash.com/photo-1552422535-c45813c61732?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "keyboard",
+    "piano",
+    "keyforge",
+    "midi",
+    "gadget",
+    "gadgets",
+    "portable",
+    "music"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb222"
+  },
+  "name": "LED Desk Lamp Smart",
+  "price": 2199,
+  "category": "gadgets",
+  "rating": 4.4,
+  "stock": 22,
+  "brand": "BeamBox",
+  "description": "Touch-sensitive LED desk lamp with color temperature control and USB charging port.",
+  "image": "https://images.unsplash.com/photo-1507473885765-e6ed057ab6fe?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "lamp",
+    "led",
+    "beambox",
+    "desk",
+    "gadget",
+    "gadgets",
+    "smart",
+    "portable"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb223"
+  },
+  "name": "Selfie Ring Light",
+  "price": 1799,
+  "category": "gadgets",
+  "rating": 4.2,
+  "stock": 30,
+  "brand": "SkyPix",
+  "description": "10-inch LED ring light with phone holder and adjustable color modes for content creators.",
+  "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "ringlight",
+    "selfie",
+    "skypix",
+    "photo",
+    "gadget",
+    "gadgets",
+    "portable"
+  ],
+  "review_count": 8
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb224"
+  },
+  "name": "Portable Scanner",
+  "price": 6299,
+  "category": "gadgets",
+  "rating": 4,
+  "stock": 10,
+  "brand": "DataSprint",
+  "description": "Wand-style portable document scanner with Wi-Fi and 900 DPI resolution.",
+  "image": "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "scanner",
+    "datasprint",
+    "portable",
+    "document",
+    "gadget",
+    "gadgets",
+    "office"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb225"
+  },
+  "name": "Mini NAS Drive",
+  "price": 13999,
+  "category": "gadgets",
+  "rating": 4.3,
+  "stock": 6,
+  "brand": "DockFlow",
+  "description": "2-bay mini NAS device for home cloud backup and media streaming.",
+  "image": "https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "nas",
+    "storage",
+    "dockflow",
+    "network",
+    "gadget",
+    "gadgets",
+    "tech"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb226"
+  },
+  "name": "Smart Plug Wi-Fi",
+  "price": 899,
+  "category": "gadgets",
+  "rating": 4.3,
+  "stock": 50,
+  "brand": "VoltEdge",
+  "description": "Wi-Fi enabled smart plug with energy monitoring and voice assistant support.",
+  "image": "https://images.unsplash.com/photo-1558002038-bb4237b50b11?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "smartplug",
+    "wifi",
+    "voltedge",
+    "smarthome",
+    "gadget",
+    "gadgets",
+    "accessories"
+  ],
+  "review_count": 13
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb227"
+  },
+  "name": "Air Purifier",
+  "price": 8999,
+  "category": "homeappliances",
+  "rating": 4.4,
+  "stock": 10,
+  "brand": "PureNest",
+  "description": "HEPA air purifier designed for bedrooms, offices, and allergy relief.",
+  "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "air",
+    "purenest",
+    "purifier",
+    "appliance",
+    "appliances",
+    "home",
+    "homeappliances",
+    "kitchen"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb228"
+  },
+  "name": "Robotic Vacuum Cleaner",
+  "price": 16999,
+  "category": "homeappliances",
+  "rating": 4.5,
+  "stock": 10,
+  "brand": "CleanOrbit",
+  "description": "App-controlled robotic vacuum with smart mapping and scheduled cleaning.",
+  "image": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "cleaner",
+    "cleanorbit",
+    "robotic",
+    "vacuum",
+    "appliance",
+    "appliances",
+    "home",
+    "homeappliances"
+  ],
+  "review_count": 7
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb229"
+  },
+  "name": "Front Load Washing Machine",
+  "price": 28999,
+  "category": "homeappliances",
+  "rating": 4.6,
+  "stock": 10,
+  "brand": "WashCraft",
+  "description": "Energy-efficient front load washing machine with steam wash programs.",
+  "image": "https://images.unsplash.com/photo-1626806819282-2c1dc01a5e0d?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "front",
+    "load",
+    "machine",
+    "washcraft",
+    "washing",
+    "appliance",
+    "appliances",
+    "home"
+  ],
+  "review_count": 6
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb22a"
+  },
+  "name": "Microwave Oven Grill",
+  "price": 10499,
+  "category": "homeappliances",
+  "rating": 4.3,
+  "stock": 10,
+  "brand": "CookSphere",
+  "description": "Multi-function microwave oven with grilling and quick defrost modes.",
+  "image": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "cooksphere",
+    "grill",
+    "microwave",
+    "oven",
+    "appliance",
+    "appliances",
+    "home",
+    "homeappliances"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb22b"
+  },
+  "name": "Double Door Refrigerator",
+  "price": 31999,
+  "category": "homeappliances",
+  "rating": 4.7,
+  "stock": 10,
+  "brand": "FrostLine",
+  "description": "Spacious double door refrigerator with inverter cooling and toughened shelves.",
+  "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "door",
+    "double",
+    "frostline",
+    "refrigerator",
+    "appliance",
+    "appliances",
+    "home",
+    "homeappliances"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb22c"
+  },
+  "name": "Induction Cooktop",
+  "price": 2799,
+  "category": "homeappliances",
+  "rating": 4.2,
+  "stock": 10,
+  "brand": "CookSphere",
+  "description": "Fast-heating induction cooktop with preset menus and touch control.",
+  "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "cooksphere",
+    "cooktop",
+    "induction",
+    "appliance",
+    "appliances",
+    "home",
+    "homeappliances",
+    "kitchen"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb22d"
+  },
+  "name": "Espresso Coffee Maker",
+  "price": 7499,
+  "category": "homeappliances",
+  "rating": 4.4,
+  "stock": 10,
+  "brand": "BrewNest",
+  "description": "Compact espresso machine with milk frother for cafe-style coffee at home.",
+  "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "brewnest",
+    "coffee",
+    "espresso",
+    "maker",
+    "appliance",
+    "appliances",
+    "home",
+    "homeappliances"
+  ],
+  "review_count": 8
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb22e"
+  },
+  "name": "Room Heater Deluxe",
+  "price": 3599,
+  "category": "homeappliances",
+  "rating": 4.1,
+  "stock": 10,
+  "brand": "WarmCore",
+  "description": "Portable room heater with adjustable thermostat and overheat protection.",
+  "image": "https://images.unsplash.com/photo-1585128792020-803d29415281?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "deluxe",
+    "heater",
+    "room",
+    "warmcore",
+    "appliance",
+    "appliances",
+    "home",
+    "homeappliances"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb22f"
+  },
+  "name": "Tower Fan",
+  "price": 4299,
+  "category": "homeappliances",
+  "rating": 4.2,
+  "stock": 14,
+  "brand": "PureNest",
+  "description": "Slim tower fan with 3 speed settings, oscillation, and remote control.",
+  "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "fan",
+    "tower",
+    "purenest",
+    "cooling",
+    "appliance",
+    "appliances",
+    "home",
+    "homeappliances"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb230"
+  },
+  "name": "Dishwasher Compact",
+  "price": 24999,
+  "category": "homeappliances",
+  "rating": 4.5,
+  "stock": 8,
+  "brand": "WashCraft",
+  "description": "6-place compact countertop dishwasher with multiple wash programs.",
+  "image": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "dishwasher",
+    "washcraft",
+    "compact",
+    "appliance",
+    "appliances",
+    "home",
+    "kitchen"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb231"
+  },
+  "name": "Chest Freezer",
+  "price": 16499,
+  "category": "homeappliances",
+  "rating": 4.3,
+  "stock": 7,
+  "brand": "FrostLine",
+  "description": "200-litre chest freezer with fast freeze function and adjustable thermostat.",
+  "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "freezer",
+    "chest",
+    "frostline",
+    "appliance",
+    "appliances",
+    "home",
+    "homeappliances"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb232"
+  },
+  "name": "Split AC 1.5 Ton",
+  "price": 36999,
+  "category": "homeappliances",
+  "rating": 4.6,
+  "stock": 6,
+  "brand": "CoolBreeze",
+  "description": "5-star inverter split AC with auto clean, dehumidify, and sleep mode.",
+  "image": "https://images.unsplash.com/photo-1585128792020-803d29415281?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "ac",
+    "split",
+    "coolbreeze",
+    "inverter",
+    "appliance",
+    "appliances",
+    "home",
+    "homeappliances"
+  ],
+  "review_count": 6
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb233"
+  },
+  "name": "Electric Kettle",
+  "price": 1599,
+  "category": "homeappliances",
+  "rating": 4.4,
+  "stock": 25,
+  "brand": "BrewNest",
+  "description": "1.7L stainless steel electric kettle with auto shutoff and boil-dry protection.",
+  "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "kettle",
+    "electric",
+    "brewnest",
+    "appliance",
+    "appliances",
+    "home",
+    "kitchen"
+  ],
+  "review_count": 10
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb234"
+  },
+  "name": "Clothes Dryer",
+  "price": 22999,
+  "category": "homeappliances",
+  "rating": 4.4,
+  "stock": 7,
+  "brand": "WashCraft",
+  "description": "Sensor-dry tumble dryer with 7kg capacity and crease-guard function.",
+  "image": "https://images.unsplash.com/photo-1626806819282-2c1dc01a5e0d?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "dryer",
+    "clothes",
+    "washcraft",
+    "appliance",
+    "appliances",
+    "home",
+    "homeappliances"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb235"
+  },
+  "name": "Water Purifier RO",
+  "price": 12499,
+  "category": "homeappliances",
+  "rating": 4.5,
+  "stock": 10,
+  "brand": "PureNest",
+  "description": "8-stage RO+UV water purifier with mineral cartridge and TDS controller.",
+  "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "purifier",
+    "water",
+    "ro",
+    "purenest",
+    "appliance",
+    "appliances",
+    "home",
+    "homeappliances"
+  ],
+  "review_count": 7
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb236"
+  },
+  "name": "Essence Mascara Lash Princess",
+  "price": 799,
+  "category": "beauty",
+  "rating": 2.56,
+  "stock": 99,
+  "brand": "Essence",
+  "description": "Popular volumizing and lengthening mascara with long-lasting cruelty-free formula.",
+  "image": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp",
+  "tags": [
+    "beauty",
+    "mascara",
+    "eyes",
+    "makeup"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb237"
+  },
+  "name": "Eyeshadow Palette with Mirror",
+  "price": 1599,
+  "category": "beauty",
+  "rating": 2.86,
+  "stock": 34,
+  "brand": "Glamour Beauty",
+  "description": "Versatile eyeshadow palette with built-in mirror for on-the-go makeup application.",
+  "image": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp",
+  "tags": [
+    "beauty",
+    "eyeshadow",
+    "eyes",
+    "makeup",
+    "palette"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb238"
+  },
+  "name": "Powder Canister",
+  "price": 1199,
+  "category": "beauty",
+  "rating": 4.64,
+  "stock": 88,
+  "brand": "Velvet Touch",
+  "description": "Finely milled setting powder with lightweight translucent formula for a smooth matte finish.",
+  "image": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/1.webp",
+  "tags": [
+    "beauty",
+    "face powder",
+    "setting",
+    "makeup"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb239"
+  },
+  "name": "Red Lipstick",
+  "price": 1039,
+  "category": "beauty",
+  "rating": 4.36,
+  "stock": 90,
+  "brand": "Chic Cosmetics",
+  "description": "Classic bold red lipstick with creamy pigmented formula for vibrant long-lasting finish.",
+  "image": "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/1.webp",
+  "tags": [
+    "beauty",
+    "lipstick",
+    "lips",
+    "makeup",
+    "red"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb23a"
+  },
+  "name": "Red Nail Polish",
+  "price": 719,
+  "category": "beauty",
+  "rating": 4.32,
+  "stock": 78,
+  "brand": "Nail Couture",
+  "description": "Rich glossy red nail polish with quick-drying formula for salon-quality finish at home.",
+  "image": "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/1.webp",
+  "tags": [
+    "beauty",
+    "nail polish",
+    "nails",
+    "makeup",
+    "red"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb23b"
+  },
+  "name": "Foundation Stick",
+  "price": 1299,
+  "category": "beauty",
+  "rating": 4.2,
+  "stock": 60,
+  "brand": "Glamour Beauty",
+  "description": "Buildable coverage foundation stick with SPF 15 and skin-blurring formula.",
+  "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "beauty",
+    "foundation",
+    "face",
+    "makeup",
+    "coverage"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb23c"
+  },
+  "name": "Highlighter Palette",
+  "price": 999,
+  "category": "beauty",
+  "rating": 4.5,
+  "stock": 45,
+  "brand": "Chic Cosmetics",
+  "description": "4-shade highlighter palette for luminous glow on cheeks, brow bones, and cupid's bow.",
+  "image": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "beauty",
+    "highlighter",
+    "face",
+    "makeup",
+    "glow"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb23d"
+  },
+  "name": "Setting Spray",
+  "price": 899,
+  "category": "beauty",
+  "rating": 4.3,
+  "stock": 55,
+  "brand": "Velvet Touch",
+  "description": "Long-lasting makeup setting spray that locks in colour for up to 16 hours.",
+  "image": "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "beauty",
+    "setting spray",
+    "makeup",
+    "face",
+    "finish"
+  ],
+  "review_count": 6
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb23e"
+  },
+  "name": "Concealer Stick",
+  "price": 799,
+  "category": "beauty",
+  "rating": 4.1,
+  "stock": 70,
+  "brand": "Glamour Beauty",
+  "description": "Full-coverage concealer stick for dark circles and blemishes with skin-tone blend.",
+  "image": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "beauty",
+    "concealer",
+    "face",
+    "makeup",
+    "coverage"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb23f"
+  },
+  "name": "Blush Palette",
+  "price": 1149,
+  "category": "beauty",
+  "rating": 4.4,
+  "stock": 40,
+  "brand": "Chic Cosmetics",
+  "description": "3-shade blush palette in natural rose tones for a healthy, flushed look.",
+  "image": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "beauty",
+    "blush",
+    "face",
+    "makeup",
+    "cheeks"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb240"
+  },
+  "name": "Calvin Klein CK One",
+  "price": 3999,
+  "category": "fragrances",
+  "rating": 4.37,
+  "stock": 29,
+  "brand": "Calvin Klein",
+  "description": "Classic unisex fragrance known for its fresh and clean everyday scent.",
+  "image": "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/1.webp",
+  "tags": [
+    "fragrances",
+    "perfumes",
+    "unisex",
+    "fresh",
+    "ck"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb241"
+  },
+  "name": "Chanel Coco Noir Eau De",
+  "price": 10399,
+  "category": "fragrances",
+  "rating": 4.26,
+  "stock": 58,
+  "brand": "Chanel",
+  "description": "Elegant and mysterious fragrance with notes of grapefruit, rose, and sandalwood.",
+  "image": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/1.webp",
+  "tags": [
+    "fragrances",
+    "perfumes",
+    "chanel",
+    "evening",
+    "luxury"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb242"
+  },
+  "name": "Dior J'adore",
+  "price": 7199,
+  "category": "fragrances",
+  "rating": 3.8,
+  "stock": 98,
+  "brand": "Dior",
+  "description": "Luxurious floral fragrance blending ylang-ylang, rose, and jasmine.",
+  "image": "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/1.webp",
+  "tags": [
+    "fragrances",
+    "perfumes",
+    "dior",
+    "floral",
+    "feminine"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb243"
+  },
+  "name": "Dolce Shine Eau de",
+  "price": 5599,
+  "category": "fragrances",
+  "rating": 3.96,
+  "stock": 4,
+  "brand": "Dolce & Gabbana",
+  "description": "Vibrant fruity fragrance with mango, jasmine, and blonde woods for a joyful scent.",
+  "image": "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/1.webp",
+  "tags": [
+    "fragrances",
+    "perfumes",
+    "dolce",
+    "fruity",
+    "youthful"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb244"
+  },
+  "name": "Gucci Bloom Eau de",
+  "price": 6399,
+  "category": "fragrances",
+  "rating": 2.74,
+  "stock": 91,
+  "brand": "Gucci",
+  "description": "Floral and captivating fragrance with tuberose, jasmine, and Rangoon creeper.",
+  "image": "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/1.webp",
+  "tags": [
+    "fragrances",
+    "perfumes",
+    "gucci",
+    "floral",
+    "romantic"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb245"
+  },
+  "name": "Versace Eros",
+  "price": 5999,
+  "category": "fragrances",
+  "rating": 4.5,
+  "stock": 40,
+  "brand": "Versace",
+  "description": "Bold and passionate men's fragrance with mint, green apple, and vanilla notes.",
+  "image": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "fragrances",
+    "perfumes",
+    "versace",
+    "mens",
+    "bold"
+  ],
+  "review_count": 7
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb246"
+  },
+  "name": "Hugo Boss Bottled",
+  "price": 4799,
+  "category": "fragrances",
+  "rating": 4.3,
+  "stock": 35,
+  "brand": "Hugo Boss",
+  "description": "Timeless men's signature scent with apple, cinnamon, and sandalwood.",
+  "image": "https://images.unsplash.com/photo-1600612253971-1e7d4df2f246?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "fragrances",
+    "perfumes",
+    "hugoboss",
+    "mens",
+    "classic"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb247"
+  },
+  "name": "Paco Rabanne 1 Million",
+  "price": 6799,
+  "category": "fragrances",
+  "rating": 4.6,
+  "stock": 22,
+  "brand": "Paco Rabanne",
+  "description": "Seductive gold-bottle men's fragrance with blood orange, cinnamon, and leather.",
+  "image": "https://images.unsplash.com/photo-1542736705-838059b9de16?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "fragrances",
+    "perfumes",
+    "pacorabanne",
+    "mens",
+    "luxury"
+  ],
+  "review_count": 6
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb248"
+  },
+  "name": "Lancôme La Vie Est Belle",
+  "price": 8299,
+  "category": "fragrances",
+  "rating": 4.4,
+  "stock": 30,
+  "brand": "Lancôme",
+  "description": "Joyful women's fragrance with iris, patchouli, and gourmand notes.",
+  "image": "https://images.unsplash.com/photo-1597349489576-a04e52b8fd47?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "fragrances",
+    "perfumes",
+    "lancome",
+    "womens",
+    "floral"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb249"
+  },
+  "name": "Armani Acqua di Gio",
+  "price": 5199,
+  "category": "fragrances",
+  "rating": 4.5,
+  "stock": 45,
+  "brand": "Giorgio Armani",
+  "description": "Iconic aquatic men's fragrance inspired by the Mediterranean sea.",
+  "image": "https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "fragrances",
+    "perfumes",
+    "armani",
+    "mens",
+    "aquatic"
+  ],
+  "review_count": 8
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb24a"
+  },
+  "name": "Apple",
+  "price": 159,
+  "category": "groceries",
+  "rating": 4.19,
+  "stock": 8,
+  "brand": "groceries",
+  "description": "Fresh and crisp apples, perfect for snacking or incorporating into various recipes.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/apple/1.webp",
+  "tags": [
+    "fruits"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb24b"
+  },
+  "name": "Beef Steak",
+  "price": 1039,
+  "category": "groceries",
+  "rating": 4.47,
+  "stock": 86,
+  "brand": "groceries",
+  "description": "High-quality beef steak, great for grilling or cooking to your preferred level of doneness.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/beef-steak/1.webp",
+  "tags": [
+    "meat"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb24c"
+  },
+  "name": "Chicken Meat",
+  "price": 799,
+  "category": "groceries",
+  "rating": 3.19,
+  "stock": 97,
+  "brand": "groceries",
+  "description": "Fresh and tender chicken meat, suitable for various culinary preparations.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/1.webp",
+  "tags": [
+    "meat"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb24d"
+  },
+  "name": "Cooking Oil",
+  "price": 399,
+  "category": "groceries",
+  "rating": 4.8,
+  "stock": 10,
+  "brand": "groceries",
+  "description": "Versatile cooking oil suitable for frying, sautéing, and various culinary applications.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/1.webp",
+  "tags": [
+    "cooking essentials"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb24e"
+  },
+  "name": "Cucumber",
+  "price": 119,
+  "category": "groceries",
+  "rating": 4.07,
+  "stock": 84,
+  "brand": "groceries",
+  "description": "Crisp and hydrating cucumbers, ideal for salads, snacks, or as a refreshing side.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/cucumber/1.webp",
+  "tags": [
+    "vegetables"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb24f"
+  },
+  "name": "Eggs",
+  "price": 239,
+  "category": "groceries",
+  "rating": 2.53,
+  "stock": 9,
+  "brand": "groceries",
+  "description": "Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/eggs/1.webp",
+  "tags": [
+    "dairy"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb250"
+  },
+  "name": "Fish Steak",
+  "price": 1199,
+  "category": "groceries",
+  "rating": 3.78,
+  "stock": 74,
+  "brand": "groceries",
+  "description": "Quality fish steak, suitable for grilling, baking, or pan-searing.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/fish-steak/1.webp",
+  "tags": [
+    "seafood"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb251"
+  },
+  "name": "Green Bell Pepper",
+  "price": 103,
+  "category": "groceries",
+  "rating": 3.25,
+  "stock": 33,
+  "brand": "groceries",
+  "description": "Fresh and vibrant green bell pepper, perfect for adding color and flavor to your dishes.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/green-bell-pepper/1.webp",
+  "tags": [
+    "vegetables"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb252"
+  },
+  "name": "Honey Jar",
+  "price": 559,
+  "category": "groceries",
+  "rating": 3.97,
+  "stock": 34,
+  "brand": "groceries",
+  "description": "Pure and natural honey in a convenient jar, perfect for sweetening beverages or drizzling over food.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/honey-jar/1.webp",
+  "tags": [
+    "condiments"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb253"
+  },
+  "name": "Ice Cream",
+  "price": 439,
+  "category": "groceries",
+  "rating": 3.39,
+  "stock": 27,
+  "brand": "groceries",
+  "description": "Creamy and delicious ice cream, available in various flavors for a delightful treat.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/ice-cream/1.webp",
+  "tags": [
+    "desserts"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb254"
+  },
+  "name": "Juice",
+  "price": 319,
+  "category": "groceries",
+  "rating": 3.94,
+  "stock": 50,
+  "brand": "groceries",
+  "description": "Refreshing fruit juice, packed with vitamins and great for staying hydrated.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/juice/1.webp",
+  "tags": [
+    "beverages"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb255"
+  },
+  "name": "Kiwi",
+  "price": 199,
+  "category": "groceries",
+  "rating": 4.93,
+  "stock": 99,
+  "brand": "groceries",
+  "description": "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/kiwi/1.webp",
+  "tags": [
+    "fruits"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb256"
+  },
+  "name": "Lemon",
+  "price": 63,
+  "category": "groceries",
+  "rating": 3.53,
+  "stock": 31,
+  "brand": "groceries",
+  "description": "Zesty and tangy lemons, versatile for cooking, baking, or making refreshing beverages.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/lemon/1.webp",
+  "tags": [
+    "fruits"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb257"
+  },
+  "name": "Milk",
+  "price": 279,
+  "category": "groceries",
+  "rating": 2.61,
+  "stock": 27,
+  "brand": "groceries",
+  "description": "Fresh and nutritious milk, a staple for various recipes and daily consumption.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/milk/1.webp",
+  "tags": [
+    "dairy"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb258"
+  },
+  "name": "Mulberry",
+  "price": 399,
+  "category": "groceries",
+  "rating": 4.95,
+  "stock": 99,
+  "brand": "groceries",
+  "description": "Sweet and juicy mulberries, perfect for snacking or adding to desserts and cereals.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/mulberry/1.webp",
+  "tags": [
+    "fruits"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb259"
+  },
+  "name": "Nescafe Coffee",
+  "price": 639,
+  "category": "groceries",
+  "rating": 4.82,
+  "stock": 57,
+  "brand": "groceries",
+  "description": "Quality coffee from Nescafe, available in various blends for a rich and satisfying cup.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/nescafe-coffee/1.webp",
+  "tags": [
+    "beverages",
+    "coffee"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb25a"
+  },
+  "name": "Potatoes",
+  "price": 183,
+  "category": "groceries",
+  "rating": 4.81,
+  "stock": 13,
+  "brand": "groceries",
+  "description": "Versatile and starchy potatoes, great for roasting, mashing, or as a side dish.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/potatoes/1.webp",
+  "tags": [
+    "vegetables"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb25b"
+  },
+  "name": "Protein Powder",
+  "price": 1599,
+  "category": "groceries",
+  "rating": 4.18,
+  "stock": 80,
+  "brand": "groceries",
+  "description": "Nutrient-packed protein powder, ideal for supplementing your diet with essential proteins.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/protein-powder/1.webp",
+  "tags": [
+    "health supplements"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb25c"
+  },
+  "name": "Rice",
+  "price": 479,
+  "category": "groceries",
+  "rating": 3.18,
+  "stock": 59,
+  "brand": "groceries",
+  "description": "High-quality rice, a staple for various cuisines and a versatile base for many dishes.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/rice/1.webp",
+  "tags": [
+    "grains"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb25d"
+  },
+  "name": "Soft Drinks",
+  "price": 159,
+  "category": "groceries",
+  "rating": 4.75,
+  "stock": 53,
+  "brand": "groceries",
+  "description": "Assorted soft drinks in various flavors, perfect for refreshing beverages.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/soft-drinks/1.webp",
+  "tags": [
+    "beverages"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb25e"
+  },
+  "name": "Strawberry",
+  "price": 319,
+  "category": "groceries",
+  "rating": 3.08,
+  "stock": 46,
+  "brand": "groceries",
+  "description": "Sweet and succulent strawberries, great for snacking, desserts, or blending into smoothies.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/strawberry/1.webp",
+  "tags": [
+    "fruits"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb25f"
+  },
+  "name": "Water",
+  "price": 79,
+  "category": "groceries",
+  "rating": 4.96,
+  "stock": 53,
+  "brand": "groceries",
+  "description": "Pure and refreshing bottled water, essential for staying hydrated throughout the day.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/water/1.webp",
+  "tags": [
+    "beverages"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb260"
+  },
+  "name": "Oats",
+  "price": 349,
+  "category": "groceries",
+  "rating": 4.5,
+  "stock": 65,
+  "brand": "groceries",
+  "description": "Rolled oats high in fibre, perfect for breakfast porridge, granola, or baking.",
+  "image": "https://images.unsplash.com/photo-1614961233913-a5113a4a34ed?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "grains",
+    "breakfast"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb261"
+  },
+  "name": "Almond Butter",
+  "price": 699,
+  "category": "groceries",
+  "rating": 4.4,
+  "stock": 42,
+  "brand": "groceries",
+  "description": "Smooth and creamy almond butter with no added sugar, great for toast or smoothies.",
+  "image": "https://images.unsplash.com/photo-1600628421066-f6d5c5dea77c?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "condiments",
+    "health"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb262"
+  },
+  "name": "Greek Yogurt",
+  "price": 299,
+  "category": "groceries",
+  "rating": 4.6,
+  "stock": 38,
+  "brand": "groceries",
+  "description": "Thick and creamy Greek yogurt high in protein, ideal for breakfast or cooking.",
+  "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "dairy",
+    "health"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb263"
+  },
+  "name": "Olive Oil Extra Virgin",
+  "price": 799,
+  "category": "groceries",
+  "rating": 4.7,
+  "stock": 44,
+  "brand": "groceries",
+  "description": "Cold-pressed extra virgin olive oil for salads, cooking, and healthy dressings.",
+  "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "cooking essentials",
+    "healthy"
+  ],
+  "review_count": 6
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb264"
+  },
+  "name": "Whole Wheat Bread",
+  "price": 89,
+  "category": "groceries",
+  "rating": 4.2,
+  "stock": 25,
+  "brand": "groceries",
+  "description": "Soft whole wheat sandwich bread baked fresh, high in dietary fibre.",
+  "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "bakery",
+    "grains"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb265"
+  },
+  "name": "Dark Chocolate",
+  "price": 249,
+  "category": "groceries",
+  "rating": 4.5,
+  "stock": 60,
+  "brand": "groceries",
+  "description": "70% dark chocolate bar rich in antioxidants and smooth intense flavour.",
+  "image": "https://images.unsplash.com/photo-1481391319762-47dff72954d9?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "snacks",
+    "desserts"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb266"
+  },
+  "name": "Paneer",
+  "price": 189,
+  "category": "groceries",
+  "rating": 4.3,
+  "stock": 30,
+  "brand": "groceries",
+  "description": "Fresh cottage cheese block ideal for curries, grilling, or salads.",
+  "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "dairy",
+    "indian"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb267"
+  },
+  "name": "Cat Food",
+  "price": 719,
+  "category": "groceries",
+  "rating": 3.13,
+  "stock": 46,
+  "brand": "groceries",
+  "description": "Nutritious cat food formulated to meet the dietary needs of your feline friend.",
+  "image": "https://cdn.dummyjson.com/product-images/groceries/cat-food/1.webp",
+  "tags": [
+    "pet supplies",
+    "cat food"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb268"
+  },
+  "name": "Decoration Swing",
+  "price": 4799,
+  "category": "home-decoration",
+  "rating": 3.16,
+  "stock": 47,
+  "brand": "home-decoration",
+  "description": "Charming decoration swing crafted with intricate details, adding elegance and whimsy to any room.",
+  "image": "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/1.webp",
+  "tags": [
+    "home decor",
+    "swing"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb269"
+  },
+  "name": "Family Tree Photo Frame",
+  "price": 2399,
+  "category": "home-decoration",
+  "rating": 4.53,
+  "stock": 77,
+  "brand": "home-decoration",
+  "description": "Sentimental photo frame with multiple slots to display cherished family memories.",
+  "image": "https://cdn.dummyjson.com/product-images/home-decoration/family-tree-photo-frame/1.webp",
+  "tags": [
+    "home decor",
+    "photo frame"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb26a"
+  },
+  "name": "House Showpiece Plant",
+  "price": 3199,
+  "category": "home-decoration",
+  "rating": 4.67,
+  "stock": 28,
+  "brand": "home-decoration",
+  "description": "Artificial plant that brings nature's touch to your home without any maintenance.",
+  "image": "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/1.webp",
+  "tags": [
+    "home decor",
+    "artificial plants"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb26b"
+  },
+  "name": "Plant Pot",
+  "price": 1199,
+  "category": "home-decoration",
+  "rating": 3.01,
+  "stock": 59,
+  "brand": "home-decoration",
+  "description": "Stylish container for your favourite plants with a sleek modern design.",
+  "image": "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/1.webp",
+  "tags": [
+    "home decor",
+    "plant accessories"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb26c"
+  },
+  "name": "Table Lamp",
+  "price": 3999,
+  "category": "home-decoration",
+  "rating": 3.55,
+  "stock": 9,
+  "brand": "home-decoration",
+  "description": "Functional and decorative table lamp with modern design for ambient and task lighting.",
+  "image": "https://cdn.dummyjson.com/product-images/home-decoration/table-lamp/1.webp",
+  "tags": [
+    "home decor",
+    "lighting"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb26d"
+  },
+  "name": "Macramé Wall Hanging",
+  "price": 1799,
+  "category": "home-decoration",
+  "rating": 4.4,
+  "stock": 35,
+  "brand": "home-decoration",
+  "description": "Handwoven cotton macramé wall hanging for boho-chic bedroom and living room decor.",
+  "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "home decor",
+    "wall art",
+    "macrame"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb26e"
+  },
+  "name": "Scented Candle Set",
+  "price": 1299,
+  "category": "home-decoration",
+  "rating": 4.6,
+  "stock": 50,
+  "brand": "home-decoration",
+  "description": "Set of 3 soy wax scented candles in lavender, vanilla, and eucalyptus.",
+  "image": "https://images.unsplash.com/photo-1584553391778-0498cb17a8e8?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "home decor",
+    "candles",
+    "fragrance",
+    "gift"
+  ],
+  "review_count": 7
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb26f"
+  },
+  "name": "Geometric Vase",
+  "price": 999,
+  "category": "home-decoration",
+  "rating": 4.2,
+  "stock": 40,
+  "brand": "home-decoration",
+  "description": "Modern ceramic geometric vase for dried flowers and decorative branches.",
+  "image": "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "home decor",
+    "vase",
+    "ceramic",
+    "flowers"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb270"
+  },
+  "name": "Boho Throw Pillow Set",
+  "price": 1599,
+  "category": "home-decoration",
+  "rating": 4.3,
+  "stock": 30,
+  "brand": "home-decoration",
+  "description": "Set of 4 boho-patterned throw pillow covers in earthy tones for sofa or bed.",
+  "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "home decor",
+    "pillow",
+    "boho",
+    "textile"
+  ],
+  "review_count": 6
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb271"
+  },
+  "name": "Woven Area Rug",
+  "price": 4299,
+  "category": "home-decoration",
+  "rating": 4.5,
+  "stock": 20,
+  "brand": "home-decoration",
+  "description": "5x7 ft hand-woven cotton area rug with geometric pattern for living rooms.",
+  "image": "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "home decor",
+    "rug",
+    "textile",
+    "floor"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb272"
+  },
+  "name": "Bamboo Spatula",
+  "price": 639,
+  "category": "kitchen-accessories",
+  "rating": 3.27,
+  "stock": 37,
+  "brand": "kitchen-accessories",
+  "description": "Versatile kitchen tool made from eco-friendly bamboo for flipping, stirring, and serving.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/bamboo-spatula/1.webp",
+  "tags": [
+    "kitchen tools",
+    "utensils"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb273"
+  },
+  "name": "Black Aluminium Cup",
+  "price": 479,
+  "category": "kitchen-accessories",
+  "rating": 4.46,
+  "stock": 75,
+  "brand": "kitchen-accessories",
+  "description": "Stylish and durable aluminium cup suitable for both hot and cold beverages.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-aluminium-cup/1.webp",
+  "tags": [
+    "drinkware",
+    "cups"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb274"
+  },
+  "name": "Black Whisk",
+  "price": 799,
+  "category": "kitchen-accessories",
+  "rating": 3.9,
+  "stock": 73,
+  "brand": "kitchen-accessories",
+  "description": "Ergonomic black whisk for whisking and beating ingredients with a sleek design.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-whisk/1.webp",
+  "tags": [
+    "kitchen tools",
+    "utensils"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb275"
+  },
+  "name": "Boxed Blender",
+  "price": 3199,
+  "category": "kitchen-accessories",
+  "rating": 4.56,
+  "stock": 9,
+  "brand": "kitchen-accessories",
+  "description": "Powerful and compact blender perfect for smoothies, shakes, and more.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/1.webp",
+  "tags": [
+    "kitchen appliances",
+    "blenders"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb276"
+  },
+  "name": "Carbon Steel Wok",
+  "price": 2399,
+  "category": "kitchen-accessories",
+  "rating": 4.05,
+  "stock": 40,
+  "brand": "kitchen-accessories",
+  "description": "Versatile carbon steel wok for stir-frying, sautéing, and deep frying.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/carbon-steel-wok/1.webp",
+  "tags": [
+    "cookware",
+    "woks"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb277"
+  },
+  "name": "Chopping Board",
+  "price": 1039,
+  "category": "kitchen-accessories",
+  "rating": 3.7,
+  "stock": 14,
+  "brand": "kitchen-accessories",
+  "description": "Durable chopping board providing a safe and hygienic surface for cutting.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/chopping-board/1.webp",
+  "tags": [
+    "kitchen tools",
+    "cutting boards"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb278"
+  },
+  "name": "Citrus Squeezer Yellow",
+  "price": 719,
+  "category": "kitchen-accessories",
+  "rating": 4.63,
+  "stock": 22,
+  "brand": "kitchen-accessories",
+  "description": "Handy citrus squeezer for extracting juice from citrus fruits with a cheerful yellow design.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/citrus-squeezer-yellow/1.webp",
+  "tags": [
+    "kitchen tools",
+    "juicers"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb279"
+  },
+  "name": "Electric Stove",
+  "price": 3999,
+  "category": "kitchen-accessories",
+  "rating": 4.11,
+  "stock": 21,
+  "brand": "kitchen-accessories",
+  "description": "Portable and efficient electric stove ideal for small kitchens or additional cooking surface.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/1.webp",
+  "tags": [
+    "kitchen appliances",
+    "cooktops"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb27a"
+  },
+  "name": "Fine Mesh Strainer",
+  "price": 799,
+  "category": "kitchen-accessories",
+  "rating": 3.04,
+  "stock": 85,
+  "brand": "kitchen-accessories",
+  "description": "Versatile fine mesh strainer for straining liquids and sifting dry ingredients.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/fine-mesh-strainer/1.webp",
+  "tags": [
+    "kitchen tools",
+    "strainers"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb27b"
+  },
+  "name": "Glass",
+  "price": 399,
+  "category": "kitchen-accessories",
+  "rating": 4.02,
+  "stock": 46,
+  "brand": "kitchen-accessories",
+  "description": "Versatile and elegant clear drinking glass for a variety of beverages.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/glass/1.webp",
+  "tags": [
+    "drinkware",
+    "glasses"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb27c"
+  },
+  "name": "Grater Black",
+  "price": 879,
+  "category": "kitchen-accessories",
+  "rating": 3.21,
+  "stock": 84,
+  "brand": "kitchen-accessories",
+  "description": "Sleek black grater with sharp blades for efficient grating of cheese and vegetables.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/grater-black/1.webp",
+  "tags": [
+    "kitchen tools",
+    "graters"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb27d"
+  },
+  "name": "Hand Blender",
+  "price": 2799,
+  "category": "kitchen-accessories",
+  "rating": 3.86,
+  "stock": 84,
+  "brand": "kitchen-accessories",
+  "description": "Versatile hand blender for blending, pureeing, and mixing with a compact design.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/hand-blender/1.webp",
+  "tags": [
+    "kitchen appliances",
+    "blenders"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb27e"
+  },
+  "name": "Ice Cube Tray",
+  "price": 479,
+  "category": "kitchen-accessories",
+  "rating": 4.71,
+  "stock": 13,
+  "brand": "kitchen-accessories",
+  "description": "Practical ice cube tray for making fun shaped ice cubes to keep drinks cool.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/ice-cube-tray/1.webp",
+  "tags": [
+    "kitchen tools",
+    "ice cube trays"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb27f"
+  },
+  "name": "Knife",
+  "price": 1199,
+  "category": "kitchen-accessories",
+  "rating": 3.26,
+  "stock": 7,
+  "brand": "kitchen-accessories",
+  "description": "Essential kitchen knife for chopping, slicing, and dicing with a sharp ergonomic blade.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/knife/1.webp",
+  "tags": [
+    "kitchen tools",
+    "cutlery"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb280"
+  },
+  "name": "Lunch Box",
+  "price": 1039,
+  "category": "kitchen-accessories",
+  "rating": 4.93,
+  "stock": 94,
+  "brand": "kitchen-accessories",
+  "description": "Convenient portable lunch box with compartments for on-the-go dining.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/lunch-box/1.webp",
+  "tags": [
+    "kitchen tools",
+    "storage"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb281"
+  },
+  "name": "Microwave Oven",
+  "price": 7199,
+  "category": "kitchen-accessories",
+  "rating": 4.82,
+  "stock": 59,
+  "brand": "kitchen-accessories",
+  "description": "Versatile microwave oven for quick and efficient cooking, reheating, and defrosting.",
+  "image": "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/1.webp",
+  "tags": [
+    "kitchen appliances",
+    "microwaves"
+  ],
+  "review_count": 3
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb282"
+  },
+  "name": "Cast Iron Skillet",
+  "price": 2199,
+  "category": "kitchen-accessories",
+  "rating": 4.7,
+  "stock": 28,
+  "brand": "kitchen-accessories",
+  "description": "Pre-seasoned cast iron skillet for even heat retention, stovetop to oven.",
+  "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "cookware",
+    "cast iron",
+    "kitchen tools"
+  ],
+  "review_count": 8
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb283"
+  },
+  "name": "Silicone Baking Mat",
+  "price": 599,
+  "category": "kitchen-accessories",
+  "rating": 4.4,
+  "stock": 55,
+  "brand": "kitchen-accessories",
+  "description": "Non-stick reusable silicone baking mat for cookies, pastry, and roasting.",
+  "image": "https://images.unsplash.com/photo-1556909172-54557c7e4fb7?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "baking",
+    "kitchen tools",
+    "silicone"
+  ],
+  "review_count": 6
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb284"
+  },
+  "name": "Spice Rack Organiser",
+  "price": 1499,
+  "category": "kitchen-accessories",
+  "rating": 4.3,
+  "stock": 32,
+  "brand": "kitchen-accessories",
+  "description": "Rotating bamboo spice rack holding 12 jars for organised kitchen countertop.",
+  "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "storage",
+    "spice rack",
+    "kitchen tools",
+    "organiser"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb285"
+  },
+  "name": "Vegetable Peeler Set",
+  "price": 449,
+  "category": "kitchen-accessories",
+  "rating": 4.1,
+  "stock": 60,
+  "brand": "kitchen-accessories",
+  "description": "Set of 3 stainless steel peelers — straight, julienne, and serrated blades.",
+  "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "kitchen tools",
+    "peeler",
+    "utensils"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb286"
+  },
+  "name": "Ceramic Dinner Set 12pc",
+  "price": 3299,
+  "category": "kitchen-accessories",
+  "rating": 4.5,
+  "stock": 18,
+  "brand": "kitchen-accessories",
+  "description": "12-piece ceramic dinner set with plates, bowls, and mugs in a Nordic white design.",
+  "image": "https://images.unsplash.com/photo-1519984388953-d2406bc725e1?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "dinnerware",
+    "ceramic",
+    "kitchen accessories",
+    "plates"
+  ],
+  "review_count": 6
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb287"
+  },
+  "name": "Stainless Steel Tiffin",
+  "price": 849,
+  "category": "kitchen-accessories",
+  "rating": 4.4,
+  "stock": 45,
+  "brand": "kitchen-accessories",
+  "description": "3-tier insulated stainless steel tiffin box keeping meals hot for 6 hours.",
+  "image": "https://images.unsplash.com/photo-1556909172-54557c7e4fb7?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "tiffin",
+    "storage",
+    "kitchen tools",
+    "insulated"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb288"
+  },
+  "name": "Pressure Cooker 5L",
+  "price": 2799,
+  "category": "kitchen-accessories",
+  "rating": 4.6,
+  "stock": 20,
+  "brand": "kitchen-accessories",
+  "description": "Aluminium 5-litre pressure cooker with safety valve for fast, energy-efficient cooking.",
+  "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "cookware",
+    "pressure cooker",
+    "kitchen appliances"
+  ],
+  "review_count": 7
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb289"
+  },
+  "name": "Glass Storage Jar Set",
+  "price": 1199,
+  "category": "kitchen-accessories",
+  "rating": 4.3,
+  "stock": 38,
+  "brand": "kitchen-accessories",
+  "description": "Set of 6 airtight glass jars for pantry storage of grains, spices, and snacks.",
+  "image": "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "storage",
+    "glass jars",
+    "kitchen tools",
+    "pantry"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb28a"
+  },
+  "name": "Wooden Rolling Pin",
+  "price": 399,
+  "category": "kitchen-accessories",
+  "rating": 4.2,
+  "stock": 48,
+  "brand": "kitchen-accessories",
+  "description": "Smooth beechwood rolling pin for bread, pastry, pizza, and cookie dough.",
+  "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "baking",
+    "rolling pin",
+    "kitchen tools",
+    "utensils"
+  ],
+  "review_count": 4
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb28b"
+  },
+  "name": "Yoga Mat Premium",
+  "price": 1899,
+  "category": "sports",
+  "rating": 4.6,
+  "stock": 40,
+  "brand": "FlexCore",
+  "description": "6mm non-slip TPE yoga mat with alignment lines and carrying strap.",
+  "image": "https://images.unsplash.com/photo-1601925228008-c9bfa1ef396b?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "yoga",
+    "mat",
+    "flexcore",
+    "fitness",
+    "sports",
+    "exercise",
+    "workout"
+  ],
+  "review_count": 10
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb28c"
+  },
+  "name": "Resistance Bands Set",
+  "price": 999,
+  "category": "sports",
+  "rating": 4.4,
+  "stock": 55,
+  "brand": "FlexCore",
+  "description": "Set of 5 latex resistance bands with varying tension levels for full-body training.",
+  "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "resistance",
+    "bands",
+    "flexcore",
+    "fitness",
+    "sports",
+    "exercise",
+    "workout"
+  ],
+  "review_count": 12
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb28d"
+  },
+  "name": "Dumbbell Set 10kg",
+  "price": 2499,
+  "category": "sports",
+  "rating": 4.5,
+  "stock": 20,
+  "brand": "IronEdge",
+  "description": "Pair of rubber-coated hex dumbbells for home gym strength training.",
+  "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "dumbbell",
+    "ironedge",
+    "weights",
+    "fitness",
+    "sports",
+    "gym",
+    "workout"
+  ],
+  "review_count": 8
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb28e"
+  },
+  "name": "Jump Rope Speed",
+  "price": 699,
+  "category": "sports",
+  "rating": 4.3,
+  "stock": 60,
+  "brand": "FlexCore",
+  "description": "Adjustable speed jump rope with ball-bearing handles for HIIT and cardio.",
+  "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "jumprope",
+    "flexcore",
+    "cardio",
+    "fitness",
+    "sports",
+    "workout"
+  ],
+  "review_count": 9
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb28f"
+  },
+  "name": "Foam Roller Deep Tissue",
+  "price": 1299,
+  "category": "sports",
+  "rating": 4.4,
+  "stock": 35,
+  "brand": "FlexCore",
+  "description": "High-density EVA foam roller for muscle recovery and myofascial release.",
+  "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "foam roller",
+    "flexcore",
+    "recovery",
+    "fitness",
+    "sports",
+    "massage"
+  ],
+  "review_count": 7
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb290"
+  },
+  "name": "Cycling Helmet",
+  "price": 3499,
+  "category": "sports",
+  "rating": 4.5,
+  "stock": 15,
+  "brand": "TrailRush",
+  "description": "Lightweight aerodynamic cycling helmet with 18 vents and adjustable retention system.",
+  "image": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "helmet",
+    "cycling",
+    "trailrush",
+    "sports",
+    "safety",
+    "bike"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb291"
+  },
+  "name": "Badminton Racket Pro",
+  "price": 1799,
+  "category": "sports",
+  "rating": 4.2,
+  "stock": 25,
+  "brand": "SmashPro",
+  "description": "Full carbon badminton racket with tension 26lbs for intermediate to advanced players.",
+  "image": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "badminton",
+    "racket",
+    "smashpro",
+    "sports",
+    "game",
+    "indoor"
+  ],
+  "review_count": 6
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb292"
+  },
+  "name": "Gym Water Bottle 1L",
+  "price": 799,
+  "category": "sports",
+  "rating": 4.6,
+  "stock": 80,
+  "brand": "IronEdge",
+  "description": "BPA-free 1L motivational water bottle with time markers and leak-proof flip lid.",
+  "image": "https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "bottle",
+    "water",
+    "ironedge",
+    "gym",
+    "fitness",
+    "sports",
+    "hydration"
+  ],
+  "review_count": 14
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb293"
+  },
+  "name": "Premium Fountain Pen",
+  "price": 1599,
+  "category": "stationery",
+  "rating": 4.6,
+  "stock": 30,
+  "brand": "InkCraft",
+  "description": "Brass-body fountain pen with fine nib and converter for smooth writing.",
+  "image": "https://images.unsplash.com/photo-1585664811087-47f65abbad64?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "pen",
+    "fountain",
+    "inkcraft",
+    "stationery",
+    "writing",
+    "office"
+  ],
+  "review_count": 7
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb294"
+  },
+  "name": "A5 Hardcover Planner",
+  "price": 699,
+  "category": "stationery",
+  "rating": 4.5,
+  "stock": 50,
+  "brand": "PageFlow",
+  "description": "Undated A5 hardcover planner with weekly layout, habit tracker, and goal pages.",
+  "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "planner",
+    "pageflow",
+    "stationery",
+    "organiser",
+    "writing",
+    "notebook"
+  ],
+  "review_count": 9
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb295"
+  },
+  "name": "Sticky Notes Pastel Set",
+  "price": 249,
+  "category": "stationery",
+  "rating": 4.3,
+  "stock": 100,
+  "brand": "PageFlow",
+  "description": "Pack of 400 pastel sticky notes in 4 sizes for journaling, notes, and reminders.",
+  "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "sticky notes",
+    "pageflow",
+    "stationery",
+    "office",
+    "desk",
+    "writing"
+  ],
+  "review_count": 11
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb296"
+  },
+  "name": "Mechanical Pencil Set",
+  "price": 499,
+  "category": "stationery",
+  "rating": 4.4,
+  "stock": 60,
+  "brand": "InkCraft",
+  "description": "Set of 3 drafting mechanical pencils 0.3mm/0.5mm/0.7mm with lead refills.",
+  "image": "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "pencil",
+    "mechanical",
+    "inkcraft",
+    "stationery",
+    "drawing",
+    "art"
+  ],
+  "review_count": 6
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb297"
+  },
+  "name": "Desk Organiser Bamboo",
+  "price": 1099,
+  "category": "stationery",
+  "rating": 4.4,
+  "stock": 28,
+  "brand": "PageFlow",
+  "description": "5-compartment bamboo desk organiser for pens, scissors, sticky notes, and gadgets.",
+  "image": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "organiser",
+    "desk",
+    "bamboo",
+    "pageflow",
+    "stationery",
+    "office"
+  ],
+  "review_count": 5
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb298"
+  },
+  "name": "Washi Tape Collection",
+  "price": 349,
+  "category": "stationery",
+  "rating": 4.5,
+  "stock": 75,
+  "brand": "InkCraft",
+  "description": "Set of 10 decorative washi tapes in floral and geometric patterns for journaling.",
+  "image": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "washi tape",
+    "inkcraft",
+    "stationery",
+    "journaling",
+    "craft",
+    "diy"
+  ],
+  "review_count": 8
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb299"
+  },
+  "name": "Watercolour Paint Set",
+  "price": 1199,
+  "category": "stationery",
+  "rating": 4.7,
+  "stock": 22,
+  "brand": "InkCraft",
+  "description": "24-colour professional watercolour pan set with a refillable water brush.",
+  "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "watercolour",
+    "paint",
+    "inkcraft",
+    "art",
+    "stationery",
+    "drawing"
+  ],
+  "review_count": 9
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb29a"
+  },
+  "name": "LEGO Classic Bricks Box",
+  "price": 2999,
+  "category": "toys",
+  "rating": 4.8,
+  "stock": 25,
+  "brand": "LEGO",
+  "description": "Classic box of 790 colourful LEGO bricks for open-ended creative building.",
+  "image": "https://images.unsplash.com/photo-1560961911-ba7ef651a56c?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "lego",
+    "bricks",
+    "toys",
+    "kids",
+    "creative",
+    "building"
+  ],
+  "review_count": 15
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb29b"
+  },
+  "name": "Remote Control Car",
+  "price": 1799,
+  "category": "toys",
+  "rating": 4.4,
+  "stock": 18,
+  "brand": "SpeedKing",
+  "description": "2.4GHz off-road RC car with 1:16 scale, 30km/h top speed, and 60-min battery.",
+  "image": "https://images.unsplash.com/photo-1535572290543-960a8046f5af?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "rc car",
+    "speedking",
+    "toys",
+    "kids",
+    "remote control",
+    "outdoor"
+  ],
+  "review_count": 10
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb29c"
+  },
+  "name": "Board Game Strategy",
+  "price": 1499,
+  "category": "toys",
+  "rating": 4.6,
+  "stock": 20,
+  "brand": "MindPlay",
+  "description": "Award-winning family strategy board game for 2-4 players aged 10 and above.",
+  "image": "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "board game",
+    "mindplay",
+    "toys",
+    "family",
+    "strategy",
+    "kids"
+  ],
+  "review_count": 11
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb29d"
+  },
+  "name": "Art & Craft Easel Set",
+  "price": 2199,
+  "category": "toys",
+  "rating": 4.5,
+  "stock": 12,
+  "brand": "MindPlay",
+  "description": "Double-sided wooden easel with whiteboard and chalkboard plus 50-piece art supplies.",
+  "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "easel",
+    "art",
+    "mindplay",
+    "toys",
+    "kids",
+    "creative",
+    "craft"
+  ],
+  "review_count": 7
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb29e"
+  },
+  "name": "Stuffed Animal Elephant",
+  "price": 899,
+  "category": "toys",
+  "rating": 4.7,
+  "stock": 40,
+  "brand": "SoftPaws",
+  "description": "Super-soft 45cm plush elephant stuffed animal safe for all ages.",
+  "image": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "plush",
+    "stuffed",
+    "softpaws",
+    "toys",
+    "kids",
+    "elephant",
+    "gift"
+  ],
+  "review_count": 13
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb29f"
+  },
+  "name": "Smart Doorbell Camera",
+  "price": 6999,
+  "category": "electronics",
+  "rating": 4.4,
+  "stock": 18,
+  "brand": "VoltEdge",
+  "description": "Wi-Fi video doorbell with 1080p HDR, motion zones, and two-way audio.",
+  "image": "https://images.unsplash.com/photo-1558002038-bb4237b50b11?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "doorbell",
+    "camera",
+    "voltedge",
+    "smarthome",
+    "security",
+    "electronics",
+    "tech"
+  ],
+  "review_count": 6
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb2a0"
+  },
+  "name": "Portable Bluetooth Speaker",
+  "price": 3299,
+  "category": "electronics",
+  "rating": 4.5,
+  "stock": 28,
+  "brand": "SonicNest",
+  "description": "IPX7 waterproof 360° bluetooth speaker with 24-hour battery and USB-C charging.",
+  "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "speaker",
+    "bluetooth",
+    "sonicnest",
+    "portable",
+    "electronic",
+    "electronics",
+    "audio"
+  ],
+  "review_count": 9
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb2a1"
+  },
+  "name": "Laptop Stand Adjustable",
+  "price": 1999,
+  "category": "electronics",
+  "rating": 4.5,
+  "stock": 35,
+  "brand": "DataSprint",
+  "description": "Aluminium adjustable laptop stand with heat-dissipating design for desks and beds.",
+  "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "laptop stand",
+    "datasprint",
+    "desk",
+    "electronic",
+    "electronics",
+    "office",
+    "work"
+  ],
+  "review_count": 11
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb2a2"
+  },
+  "name": "Noise Cancelling Earbuds",
+  "price": 8999,
+  "category": "electronics",
+  "rating": 4.7,
+  "stock": 20,
+  "brand": "PulsePod",
+  "description": "Hybrid ANC earbuds with 11mm drivers, spatial audio, and 36-hour total playtime.",
+  "image": "https://images.unsplash.com/photo-1590658268037-6bf12f032f55?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "earbuds",
+    "anc",
+    "pulsepod",
+    "wireless",
+    "electronic",
+    "electronics",
+    "audio"
+  ],
+  "review_count": 8
+},
+{
+  "_id": {
+    "$oid": "69fdada722bd078c5adcb2a3"
+  },
+  "name": "Smart Security Camera",
+  "price": 4299,
+  "category": "electronics",
+  "rating": 4.3,
+  "stock": 16,
+  "brand": "VoltEdge",
+  "description": "2K outdoor security camera with colour night vision, AI detection, and cloud storage.",
+  "image": "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?auto=format&fit=crop&w=900&q=80",
+  "tags": [
+    "security",
+    "camera",
+    "voltedge",
+    "smarthome",
+    "surveillance",
+    "electronics",
+    "tech"
+  ],
+  "review_count": 5
+}]

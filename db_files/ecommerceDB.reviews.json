@@ -1,0 +1,112 @@
+[{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e286"
+  },
+  "product_name": "Smart Watch",
+  "user_id": "seeded",
+  "user_name": "Riya",
+  "rating": 5,
+  "comment": "Battery life is excellent and tracking is accurate.",
+  "sentiment": null,
+  "created_at": {
+    "$date": "2026-04-08T22:15:58.365Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e287"
+  },
+  "product_name": "Smart Watch",
+  "user_id": "seeded",
+  "user_name": "Nikhil",
+  "rating": 4,
+  "comment": "Great display, very smooth app notifications.",
+  "sentiment": null,
+  "created_at": {
+    "$date": "2026-04-08T22:15:58.365Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e288"
+  },
+  "product_name": "Noise Cancelling Headphones",
+  "user_id": "seeded",
+  "user_name": "Aman",
+  "rating": 5,
+  "comment": "Noise cancellation works very well in office use.",
+  "sentiment": null,
+  "created_at": {
+    "$date": "2026-04-08T22:15:58.365Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e289"
+  },
+  "product_name": "Noise Cancelling Headphones",
+  "user_id": "seeded",
+  "user_name": "Kavya",
+  "rating": 4,
+  "comment": "Comfortable for long listening sessions.",
+  "sentiment": null,
+  "created_at": {
+    "$date": "2026-04-08T22:15:58.365Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e28a"
+  },
+  "product_name": "Walnut Sofa Set",
+  "user_id": "seeded",
+  "user_name": "Meera",
+  "rating": 5,
+  "comment": "Solid build quality and premium finish.",
+  "sentiment": null,
+  "created_at": {
+    "$date": "2026-04-08T22:15:58.365Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e28b"
+  },
+  "product_name": "Walnut Sofa Set",
+  "user_id": "seeded",
+  "user_name": "Rahul",
+  "rating": 4,
+  "comment": "Looks elegant and feels very durable.",
+  "sentiment": null,
+  "created_at": {
+    "$date": "2026-04-08T22:15:58.365Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e28c"
+  },
+  "product_name": "Minimal Sneakers",
+  "user_id": "seeded",
+  "user_name": "Dev",
+  "rating": 4,
+  "comment": "Comfortable and stylish for daily wear.",
+  "sentiment": null,
+  "created_at": {
+    "$date": "2026-04-08T22:15:58.365Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69d6d39ec3f44022bc06e28d"
+  },
+  "product_name": "Minimal Sneakers",
+  "user_id": "seeded",
+  "user_name": "Ananya",
+  "rating": 5,
+  "comment": "Perfect fit and premium look.",
+  "sentiment": null,
+  "created_at": {
+    "$date": "2026-04-08T22:15:58.365Z"
+  }
+}]

@@ -1,0 +1,610 @@
+[{
+  "_id": {
+    "$oid": "69d748f29e02da688ecdcf58"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Mirrorless Camera Kit",
+  "category": "electronics",
+  "event_type": "cart_add",
+  "source": "cart_add_api",
+  "created_at": {
+    "$date": "2026-04-09T06:36:34.742Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69d7768b476c3155907fa2a4"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "4K Smart TV",
+  "category": "electronics",
+  "event_type": "cart_add",
+  "source": "cart_add_api",
+  "created_at": {
+    "$date": "2026-04-09T09:51:07.828Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69d7768f476c3155907fa2a5"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "4K Smart TV",
+  "category": "electronics",
+  "event_type": "cart_add",
+  "source": "cart_add_api",
+  "created_at": {
+    "$date": "2026-04-09T09:51:11.870Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69d77690476c3155907fa2a6"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "4K Smart TV",
+  "category": "electronics",
+  "event_type": "cart_add",
+  "source": "cart_add_api",
+  "created_at": {
+    "$date": "2026-04-09T09:51:12.529Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69d77690476c3155907fa2a7"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "4K Smart TV",
+  "category": "electronics",
+  "event_type": "cart_add",
+  "source": "cart_add_api",
+  "created_at": {
+    "$date": "2026-04-09T09:51:12.754Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69d7ceb9733c57747ba6d583"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Formal Oxford Shoes",
+  "category": "fashion",
+  "event_type": "cart_add",
+  "source": "cart_add_api",
+  "created_at": {
+    "$date": "2026-04-09T16:07:21.600Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69d8da8e0fc3a86a97398181"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Formal Oxford Shoes",
+  "category": "fashion",
+  "event_type": "cart_add",
+  "source": "cart_add_api",
+  "created_at": {
+    "$date": "2026-04-10T11:10:06.515Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69d9566f0c883a2159352586"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Structured Tote Bag",
+  "category": "fashion",
+  "event_type": "cart_add",
+  "source": "cart_add_api",
+  "created_at": {
+    "$date": "2026-04-10T19:58:39.716Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69d957fa0c883a2159352588"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Formal Oxford Shoes",
+  "category": "fashion",
+  "event_type": "purchase",
+  "source": "checkout",
+  "created_at": {
+    "$date": "2026-04-10T20:05:14.056Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69d957fa0c883a2159352589"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Structured Tote Bag",
+  "category": "fashion",
+  "event_type": "purchase",
+  "source": "checkout",
+  "created_at": {
+    "$date": "2026-04-10T20:05:14.061Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69d968b44654b7b8b8b68661"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Wool Blend Jacket",
+  "category": "fashion",
+  "event_type": "cart_add",
+  "source": "cart_add_api",
+  "created_at": {
+    "$date": "2026-04-10T21:16:36.347Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69d968ca4654b7b8b8b68663"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Wool Blend Jacket",
+  "category": "fashion",
+  "event_type": "purchase",
+  "source": "checkout",
+  "created_at": {
+    "$date": "2026-04-10T21:16:58.674Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69d9f3a33c7b5d5e48384079"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Mirrorless Camera Kit",
+  "category": "electronics",
+  "event_type": "cart_add",
+  "source": "cart_add_api",
+  "created_at": {
+    "$date": "2026-04-11T07:09:23.237Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69db982112d0be3c8151885b"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Gaming Laptop",
+  "category": "electronics",
+  "event_type": "click",
+  "source": "product_card_click",
+  "created_at": {
+    "$date": "2026-04-12T13:03:29.237Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69db982112d0be3c8151885c"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Gaming Laptop",
+  "category": "electronics",
+  "event_type": "view",
+  "source": "product_modal_view",
+  "created_at": {
+    "$date": "2026-04-12T13:03:29.301Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69db987760e3e42c73a04758"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Noise Cancelling Headphones",
+  "category": "electronics",
+  "event_type": "click",
+  "source": "product_card_click",
+  "created_at": {
+    "$date": "2026-04-12T13:04:55.084Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69db987760e3e42c73a04759"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Noise Cancelling Headphones",
+  "category": "electronics",
+  "event_type": "view",
+  "source": "product_modal_view",
+  "created_at": {
+    "$date": "2026-04-12T13:04:55.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69db9b12afcfc8aa45a63080"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Smart Watch",
+  "category": "electronics",
+  "event_type": "view",
+  "source": "product_modal_view",
+  "created_at": {
+    "$date": "2026-04-12T13:16:02.496Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69db9b12afcfc8aa45a63081"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Smart Watch",
+  "category": "electronics",
+  "event_type": "click",
+  "source": "product_card_click",
+  "created_at": {
+    "$date": "2026-04-12T13:16:02.506Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69db9b2aafcfc8aa45a63083"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Smart Watch",
+  "category": "electronics",
+  "event_type": "click",
+  "source": "product_card_click",
+  "created_at": {
+    "$date": "2026-04-12T13:16:26.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69db9b2aafcfc8aa45a63084"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Smart Watch",
+  "category": "electronics",
+  "event_type": "view",
+  "source": "product_modal_view",
+  "created_at": {
+    "$date": "2026-04-12T13:16:26.863Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69e0b936f49f062ade74daec"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Ice Cream",
+  "category": "groceries",
+  "event_type": "click",
+  "source": "product_card_click",
+  "created_at": {
+    "$date": "2026-04-16T10:25:58.496Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69e0b936f49f062ade74daed"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Ice Cream",
+  "category": "groceries",
+  "event_type": "view",
+  "source": "product_modal_view",
+  "created_at": {
+    "$date": "2026-04-16T10:25:58.501Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69e0b93cf49f062ade74daee"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Ice Cream",
+  "category": "groceries",
+  "event_type": "click",
+  "source": "product_card_click",
+  "created_at": {
+    "$date": "2026-04-16T10:26:04.493Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69e0b93cf49f062ade74daef"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Ice Cream",
+  "category": "groceries",
+  "event_type": "view",
+  "source": "product_modal_view",
+  "created_at": {
+    "$date": "2026-04-16T10:26:04.497Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69e0b981f49f062ade74daf0"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Mulberry",
+  "category": "groceries",
+  "event_type": "cart_add",
+  "source": "cart_add_api",
+  "created_at": {
+    "$date": "2026-04-16T10:27:13.058Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69e0b981f49f062ade74daf1"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Mulberry",
+  "category": "groceries",
+  "event_type": "cart_add",
+  "source": "cart_add_api",
+  "created_at": {
+    "$date": "2026-04-16T10:27:13.899Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69e0b983f49f062ade74daf2"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Mulberry",
+  "category": "groceries",
+  "event_type": "cart_add",
+  "source": "cart_add_api",
+  "created_at": {
+    "$date": "2026-04-16T10:27:15.226Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69e0b984f49f062ade74daf3"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Mulberry",
+  "category": "groceries",
+  "event_type": "cart_add",
+  "source": "cart_add_api",
+  "created_at": {
+    "$date": "2026-04-16T10:27:16.762Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69e0b989f49f062ade74daf4"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Rice",
+  "category": "groceries",
+  "event_type": "view",
+  "source": "product_modal_view",
+  "created_at": {
+    "$date": "2026-04-16T10:27:21.027Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69e0b989f49f062ade74daf5"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Rice",
+  "category": "groceries",
+  "event_type": "click",
+  "source": "product_card_click",
+  "created_at": {
+    "$date": "2026-04-16T10:27:21.128Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69e0b989f49f062ade74daf6"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Rice",
+  "category": "groceries",
+  "event_type": "click",
+  "source": "product_card_click",
+  "created_at": {
+    "$date": "2026-04-16T10:27:21.673Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69e0b989f49f062ade74daf7"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Rice",
+  "category": "groceries",
+  "event_type": "view",
+  "source": "product_modal_view",
+  "created_at": {
+    "$date": "2026-04-16T10:27:21.725Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69e0b98ef49f062ade74daf8"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Beef Steak",
+  "category": "groceries",
+  "event_type": "click",
+  "source": "product_card_click",
+  "created_at": {
+    "$date": "2026-04-16T10:27:26.440Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69e0b98ef49f062ade74daf9"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Beef Steak",
+  "category": "groceries",
+  "event_type": "view",
+  "source": "product_modal_view",
+  "created_at": {
+    "$date": "2026-04-16T10:27:26.840Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69e0bae3f49f062ade74dafa"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Mulberry",
+  "category": "groceries",
+  "event_type": "click",
+  "source": "product_card_click",
+  "created_at": {
+    "$date": "2026-04-16T10:33:07.210Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69e0bae3f49f062ade74dafb"
+  },
+  "user_id": "69d748a79e02da688ecdcf57",
+  "product_name": "Mulberry",
+  "category": "groceries",
+  "event_type": "view",
+  "source": "product_modal_view",
+  "created_at": {
+    "$date": "2026-04-16T10:33:07.302Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69e47d3b8d8dbae1c21b1154"
+  },
+  "user_id": "69e47c458d8dbae1c21b1153",
+  "product_name": "Powder Canister",
+  "category": "beauty",
+  "event_type": "cart_add",
+  "source": "cart_add_api",
+  "created_at": {
+    "$date": "2026-04-19T06:59:07.628Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69e47d3f8d8dbae1c21b1155"
+  },
+  "user_id": "69e47c458d8dbae1c21b1153",
+  "product_name": "Red Lipstick",
+  "category": "beauty",
+  "event_type": "cart_add",
+  "source": "cart_add_api",
+  "created_at": {
+    "$date": "2026-04-19T06:59:11.742Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69e47d428d8dbae1c21b1156"
+  },
+  "user_id": "69e47c458d8dbae1c21b1153",
+  "product_name": "Red Nail Polish",
+  "category": "beauty",
+  "event_type": "cart_add",
+  "source": "cart_add_api",
+  "created_at": {
+    "$date": "2026-04-19T06:59:14.170Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69e47def8d8dbae1c21b1159"
+  },
+  "user_id": "69e47c458d8dbae1c21b1153",
+  "product_name": "Powder Canister",
+  "category": "beauty",
+  "event_type": "purchase",
+  "source": "checkout",
+  "created_at": {
+    "$date": "2026-04-19T07:02:07.553Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69e47def8d8dbae1c21b115a"
+  },
+  "user_id": "69e47c458d8dbae1c21b1153",
+  "product_name": "Red Lipstick",
+  "category": "beauty",
+  "event_type": "purchase",
+  "source": "checkout",
+  "created_at": {
+    "$date": "2026-04-19T07:02:07.557Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69e47def8d8dbae1c21b115b"
+  },
+  "user_id": "69e47c458d8dbae1c21b1153",
+  "product_name": "Red Nail Polish",
+  "category": "beauty",
+  "event_type": "purchase",
+  "source": "checkout",
+  "created_at": {
+    "$date": "2026-04-19T07:02:07.560Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69e4823515686bb028631e9d"
+  },
+  "user_id": "69e47c458d8dbae1c21b1153",
+  "product_name": "Structured Tote Bag",
+  "category": "fashion",
+  "event_type": "cart_add",
+  "source": "cart_add_api",
+  "created_at": {
+    "$date": "2026-04-19T07:20:21.458Z"
+  },
+  "quantity": 1
+},
+{
+  "_id": {
+    "$oid": "69e4824c15686bb028631e9f"
+  },
+  "user_id": "69e47c458d8dbae1c21b1153",
+  "product_name": "Structured Tote Bag",
+  "category": "fashion",
+  "event_type": "purchase",
+  "source": "checkout",
+  "created_at": {
+    "$date": "2026-04-19T07:20:44.639Z"
+  },
+  "quantity": 1
+}]

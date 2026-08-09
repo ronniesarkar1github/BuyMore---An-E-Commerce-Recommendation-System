@@ -1,0 +1,79 @@
+[{
+  "_id": {
+    "$oid": "69e47def8d8dbae1c21b1158"
+  },
+  "user_id": "69e47c458d8dbae1c21b1153",
+  "items": [
+    {
+      "name": "Powder Canister",
+      "price": 1199.2,
+      "quantity": 1,
+      "image": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/1.webp",
+      "category": "beauty"
+    },
+    {
+      "name": "Red Lipstick",
+      "price": 1039.2,
+      "quantity": 1,
+      "image": "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/1.webp",
+      "category": "beauty"
+    },
+    {
+      "name": "Red Nail Polish",
+      "price": 719.2,
+      "quantity": 1,
+      "image": "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/1.webp",
+      "category": "beauty"
+    }
+  ],
+  "shipping": {
+    "fullName": "Ahana Goswami",
+    "phone": "9836515896",
+    "address": "10 B RADHA MADHAB GOSWAMI LANE",
+    "city": "KOLKATA",
+    "state": "West Bengal",
+    "pincode": "700003",
+    "payment": "UPI"
+  },
+  "payment": "UPI",
+  "payment-status": "Paid",
+  "total": 2957.6,
+  "status": "placed",
+  "created_at": {
+    "$date": "2026-04-19T07:02:07.547Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69e4824c15686bb028631e9e"
+  },
+  "user_id": "69e47c458d8dbae1c21b1153",
+  "user_email": "ahana.goswami03@gmail.com",
+  "user_name": "Ahana",
+  "items": [
+    {
+      "name": "Structured Tote Bag",
+      "price": 2599,
+      "quantity": 1,
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=900&q=80",
+      "category": "fashion"
+    }
+  ],
+  "shipping": {
+    "fullName": "Ahana Goswami",
+    "phone": "9836515896",
+    "address": "10 B RADHA MADHAB GOSWAMI LANE",
+    "city": "KOLKATA",
+    "state": "West Bengal",
+    "pincode": "700003",
+    "email": "ahana.goswami03@gmail.com",
+    "payment": "Card"
+  },
+  "payment": "Card",
+  "payment-status": "Paid",
+  "total": 2599,
+  "status": "placed",
+  "created_at": {
+    "$date": "2026-04-19T07:20:44.631Z"
+  }
+}]

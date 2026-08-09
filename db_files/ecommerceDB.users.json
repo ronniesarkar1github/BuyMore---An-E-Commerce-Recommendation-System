@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "69da83442c12889e666eb96d"
+  },
+  "name": "Ahana",
+  "email": "ahana@test.com",
+  "password": {
+    "$binary": {
+      "base64": "JDJiJDEyJFhqdVZ6ZFRnVkFvNlhYT29BRURpdy5IVU12aGRtZlNld2ZJVW0yb29EQy5icTdLNHp5bDJX",
+      "subType": "00"
+    }
+  },
+  "created_at": {
+    "$date": "2026-04-11T17:22:12.183Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69db77e52b00f6b16cf32fc8"
+  },
+  "name": "Test User",
+  "email": "u1@e.com",
+  "password": {
+    "$binary": {
+      "base64": "JDJiJDEyJFlCY05RdlJQbGRFNW0yZi5tcEZGL09vanFiT3VNTncxLnpsR3hxcmkwc0ZRdW9OeW1aZk91",
+      "subType": "00"
+    }
+  },
+  "created_at": {
+    "$date": "2026-04-12T10:45:57.547Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69e47c458d8dbae1c21b1153"
+  },
+  "name": "Ahana",
+  "email": "ahana.goswami03@gmail.com",
+  "password": {
+    "$binary": {
+      "base64": "JDJiJDEyJGlLd0J0QTlPWkl0NnhmZG0yTThpRi54ZzN1QmxHZkFaRUFmS3M4WUtFQmJmSWFDQWtmcEIu",
+      "subType": "00"
+    }
+  },
+  "created_at": {
+    "$date": "2026-04-19T06:55:01.102Z"
+  }
+}]
