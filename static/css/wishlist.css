@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f1f5f9;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #0f172a;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo .ai {
+    color: #38bdf8;
+}
+
+.nav-actions a {
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.nav-actions a.active {
+    color: #38bdf8;
+}
+
+/* PAGE TITLE */
+.page-title {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.page-title h1 {
+    font-size: 28px;
+    color: #0f172a;
+}
+
+/* WISHLIST */
+.wishlist-container {
+    padding: 40px;
+}
+
+.wishlist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+}
+
+/* CARD */
+.wishlist-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.wishlist-card img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+}
+
+.wishlist-card h4 {
+    margin-bottom: 8px;
+    color: #0f172a;
+}
+
+.price {
+    font-weight: bold;
+    color: #16a34a;
+    margin-bottom: 15px;
+}
+
+/* ACTIONS */
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-btn {
+    background: #38bdf8;
+    border: none;
+    padding: 8px 14px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.cart-btn:hover {
+    background: #0ea5e9;
+}
+
+.remove-btn {
+    background: #ef4444;
+    border: none;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background: #dc2626;
+}
+
+/* FOOTER */
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    background: #0f172a;
+    color: white;
+    margin-top: 40px;
+}
