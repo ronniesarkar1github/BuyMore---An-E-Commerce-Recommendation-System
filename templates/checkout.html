@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout | BuyMore</title>
+  <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='images/favicon.svg') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/modern.css') }}">
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <a href="{{ url_for('user.home') }}" class="brand"><span class="brand-mark">B</span>BuyMore</a>
+      <nav class="chip-row top-nav">
+        <a class="chip" href="{{ url_for('user.home') }}"><i class="fa-solid fa-chart-line"></i>Dashboard</a>
+        <div class="nav-dropdown">
+          <button class="chip chip-btn nav-drop-btn" type="button"><i class="fa-solid fa-box-open"></i>Products 
+            <svg class="nav-chevron" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+              <path d="M4.47 6.47a.75.75 0 0 1 1.06 0L8 8.94l2.47-2.47a.75.75 0 1 1 1.06 1.06l-3 3a.75.75 0 0 1-1.06 0l-3-3a.75.75 0 0 1 0-1.06z" fill="currentColor"/>
+            </svg>
+          </button>
+          <div class="nav-drop-menu">
+            <a href="{{ url_for('user.furniture') }}">Furniture</a>
+            <a href="{{ url_for('user.fashion') }}">Fashion</a>
+            <a href="{{ url_for('user.gadgets') }}">Gadgets</a>
+            <a href="{{ url_for('user.homeappliances') }}">Appliances</a>
+            <a href="{{ url_for('user.groceries') }}">Groceries</a>
+          </div>
+        </div>
+        <a class="chip" href="{{ url_for('user.support') }}"><i class="fa-solid fa-headset"></i>Customer Support</a>
+        <a class="chip" href="{{ url_for('user.about') }}"><i class="fa-solid fa-circle-info"></i>About Us</a>
+      </nav>
+      <div class="top-actions">
+        <a class="icon-btn" href="{{ url_for('user.wishlist') }}"><i class="fa-solid fa-heart"></i>Wishlist <span data-wishlist-count>0</span></a>
+        <a class="icon-btn" href="{{ url_for('user.addtocart') }}"><i class="fa-solid fa-cart-shopping"></i>Cart <span data-cart-count>0</span></a>
+        
+        <!-- Guest User - Show Sign Up / Sign In -->
+        <a class="secondary-btn auth-guest" href="{{ url_for('user.signup') }}"><i class="fa-solid fa-user-plus"></i>Sign Up</a>
+        <a class="primary-btn auth-guest" href="{{ url_for('user.signin') }}"><i class="fa-solid fa-right-to-bracket"></i>Sign In</a>
+        
+        <!-- Logged In User - Show User Icon -->
+        <div class="user-menu auth-logged" style="display: none;">
+          <button class="user-avatar-btn" id="userAvatarBtn" title="My Account">
+            <span class="user-avatar" id="userAvatarLetter">U</span>
+          </button>
+          <div class="user-dropdown" id="userDropdown">
+            <div class="user-info">
+              <span class="user-name" id="userNameDisplay">User Name</span>
+              <span class="user-email" id="userEmailDisplay">user@email.com</span>
+            </div>
+            <hr>
+            <a href="{{ url_for('user.account') }}"><i class="fa-solid fa-user"></i> My Account</a>
+            <a href="{{ url_for('user.addtocart') }}"><i class="fa-solid fa-cart-shopping"></i> My Cart</a>
+            <a href="{{ url_for('user.wishlist') }}"><i class="fa-solid fa-heart"></i> My Wishlist</a>
+            <hr>
+            <button class="logout-btn" id="logoutBtn"><i class="fa-solid fa-right-from-bracket"></i> Sign Out</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="page-head">
+        <h1><i class="fa-solid fa-shield-halved"></i> Secure Checkout</h1>
+        <p>Enter shipping details and choose your payment method.</p>
+      </section>
+
+      <div class="simple-grid checkout-layout mt-16">
+        <section class="checkout-form">
+          <article class="surface">
+            <h3 class="mt-0"><i class="fa-solid fa-location-dot"></i> Shipping Address</h3>
+            <div class="field-grid mt-12">
+              <div class="field">
+                <label for="fullName">Full Name</label>
+                <input class="input" id="fullName" type="text" placeholder="Enter full name">
+              </div>
+              <div class="field">
+                <label for="phone">Phone Number</label>
+                <input class="input" id="phone" type="text" maxlength="10" placeholder="Enter 10-digit phone">
+              </div>
+              <div class="field">
+                <label for="address">Address Line</label>
+                <input class="input" id="address" type="text" placeholder="Flat, building, street">
+              </div>
+              <div class="field">
+                <label for="city">City</label>
+                <input class="input" id="city" type="text" placeholder="Enter city">
+              </div>
+              <div class="field">
+                <label for="state">State</label>
+                <input class="input" id="state" type="text" placeholder="Enter state">
+              </div>
+              <div class="field">
+                <label for="pincode">Pincode</label>
+                <input class="input" id="pincode" type="text" maxlength="6" placeholder="Enter pincode">
+              </div>
+            </div>
+          </article>
+
+          <article class="surface">
+            <h3 class="mt-0"><i class="fa-solid fa-wallet"></i> Payment Method</h3>
+            <div class="payment-grid mt-12">
+              <label class="payment-option"><input type="radio" name="payment" value="UPI" checked> <i class="fa-solid fa-mobile-screen"></i> UPI</label>
+              <label class="payment-option"><input type="radio" name="payment" value="Card"> <i class="fa-regular fa-credit-card"></i> Credit / Debit Card</label>
+              <label class="payment-option"><input type="radio" name="payment" value="Net Banking"> <i class="fa-solid fa-building-columns"></i> Net Banking</label>
+              <label class="payment-option"><input type="radio" name="payment" value="Cash on Delivery"> <i class="fa-solid fa-money-bill-wave"></i> Cash on Delivery</label>
+            </div>
+            <div class="payment-note mt-12">
+              <p class="muted">Accepted payment partners</p>
+              <div class="brand-strip">
+                <span class="brand-pill"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/UPI-Logo-vector.svg/512px-UPI-Logo-vector.svg.png" alt="UPI logo"> UPI</span>
+                <span class="brand-pill"><i class="fa-brands fa-google-pay"></i> Google Pay</span>
+                <span class="brand-pill"><i class="fa-brands fa-cc-visa"></i> Visa</span>
+                <span class="brand-pill"><i class="fa-brands fa-cc-mastercard"></i> Mastercard</span>
+                <span class="brand-pill"><i class="fa-brands fa-cc-paypal"></i> PayPal</span>
+              </div>
+              <p class="muted trust-line"><i class="fa-solid fa-shield-halved"></i> SSL secured payments with encrypted checkout.</p>
+            </div>
+          </article>
+        </section>
+
+        <aside class="surface h-max">
+          <h3 class="mt-0"><i class="fa-solid fa-receipt"></i> Order Summary</h3>
+          <div id="checkoutItems" class="stack mt-12"></div>
+          <hr class="summary-divider">
+          <p class="muted">Subtotal</p>
+          <p id="checkoutSubtotal" class="summary-value">INR 0</p>
+          <hr class="summary-divider">
+          <p class="summary-strong">Payable Total</p>
+          <p id="checkoutTotal" class="price summary-value tight">INR 0</p>
+          <button class="primary-btn mt-12" id="placeOrderBtn" type="button"><i class="fa-solid fa-lock"></i>Place Secure Order</button>
+        </aside>
+      </div>
+
+      <section class="recommendation-showcase mt-16">
+        <div class="recommendation-panel">
+          <div class="recommendation-head">
+            <div>
+              <h3>Recommended For Your Checkout</h3>
+              <p class="muted" id="checkoutRecommendationLabel">Loading rating-based picks...</p>
+            </div>
+          </div>
+          <div class="recommendation-grid" id="checkoutRecommendationGrid"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="toast" class="toast"></div>
+  <script src="{{ url_for('static', filename='js/shared.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/checkout.js') }}"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up | BuyMore</title>
+  <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='images/favicon.svg') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/modern.css') }}">
+</head>
+
+<body class="signin-page">
+  <div class="auth-wrap">
+    <section class="auth-card">
+      <a href="{{ url_for('user.home') }}" class="brand"><span class="brand-mark">B</span>BuyMore</a>
+      <h1 class="mt-12">Create Account</h1>
+      <p> Join BuyMore for exclusive deals.</p>
+
+      <form id="signupForm" class="stack mt-16">
+        <div class="field">
+          <label for="name">Full Name</label>
+          <input class="input" id="name" type="text" placeholder="Enter your full name" required>
+        </div>
+
+        <div class="field">
+          <label for="email">Email Address</label>
+          <input class="input" id="email" type="email" placeholder="Enter your email" required>
+        </div>
+
+
+
+        <div class="field">
+          <label for="password">Password</label>
+          <input class="input" id="password" type="password" placeholder="Create a password (min 6 characters)"
+            required>
+        </div>
+
+        <div class="field">
+          <label for="confirmPassword">Confirm Password</label>
+          <input class="input" id="confirmPassword" type="password" placeholder="Confirm your password" required>
+        </div>
+
+        <button class="primary-btn mt-8" type="submit"><i class="fa-solid fa-user-plus"></i> Sign Up</button>
+      </form>
+
+      <p class="mt-12 text-center">
+        Already have an account?
+        <a href="{{ url_for('user.signin') }}" class="link">Sign In</a>
+      </p>
+    </section>
+  </div>
+
+  <div id="toast" class="toast"></div>
+  <script src="{{ url_for('static', filename='js/shared.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/signup.js') }}"></script>
+</body>
+
+</html>

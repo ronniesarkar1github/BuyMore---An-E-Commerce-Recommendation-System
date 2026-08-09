@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In | BuyMore</title>
+  <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='images/favicon.svg') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/modern.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/signin.css') }}">
+</head>
+
+<body class="signin-page">
+  <div class="auth-wrap">
+    <section class="auth-card">
+      <a href="{{ url_for('user.home') }}" class="brand"><span class="brand-mark">B</span>BuyMore</a>
+      <h1 class="mt-12">Welcome Back</h1>
+      <p>Sign in to your account</p>
+
+      <!-- Auth Tabs: Password Login | Forgot Password (OTP) -->
+      <div class="auth-tabs">
+        <button class="tab-btn active" data-tab="password"><i class="fa-solid fa-lock"></i> Password</button>
+        <button class="tab-btn" data-tab="forgot" aq1><i class="fa-solid fa-key"></i> Forget
+          Password</button>
+      </div>
+
+      <!-- Password Login Section -->
+      <div id="passwordSection" class="auth-section active">
+        <form id="passwordLoginForm">
+          <div class="field">
+            <label for="loginEmail" style="margin-top:10px;">Email Address</label>
+            <input class="input" id="loginEmail" type="text" placeholder="Enter Email" required>
+          </div>
+          <div class="field">
+            <label for="loginPassword" style="margin-top:10px;">Password</label>
+            <input class="input" id="loginPassword" type="password" placeholder="Enter password" required>
+          </div>
+          <div class="forgot-link" style="margin-top:10px;">
+            <a href="#" id="forgotPasswordLink">Forget Password ?</a>
+          </div>
+          <button class="primary-btn mt-12" type="submit" style="width:100%"><i
+              class="fa-solid fa-right-to-bracket"></i> Sign In</button>
+        </form>
+      </div>
+
+      <!-- Forgot Password Section (OTP Verification) -->
+      <div id="forgotSection" class="auth-section">
+
+        <div id="forgotEmailWrap">
+          <p class="text-muted mb-12">Enter your email to receive OTP for password reset.</p>
+          <div class="field">
+            <label for="forgotInput">Email</label>
+            <input class="input" id="forgotInput" type="email" placeholder="Enter email">
+          </div>
+          <button class="primary-btn mt-12" id="sendForgotOtp" type="button" style="width:100%"><i
+              class="fa-solid fa-paper-plane"></i> Send OTP</button>
+        </div>
+
+        <div id="forgotOtpVerify" class="hidden mt-12">
+          <div id="forgotOtpWrap">
+            <div class="field">
+              <label for="forgotOtp">Enter OTP</label>
+              <input class="input" id="forgotOtp" type="text" maxlength="6" placeholder="Enter 6-digit OTP">
+            </div>
+            <button class="primary-btn mt-12" id="verifyForgotOtp" type="button" style="width:100%"><i
+                class="fa-solid fa-check-circle"></i> Verify OTP</button>
+            <div class="otp-resend mt-12">
+              Didn't receive OTP? <button id="resendForgotOtp" type="button">Resend OTP</button>
+              <span id="resendTimer"></span>
+            </div>
+          </div>
+
+          <div id="newPasswordSection" class="hidden mt-16">
+            <hr class="my-12">
+            <h3>Set New Password</h3>
+            <div class="field mt-12">
+              <label for="newPassword">New Password</label>
+              <input class="input" id="newPassword" type="password" placeholder="Enter new password">
+            </div>
+            <div class="field">
+              <label for="confirmNewPassword">Confirm Password</label>
+              <input class="input" id="confirmNewPassword" type="password" placeholder="Confirm new password">
+            </div>
+            <button class="primary-btn mt-12" id="resetPassword" type="button" style="width:100%"><i
+                class="fa-solid fa-save"></i> Reset Password</button>
+          </div>
+        </div>
+      </div>
+
+      <p class="mt-12 text-center">
+        Don't have an account?
+        <a href="{{ url_for('user.signup') }}" class="link">Sign Up</a>
+      </p>
+    </section>
+  </div>
+
+  <div id="toast" class="toast"></div>
+  <script src="{{ url_for('static', filename='js/shared.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/signin.js') }}"></script>
+</body>
+
+</html>

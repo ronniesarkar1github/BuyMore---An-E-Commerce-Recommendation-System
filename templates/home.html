@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BuyMore | Modern Ecommerce</title>
+  <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='images/favicon.svg') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/modern.css') }}">
+</head>
+
+<body class="home-page">
+  <div class="page">
+    <header class="topbar">
+      <a href="{{ url_for('user.home') }}" class="brand"><span class="brand-mark">B</span>BuyMore</a>
+      <nav class="chip-row top-nav">
+        <a class="chip active" href="{{ url_for('user.home') }}"><i class="fa-solid fa-chart-line"></i>Dashboard</a>
+        <div class="nav-dropdown">
+          <button class="chip chip-btn nav-drop-btn" type="button"><i class="fa-solid fa-box-open"></i>Products
+            <svg class="nav-chevron" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+              <path
+                d="M4.47 6.47a.75.75 0 0 1 1.06 0L8 8.94l2.47-2.47a.75.75 0 1 1 1.06 1.06l-3 3a.75.75 0 0 1-1.06 0l-3-3a.75.75 0 0 1 0-1.06z"
+                fill="currentColor" />
+            </svg>
+          </button>
+          <div class="nav-drop-menu">
+            <a href="{{ url_for('user.furniture') }}">Furniture</a>
+            <a href="{{ url_for('user.fashion') }}">Fashion</a>
+            <a href="{{ url_for('user.gadgets') }}">Gadgets</a>
+            <a href="{{ url_for('user.homeappliances') }}">Appliances</a>
+            <a href="{{ url_for('user.groceries') }}">Groceries</a>
+          </div>
+        </div>
+        <a class="chip" href="{{ url_for('user.support') }}"><i class="fa-solid fa-headset"></i>Customer Support</a>
+        <a class="chip" href="{{ url_for('user.about') }}"><i class="fa-solid fa-circle-info"></i>About Us</a>
+      </nav>
+      <div class="top-actions">
+        <a class="icon-btn" href="{{ url_for('user.wishlist') }}"><i class="fa-solid fa-heart"></i>Wishlist <span
+            data-wishlist-count>0</span></a>
+        <a class="icon-btn" href="{{ url_for('user.addtocart') }}"><i class="fa-solid fa-cart-shopping"></i>Cart <span
+            data-cart-count>0</span></a>
+
+        <!-- Guest User - Show Sign Up / Sign In -->
+        <a class="secondary-btn auth-guest" href="{{ url_for('user.signup') }}"><i
+            class="fa-solid fa-user-plus"></i>Sign Up</a>
+        <a class="primary-btn auth-guest" href="{{ url_for('user.signin') }}"><i
+            class="fa-solid fa-right-to-bracket"></i>Sign In</a>
+
+        <!-- Logged In User - Show User Icon -->
+        <div class="user-menu auth-logged" style="display: none;">
+          <button class="user-avatar-btn" id="userAvatarBtn" title="My Account">
+            <span class="user-avatar" id="userAvatarLetter">U</span>
+          </button>
+          <div class="user-dropdown" id="userDropdown">
+            <div class="user-info">
+              <span class="user-name" id="userNameDisplay">User Name</span>
+              <span class="user-email" id="userEmailDisplay">user@email.com</span>
+            </div>
+            <hr>
+            <a href="{{ url_for('user.account') }}"><i class="fa-solid fa-user"></i> My Account</a>
+            <a href="{{ url_for('user.addtocart') }}"><i class="fa-solid fa-cart-shopping"></i> My Cart</a>
+            <a href="{{ url_for('user.wishlist') }}"><i class="fa-solid fa-heart"></i> My Wishlist</a>
+            <hr>
+            <button class="logout-btn" id="logoutBtn"><i class="fa-solid fa-right-from-bracket"></i> Sign Out</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="side-group">
+          <p class="side-label">Collections</p>
+          <a class="side-link active" href="{{ url_for('user.home') }}"><i class="fa-solid fa-compass"></i>Explore
+            New</a>
+          <a class="side-link" href="{{ url_for('user.furniture') }}"><i class="fa-solid fa-couch"></i>Furniture</a>
+          <a class="side-link" href="{{ url_for('user.gadgets') }}"><i class="fa-solid fa-mobile-screen"></i>Gadgets</a>
+          <a class="side-link" href="{{ url_for('user.fashion') }}"><i class="fa-solid fa-shirt"></i>Fashion</a>
+          <a class="side-link" href="{{ url_for('user.homeappliances') }}"><i class="fa-solid fa-kitchen-set"></i>Appliances</a>
+          <a class="side-link" href="{{ url_for('user.groceries') }}"><i class="fa-solid fa-basket-shopping"></i>Groceries</a>
+        </div>
+        <div class="side-group">
+          <p class="side-label">Account</p>
+          <a class="side-link" href="{{ url_for('user.account') }}"><i class="fa-solid fa-user"></i>My Account</a>
+          <a class="side-link" href="{{ url_for('user.addtocart') }}"><i class="fa-solid fa-cart-shopping"></i>My
+            Cart</a>
+          <a class="side-link" href="{{ url_for('user.wishlist') }}"><i class="fa-solid fa-heart"></i>My Wishlist</a>
+        </div>
+      </aside>
+
+      <main class="content">
+        <section class="page-head">
+          <h1><i class="fa-solid fa-store" style="margin-right: 10px;"></i> Explore Modern Shopping</h1>
+          <p>Discover curated products with a clean business-ready storefront experience.</p>
+        </section>
+
+        <section class="hero-grid">
+          <article class="promo-card promo-mint">
+            <div>
+              <h2>Up to 50% Off</h2>
+              <p>Seasonal picks with premium quality and fast delivery.</p>
+            </div>
+            <a class="primary-btn" href="#productGrid"><i class="fa-solid fa-tags"></i>Shop Now</a>
+          </article>
+          <article class="promo-card promo-sand">
+            <div>
+              <h3>300+ Products</h3>
+              <p>Expanded business-ready catalog across major shopping categories.</p>
+            </div>
+          </article>
+          <article class="promo-card promo-lime">
+            <div>
+              <h3>Fast Discovery</h3>
+              <p>Search, filter, compare, and explore recommendations in one place.</p>
+            </div>
+          </article>
+        </section>
+
+        <section class="recommendation-showcase">
+          <div class="surface home-image-slider" id="homeImageSlider">
+            <div class="home-image-slider-window">
+              <div class="home-image-slider-track" id="homeSliderTrack"></div>
+            </div>
+            <div class="home-image-slider-dots" id="homeSliderDots"></div>
+          </div>
+        </section>
+
+        <section class="card-grid compact-grid" id="storeStats">
+          <article class="surface stat-card">
+            <p class="muted">Products</p>
+            <h3 id="statProducts">0</h3>
+          </article>
+          <article class="surface stat-card">
+            <p class="muted">Categories</p>
+            <h3 id="statCategories">0</h3>
+          </article>
+          <article class="surface stat-card">
+            <p class="muted">Top Rating</p>
+            <h3 id="statTopRating">0.0</h3>
+          </article>
+          <article class="surface stat-card">
+            <p class="muted">Avg Price</p>
+            <h3 id="statAvgPrice">INR 0</h3>
+          </article>
+        </section>
+
+        <section class="section-row">
+          <div class="filter-row">
+            <select class="select" id="categoryFilter">
+              <option value="all">All Categories</option>
+              <option value="electronics">Electronics</option>
+              <option value="fashion">Fashion</option>
+              <option value="furniture">Furniture</option>
+              <option value="gadgets">Gadgets</option>
+              <option value="homeappliances">Appliances</option>
+            </select>
+            <select class="select" id="minRating">
+              <option value="0">All Ratings</option>
+              <option value="4">4 and above</option>
+              <option value="3">3 and above</option>
+            </select>
+            <select class="select" id="sortBy">
+              <option value="featured">Category Rating Order</option>
+              <option value="price-low">Price Low to High</option>
+              <option value="price-high">Price High to Low</option>
+              <option value="rating">Top Rated</option>
+            </select>
+          </div>
+          <div class="filter-row">
+            <label class="muted" for="maxPrice">Max Price: <strong id="maxPriceValue">INR 40,000</strong></label>
+            <input id="maxPrice" type="range" min="1000" max="70000" value="70000">
+          </div>
+        </section>
+
+
+
+        <section class="section-row">
+          <div>
+            <h2 class="heading-tight">Featured Products</h2>
+            <p class="muted" id="featuredLabel">Handpicked products from across the store.</p>
+          </div>
+        </section>
+        <section class="card-grid" id="productGrid">
+        </section>
+
+        <section class="recommendation-showcase">
+          <div class="section-row">
+            <div>
+              <h2 class="heading-tight">Recommended For You</h2>
+              <p class="muted" id="recommendationLabel">Fresh suggestions are on the way.</p>
+            </div>
+          </div>
+          <div class="recommendation-grid" id="recommendationGrid"></div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <!-- Floating Today's Deals Button -->
+  <button class="floating-deal-btn" id="openDealsBtn">
+    <i class="fa-solid fa-bolt"></i> Today's Deals
+  </button>
+
+  <!-- Today's Deals Modal -->
+  <div class="deal-modal-overlay" id="dealsModal">
+    <div class="deal-modal-content">
+      <button class="deal-modal-close" id="closeDealsBtn"><i class="fa-solid fa-xmark"></i></button>
+      <div class="deal-modal-header">
+        <h2 class="heading-tight">⚡ Flash Deals ⚡</h2>
+        <p class="muted" id="dealsLabel">Fresh daily offers are loading.</p>
+      </div>
+      <section class="card-grid" id="dealsGrid"></section>
+    </div>
+  </div>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="{{ url_for('static', filename='js/shared.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/home.js') }}"></script>
+</body>
+
+</html>

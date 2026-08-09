@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electronics | BuyMore</title>
+  <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='images/favicon.svg') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/modern.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <a href="{{ url_for('user.home') }}" class="brand"><span class="brand-mark">B</span>BuyMore</a>
+      <nav class="chip-row top-nav">
+        <a class="chip" href="{{ url_for('user.home') }}"><i class="fa-solid fa-chart-line"></i>Dashboard</a>
+        <div class="nav-dropdown">
+          <button class="chip chip-btn nav-drop-btn active" type="button"><i class="fa-solid fa-box-open"></i>Products 
+            <svg class="nav-chevron" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+              <path d="M4.47 6.47a.75.75 0 0 1 1.06 0L8 8.94l2.47-2.47a.75.75 0 1 1 1.06 1.06l-3 3a.75.75 0 0 1-1.06 0l-3-3a.75.75 0 0 1 0-1.06z" fill="currentColor"/>
+            </svg>
+          </button>
+          <div class="nav-drop-menu">
+            <a href="{{ url_for('user.furniture') }}">Furniture</a>
+            <a href="{{ url_for('user.fashion') }}">Fashion</a>
+            <a href="{{ url_for('user.gadgets') }}">Gadgets</a>
+            <a href="{{ url_for('user.homeappliances') }}">Appliances</a>
+            <a href="{{ url_for('user.groceries') }}">Groceries</a>
+          </div>
+        </div>
+        <a class="chip" href="{{ url_for('user.support') }}"><i class="fa-solid fa-headset"></i>Customer Support</a>
+        <a class="chip" href="{{ url_for('user.about') }}"><i class="fa-solid fa-circle-info"></i>About Us</a>
+      </nav>
+      <div class="top-actions">
+        <a class="icon-btn" href="{{ url_for('user.wishlist') }}"><i class="fa-solid fa-heart"></i>Wishlist <span data-wishlist-count>0</span></a>
+        <a class="icon-btn" href="{{ url_for('user.addtocart') }}"><i class="fa-solid fa-cart-shopping"></i>Cart <span data-cart-count>0</span></a>
+        
+        <!-- Guest User - Show Sign Up / Sign In -->
+        <a class="secondary-btn auth-guest" href="{{ url_for('user.signup') }}"><i class="fa-solid fa-user-plus"></i>Sign Up</a>
+        <a class="primary-btn auth-guest" href="{{ url_for('user.signin') }}"><i class="fa-solid fa-right-to-bracket"></i>Sign In</a>
+        
+        <!-- Logged In User - Show User Icon -->
+        <div class="user-menu auth-logged" style="display: none;">
+          <button class="user-avatar-btn" id="userAvatarBtn" title="My Account">
+            <span class="user-avatar" id="userAvatarLetter">U</span>
+          </button>
+          <div class="user-dropdown" id="userDropdown">
+            <div class="user-info">
+              <span class="user-name" id="userNameDisplay">User Name</span>
+              <span class="user-email" id="userEmailDisplay">user@email.com</span>
+            </div>
+            <hr>
+            <a href="{{ url_for('user.account') }}"><i class="fa-solid fa-user"></i> My Account</a>
+            <a href="{{ url_for('user.addtocart') }}"><i class="fa-solid fa-cart-shopping"></i> My Cart</a>
+            <a href="{{ url_for('user.wishlist') }}"><i class="fa-solid fa-heart"></i> My Wishlist</a>
+            <hr>
+            <button class="logout-btn" id="logoutBtn"><i class="fa-solid fa-right-from-bracket"></i> Sign Out</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="page-head">
+        <h1>Electronics</h1>
+        <p>Reliable devices for modern households.</p>
+      </section>
+
+      <section class="card-grid" id="productGrid">
+        <!-- Products will be loaded dynamically from API -->
+      </section>
+    </main>
+  </div>
+
+  <div id="toast" class="toast"></div>
+  <script src="{{ url_for('static', filename='js/shared.js') }}"></script>
+  <script>
+    // Load electronics products from API
+    document.addEventListener("DOMContentLoaded", function() {
+      fetch("/api/products?category=electronics")
+        .then(function(res) { return res.json(); })
+        .then(function(data) {
+          var grid = document.getElementById("productGrid");
+          if (data.success && data.products.length > 0) {
+            grid.innerHTML = data.products.map(function(p) {
+              var isOOS = (p.stock !== undefined && p.stock !== null && Number(p.stock) <= 0);
+              var oosClass = isOOS ? ' out-of-stock' : '';
+              var oosBadge = isOOS ? '<span class="out-of-stock-badge">Out of Stock</span>' : '';
+              return '<article class="product-card' + oosClass + '" data-product-card data-name="' + p.name + '" data-price="' + p.price + '" data-category="' + p.category + '" data-stock="' + (p.stock !== undefined ? p.stock : -1) + '">' +
+                '<div class="product-image">' + oosBadge + '<img src="' + p.image + '" alt="' + p.name + '"></div>' +
+                '<strong>' + p.name + '</strong>' +
+                '<div class="product-meta"><span class="price">INR ' + Number(p.price).toLocaleString() + '</span><span class="muted">' + ((Number(p.review_count || 0) === 0) ? "0" : (p.rating !== undefined && p.rating !== null ? p.rating : "0.0")) + ' stars</span></div>' +
+                '<div class="controls"><button class="primary-btn" data-add-cart data-name="' + p.name + '" data-price="' + p.price + '" data-image="' + p.image + '">Add to Cart</button><button class="secondary-btn" data-add-wishlist data-name="' + p.name + '" data-price="' + p.price + '" data-image="' + p.image + '">Save</button></div>' +
+                '</article>';
+            }).join("");
+            
+            // Rebind buttons
+            if (window.shopShared) {
+              window.shopShared.bindAddToCartButtons();
+              window.shopShared.bindAddToWishlistButtons();
+              window.shopShared.bindProductCards();
+            }
+          } else {
+            grid.innerHTML = '<div class="surface empty">No electronics products found.</div>';
+          }
+        })
+        .catch(function(err) {
+          console.error("Failed to load products:", err);
+        });
+        
+      // Search functionality
+      var search = document.getElementById("searchBox");
+      if (search) {
+        search.addEventListener("input", function() {
+          var query = search.value.trim().toLowerCase();
+          var cards = document.querySelectorAll("#productGrid .product-card");
+          cards.forEach(function(card) {
+            var name = (card.dataset.name || "").toLowerCase();
+            card.style.display = name.includes(query) ? "block" : "none";
+          });
+        });
+      }
+    });
+  </script>
+</body>
+</html>
+
+

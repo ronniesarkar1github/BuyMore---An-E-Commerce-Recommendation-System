@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Products | BuyMore</title>
+  <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='images/favicon.svg') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/modern.css') }}">
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <a href="{{ url_for('user.home') }}" class="brand"><span class="brand-mark">B</span>BuyMore</a>
+      <nav class="chip-row top-nav">
+        <a class="chip" href="{{ url_for('user.home') }}"><i class="fa-solid fa-chart-line"></i>Dashboard</a>
+        <div class="nav-dropdown">
+          <button class="chip chip-btn nav-drop-btn" type="button"><i class="fa-solid fa-box-open"></i>Products 
+            <svg class="nav-chevron" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+              <path d="M4.47 6.47a.75.75 0 0 1 1.06 0L8 8.94l2.47-2.47a.75.75 0 1 1 1.06 1.06l-3 3a.75.75 0 0 1-1.06 0l-3-3a.75.75 0 0 1 0-1.06z" fill="currentColor"/>
+            </svg>
+          </button>
+          <div class="nav-drop-menu">
+            <a href="{{ url_for('user.furniture') }}">Furniture</a>
+            <a href="{{ url_for('user.fashion') }}">Fashion</a>
+            <a href="{{ url_for('user.gadgets') }}">Gadgets</a>
+            <a href="{{ url_for('user.homeappliances') }}">Appliances</a>
+            <a href="{{ url_for('user.groceries') }}">Groceries</a>
+          </div>
+        </div>
+        <a class="chip" href="{{ url_for('user.support') }}"><i class="fa-solid fa-headset"></i>Customer Support</a>
+        <a class="chip" href="{{ url_for('user.about') }}"><i class="fa-solid fa-circle-info"></i>About Us</a>
+      </nav>
+      <div class="top-actions">
+        <a class="icon-btn" href="{{ url_for('user.wishlist') }}"><i class="fa-solid fa-heart"></i>Wishlist <span data-wishlist-count>0</span></a>
+        <a class="icon-btn" href="{{ url_for('user.addtocart') }}"><i class="fa-solid fa-cart-shopping"></i>Cart <span data-cart-count>0</span></a>
+        
+        <!-- Guest User - Show Sign Up / Sign In -->
+        <a class="secondary-btn auth-guest" href="{{ url_for('user.signup') }}"><i class="fa-solid fa-user-plus"></i>Sign Up</a>
+        <a class="primary-btn auth-guest" href="{{ url_for('user.signin') }}"><i class="fa-solid fa-right-to-bracket"></i>Sign In</a>
+        
+        <!-- Logged In User - Show User Icon -->
+        <div class="user-menu auth-logged" style="display: none;">
+          <button class="user-avatar-btn" id="userAvatarBtn" title="My Account">
+            <span class="user-avatar" id="userAvatarLetter">U</span>
+          </button>
+          <div class="user-dropdown" id="userDropdown">
+            <div class="user-info">
+              <span class="user-name" id="userNameDisplay">User Name</span>
+              <span class="user-email" id="userEmailDisplay">user@email.com</span>
+            </div>
+            <hr>
+            <a href="{{ url_for('user.account') }}"><i class="fa-solid fa-user"></i> My Account</a>
+            <a href="{{ url_for('user.addtocart') }}"><i class="fa-solid fa-cart-shopping"></i> My Cart</a>
+            <a href="{{ url_for('user.wishlist') }}"><i class="fa-solid fa-heart"></i> My Wishlist</a>
+            <hr>
+            <button class="logout-btn" id="logoutBtn"><i class="fa-solid fa-right-from-bracket"></i> Sign Out</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="page-head">
+        <h1><i class="fa-solid fa-magnifying-glass"></i> Product Search</h1>
+        <p id="searchSummary">Search the full catalog and discover related recommendations.</p>
+      </section>
+
+      <section class="surface search-query-panel">
+        <form id="searchPageForm" class="search-page-form">
+          <input class="input search-page-input" id="searchPageInput" type="search" placeholder="Search by product name or category">
+          <button class="primary-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i>Search</button>
+        </form>
+      </section>
+
+      <section class="surface search-query-panel">
+        <form id="searchFilterForm" class="search-page-form">
+          <select class="input" id="searchCategoryFilter">
+            <option value="all">All categories</option>
+            <option value="electronics">Electronics</option>
+            <option value="fashion">Fashion</option>
+            <option value="furniture">Furniture</option>
+            <option value="gadgets">Gadgets</option>
+            <option value="homeappliances">Home Appliances</option>
+          </select>
+          <input class="input" id="searchMinRatingFilter" type="number" min="0" max="5" step="0.1" placeholder="Min rating">
+          <input class="input" id="searchMinReviewsFilter" type="number" min="0" step="1" placeholder="Min reviews">
+          <input class="input" id="searchMaxPriceFilter" type="number" min="0" step="1" placeholder="Max price">
+          <select class="input" id="searchSortFilter">
+            <option value="relevance">Best match</option>
+            <option value="popularity_desc">Most popular</option>
+            <option value="rating_desc">Highest rated</option>
+            <option value="reviews_desc">Most reviewed</option>
+            <option value="price_asc">Price: Low to High</option>
+            <option value="price_desc">Price: High to Low</option>
+          </select>
+          <button class="secondary-btn" type="submit"><i class="fa-solid fa-filter"></i>Apply Filters</button>
+        </form>
+      </section>
+
+      <section class="recommendation-showcase">
+        <div class="section-row">
+          <div>
+            <h2 class="heading-tight">Search Results</h2>
+            <p class="muted" id="searchCountLabel">Looking for products...</p>
+          </div>
+        </div>
+        <div class="card-grid" id="searchResultsGrid"></div>
+      </section>
+
+      <section class="recommendation-showcase">
+        <div class="section-row">
+          <div>
+            <h2 class="heading-tight">Recommended Next</h2>
+            <p class="muted" id="searchRecommendationLabel">Recommendations based on your search and activity.</p>
+          </div>
+        </div>
+        <div class="recommendation-grid" id="searchRecommendationGrid"></div>
+      </section>
+    </main>
+  </div>
+
+  <div id="toast" class="toast"></div>
+  <script src="{{ url_for('static', filename='js/shared.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/search.js') }}"></script>
+</body>
+</html>
+
+
