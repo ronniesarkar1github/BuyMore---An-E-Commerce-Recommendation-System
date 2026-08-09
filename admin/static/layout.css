@@ -1,1 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
 
+:root {
+    --ink: #0f172a;
+    --muted: #4b5563;
+    --panel: #ffffff;
+    --accent: #0f766e;
+    --accent-strong: #115e59;
+    --sunset: #fbbf24;
+}
+
+body { 
+    font-family: 'Manrope', sans-serif;
+    color: var(--ink);
+    background:
+        radial-gradient(circle at top left, rgba(251, 191, 36, 0.08), transparent 30%),
+        radial-gradient(circle at top right, rgba(15, 118, 110, 0.06), transparent 28%),
+        linear-gradient(180deg, #fffef8 0%, #f7fcfb 52%, #f8fafc 100%);
+}
+
+.admin-sidebar {
+    background: rgba(15, 23, 42, 0.98);
+    backdrop-filter: blur(10px);
+}
+
+.nav-link.active {
+    background: var(--accent);
+    color: white;
+    box-shadow: 0 4px 12px rgba(15, 118, 110, 0.2);
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(148, 163, 184, 0.1);
+    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.04);
+}

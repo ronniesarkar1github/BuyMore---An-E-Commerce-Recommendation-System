@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+body { 
+    font-family: 'Manrope', sans-serif; 
+    background:
+        linear-gradient(110deg, rgba(15, 23, 42, 0.85), rgba(15, 118, 110, 0.7)),
+        url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2000&q=80") center center / cover no-repeat fixed;
+}
+
+.auth-card {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(148, 163, 184, 0.1);
+    box-shadow: 0 32px 64px -12px rgba(15, 23, 42, 0.12);
+}
+
+.input-pill {
+    border-radius: 999px;
+    background: rgba(148, 163, 184, 0.04);
+    border: 1px solid rgba(148, 163, 184, 0.15);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-pill:focus {
+    background: #ffffff;
+    border-color: #0f766e;
+    box-shadow: 0 0 0 4px rgba(15, 118, 110, 0.1);
+}
+
+.primary-pill {
+    border-radius: 999px;
+    background: #0f172a;
+    transition: all 0.2s;
+}
+
+.primary-pill:hover {
+    background: #1e293b;
+    transform: translateY(-1px);
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.2);
+}
+
+.primary-pill:active { transform: translateY(0); }
