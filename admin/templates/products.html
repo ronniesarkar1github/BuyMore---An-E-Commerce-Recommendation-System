@@ -1,0 +1,88 @@
+{% extends "layout.html" %}
+
+{% block title %}Products{% endblock %}
+{% block header_title %}Catalog Inventory{% endblock %}
+
+{% block content %}
+<div class="glass-card rounded-[2.5rem] overflow-hidden">
+    <div class="px-10 py-8 border-b border-gray-50 flex items-center justify-between bg-white/40">
+        <div>
+            <h4 class="text-lg font-black text-[#0f172a] tracking-tight">Active Stock</h4>
+            <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mt-1">Total SKU Management</p>
+        </div>
+        <button onclick="openModal()" class="px-8 py-3 bg-[#0f766e] text-white text-[11px] font-extrabold uppercase tracking-[0.15em] rounded-full hover:bg-[#115e59] transition-all transform hover:-translate-y-0.5 shadow-lg shadow-teal-700/20 active:scale-95">
+            + Provision Product
+        </button>
+    </div>
+    <div class="overflow-x-auto">
+        <table class="w-full text-left">
+            <thead>
+                <tr class="bg-gray-50/50 text-gray-400 text-[10px] font-black uppercase tracking-[0.2em] border-b border-gray-100">
+                    <th class="px-10 py-5">Product Identity</th>
+                    <th class="px-10 py-5">Classification</th>
+                    <th class="px-10 py-5 text-right">Valuation</th>
+                    <th class="px-10 py-5 text-right">Units</th>
+                    <th class="px-10 py-5 text-center">Controls</th>
+                </tr>
+            </thead>
+            <tbody id="product-list" class="divide-y divide-gray-50">
+                <!-- Data injected via JS -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="product-modal" class="hidden fixed inset-0 bg-[#0f172a]/40 backdrop-blur-md flex items-center justify-center p-6 z-50">
+    <div class="glass-card w-full max-w-2xl rounded-[3rem] p-12 overflow-y-auto max-h-[90vh]">
+        <div class="flex justify-between items-center mb-10">
+            <h3 class="text-3xl font-black text-[#0f172a] tracking-tight" id="modal-title">Provision Product</h3>
+            <button onclick="closeModal()" class="text-gray-400 hover:text-gray-600 transition-colors"><i class="fas fa-times text-xl"></i></button>
+        </div>
+        
+        <form id="productForm" class="space-y-8">
+            <input type="hidden" id="edit-id">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="space-y-2">
+                    <label class="block text-[10px] font-extrabold text-gray-400 uppercase tracking-widest ml-4">Label</label>
+                    <input type="text" id="name" required class="w-full px-6 py-4 rounded-full bg-gray-50 border border-gray-100 focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-500 font-semibold text-sm transition-all">
+                </div>
+                <div class="space-y-2">
+                    <label class="block text-[10px] font-extrabold text-gray-400 uppercase tracking-widest ml-4">Category</label>
+                    <select id="category" class="w-full px-6 py-4 rounded-full bg-gray-50 border border-gray-100 focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-500 font-semibold text-sm transition-all appearance-none cursor-pointer">
+                        <option value="electronics">Electronics</option>
+                        <option value="fashion">Fashion</option>
+                        <option value="furniture">Furniture</option>
+                        <option value="gadgets">Gadgets</option>
+                        <option value="homeappliances">Home Appliances</option>
+                    </select>
+                </div>
+                <div class="space-y-2">
+                    <label class="block text-[10px] font-extrabold text-gray-400 uppercase tracking-widest ml-4">Price (INR)</label>
+                    <input type="number" step="0.01" id="price" required class="w-full px-6 py-4 rounded-full bg-gray-50 border border-gray-100 focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-500 font-semibold text-sm transition-all">
+                </div>
+                <div class="space-y-2">
+                    <label class="block text-[10px] font-extrabold text-gray-400 uppercase tracking-widest ml-4">Stock Level</label>
+                    <input type="number" id="stock" required class="w-full px-6 py-4 rounded-full bg-gray-50 border border-gray-100 focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-500 font-semibold text-sm transition-all">
+                </div>
+            </div>
+            <div class="space-y-2">
+                <label class="block text-[10px] font-extrabold text-gray-400 uppercase tracking-widest ml-4">Description</label>
+                <textarea id="description" rows="3" required class="w-full px-6 py-5 rounded-[2rem] bg-gray-50 border border-gray-100 focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-500 font-semibold text-sm transition-all"></textarea>
+            </div>
+            <div class="space-y-2">
+                <label class="block text-[10px] font-extrabold text-gray-400 uppercase tracking-widest ml-4">Asset URL (Image)</label>
+                <input type="text" id="image" class="w-full px-6 py-4 rounded-full bg-gray-50 border border-gray-100 focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-500 font-semibold text-sm transition-all">
+            </div>
+            <div class="flex justify-end pt-10">
+                <button type="submit" class="px-12 py-4 bg-[#0f172a] text-white text-[11px] font-extrabold uppercase tracking-widest rounded-full hover:bg-black transition-all transform hover:-translate-y-0.5 shadow-xl shadow-gray-900/10">
+                    Commit Changes
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="{{ url_for('admin.static', filename='js/products.js') }}"></script>
+{% endblock %}
+

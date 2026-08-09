@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuyMore Admin - {% block title %}{% endblock %}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='images/favicon.svg') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('admin.static', filename='css/layout.css') }}">
+</head>
+<body class="flex h-screen overflow-hidden">
+
+    <!-- Sidebar -->
+    <aside class="w-72 admin-sidebar text-white shadow-2xl flex-shrink-0 flex flex-col z-20">
+        <div class="h-24 flex items-center px-8">
+            <div class="flex flex-col">
+                <a href="/" class="text-2xl font-extrabold tracking-tight text-white">BuyMore</a>
+                <span class="text-[10px] uppercase tracking-[0.3em] font-bold text-teal-400 mt-1">Management Hub</span>
+            </div>
+        </div>
+        
+        <nav class="flex-1 px-4 py-8 space-y-2">
+            <a href="{{ url_for('admin.dashboard') }}" class="nav-link flex items-center px-5 py-3.5 text-gray-400 hover:text-white rounded-xl transition-all group {% if request.endpoint == 'admin.dashboard' %}active{% endif %}">
+                <i class="fas fa-th-large w-6 mr-3 text-lg opacity-60 group-hover:opacity-100 transition-opacity"></i>
+                <span class="font-semibold tracking-wide">Overview</span>
+            </a>
+            <a href="{{ url_for('admin.products') }}" class="nav-link flex items-center px-5 py-3.5 text-gray-400 hover:text-white rounded-xl transition-all group {% if request.endpoint == 'admin.products' %}active{% endif %}">
+                <i class="fas fa-box-open w-6 mr-3 text-lg opacity-60 group-hover:opacity-100 transition-opacity"></i>
+                <span class="font-semibold tracking-wide">Products</span>
+            </a>
+            <a href="{{ url_for('admin.orders') }}" class="nav-link flex items-center px-5 py-3.5 text-gray-400 hover:text-white rounded-xl transition-all group {% if request.endpoint == 'admin.orders' %}active{% endif %}">
+                <i class="fas fa-receipt w-6 mr-3 text-lg opacity-60 group-hover:opacity-100 transition-opacity"></i>
+                <span class="font-semibold tracking-wide">Orders</span>
+            </a>
+            <a href="{{ url_for('admin.payments') }}" class="nav-link flex items-center px-5 py-3.5 text-gray-400 hover:text-white rounded-xl transition-all group {% if request.endpoint == 'admin.payments' %}active{% endif %}">
+                <i class="fas fa-credit-card w-6 mr-3 text-lg opacity-60 group-hover:opacity-100 transition-opacity"></i>
+                <span class="font-semibold tracking-wide">Payments</span>
+            </a>
+            <a href="{{ url_for('admin.queries') }}" class="nav-link flex items-center px-5 py-3.5 text-gray-400 hover:text-white rounded-xl transition-all group {% if request.endpoint == 'admin.queries' %}active{% endif %}">
+                <i class="fas fa-comment-dots w-6 mr-3 text-lg opacity-60 group-hover:opacity-100 transition-opacity"></i>
+                <span class="font-semibold tracking-wide">Queries</span>
+            </a>
+        </nav>
+
+        <div class="p-6 border-t border-white/5 bg-black/20">
+            <div class="flex items-center mb-6 px-2">
+                <div class="w-10 h-10 rounded-full bg-teal-500/20 text-teal-400 flex items-center justify-center font-bold border border-teal-500/30">A</div>
+                <div class="ml-3 overflow-hidden">
+                    <p class="text-xs font-bold text-white truncate">{{ session.get('admin_email', 'Administrator') }}</p>
+                    <p class="text-[9px] text-gray-500 uppercase tracking-widest mt-0.5">Verified Session</p>
+                </div>
+            </div>
+            <a href="{{ url_for('admin.logout') }}" class="flex items-center px-4 py-2.5 text-red-400/80 hover:text-red-400 hover:bg-red-500/10 rounded-full transition-all text-xs font-bold group">
+                <i class="fas fa-power-off mr-3 transition-transform group-hover:rotate-12"></i>
+                <span>Secure Sign Out</span>
+            </a>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="flex-1 flex flex-col overflow-hidden relative">
+        <!-- Topbar -->
+        <header class="h-20 bg-white/60 backdrop-blur-md border-b border-gray-100 flex items-center justify-between px-10 relative z-10">
+            <div class="flex flex-col">
+                <h2 class="text-xl font-extrabold text-[#0f172a] tracking-tight">{% block header_title %}{% endblock %}</h2>
+                <div class="flex items-center mt-1 space-x-2">
+                    <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+                    <p class="text-[10px] text-gray-500 font-bold uppercase tracking-widest">System Operational</p>
+                </div>
+            </div>
+            
+            <div class="flex items-center space-x-4">
+                <div class="px-4 py-1.5 bg-amber-50 rounded-full border border-amber-200">
+                    <p class="text-[10px] font-bold text-amber-700 tracking-wider">Live Environment</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Content Area -->
+        <main class="flex-1 overflow-y-auto p-10 relative">
+            <div class="max-w-7xl mx-auto">
+                {% block content %}{% endblock %}
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
+

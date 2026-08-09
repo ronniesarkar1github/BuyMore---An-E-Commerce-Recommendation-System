@@ -1,0 +1,94 @@
+{% extends "layout.html" %}
+
+{% block title %}Orders{% endblock %}
+{% block header_title %}Transaction Ledger{% endblock %}
+
+{% block content %}
+<div class="glass-card rounded-[2.5rem] overflow-hidden">
+    <div class="px-10 py-8 border-b border-gray-50 flex items-center justify-between bg-white/40">
+        <div>
+            <h4 class="text-lg font-black text-[#0f172a] tracking-tight">Recent Fulfillment</h4>
+            <div class="flex items-center space-x-3 mt-1">
+                <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Marketplace Throughput</p>
+                <span id="sync-badge" class="px-2 py-0.5 bg-gray-100 text-[8px] font-black text-gray-500 rounded-full uppercase tracking-tighter transition-all">Sync: ---</span>
+            </div>
+        </div>
+        <button onclick="loadOrders(true)" class="flex items-center px-4 py-2 bg-[#0f172a] text-white rounded-full text-[10px] font-bold uppercase tracking-widest hover:bg-black transition-all shadow-lg shadow-gray-900/10 group">
+            <i class="fas fa-sync-alt mr-2 group-active:rotate-180 transition-transform duration-500"></i>
+            Force Sync
+        </button>
+    </div>
+    <div class="overflow-x-auto">
+        <table class="w-full text-left">
+            <thead>
+                <tr class="bg-gray-50/50 text-gray-400 text-[10px] font-black uppercase tracking-[0.2em] border-b border-gray-100">
+                    <th class="px-10 py-5">Order Reference</th>
+                    <th class="px-10 py-5">Customer Profile</th>
+                    <th class="px-10 py-5">Volume</th>
+                    <th class="px-10 py-5">Fulfillment Status</th>
+                    <th class="px-10 py-5 text-right">Settlement</th>
+                    <th class="px-10 py-5 text-center">Audit</th>
+                </tr>
+            </thead>
+            <tbody id="order-list" class="divide-y divide-gray-50">
+                <!-- Data injected via JS -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Order Detail Modal -->
+<div id="order-modal" class="hidden fixed inset-0 bg-[#0f172a]/40 backdrop-blur-md flex items-center justify-center p-6 z-50">
+    <div class="glass-card w-full max-w-4xl rounded-[3rem] p-12 overflow-y-auto max-h-[90vh]">
+        <div class="flex justify-between items-center mb-10">
+            <div>
+                <h3 class="text-3xl font-black text-[#0f172a] tracking-tight">Fulfillment Audit</h3>
+                <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mt-1" id="modal-order-id">#ORD-ID</p>
+            </div>
+            <button onclick="closeModal()" class="text-gray-400 hover:text-gray-600 transition-colors"><i class="fas fa-times text-xl"></i></button>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <!-- Customer & Shipping -->
+            <div class="space-y-8">
+                <div>
+                    <label class="block text-[10px] font-extrabold text-gray-400 uppercase tracking-widest mb-4 ml-4">Consignee Identity</label>
+                    <div class="bg-gray-50 p-6 rounded-[2rem] border border-gray-100">
+                        <p class="text-sm font-black text-[#0f172a]" id="view-user-name">---</p>
+                        <p class="text-xs font-bold text-gray-500 mt-1" id="view-user-email">---</p>
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-[10px] font-extrabold text-gray-400 uppercase tracking-widest mb-4 ml-4">Dispatch Destination</label>
+                    <div class="bg-gray-100/50 p-6 rounded-[2rem] border border-gray-100 space-y-1">
+                        <p class="text-xs font-bold text-gray-800" id="view-shipping-name">---</p>
+                        <p class="text-xs text-gray-600 font-medium" id="view-shipping-phone">---</p>
+                        <p class="text-xs text-gray-600 leading-relaxed font-medium" id="view-shipping-address">---</p>
+                        <p class="text-xs text-gray-800 font-extrabold" id="view-shipping-loc">---</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Items & Summary -->
+            <div>
+                <label class="block text-[10px] font-extrabold text-gray-400 uppercase tracking-widest mb-4 ml-4">Manifested SKUs</label>
+                <div class="space-y-4 max-h-[300px] overflow-y-auto pr-4" id="view-items">
+                    <!-- Items list -->
+                </div>
+                
+                <div class="mt-8 pt-8 border-t border-gray-100 flex justify-between items-center">
+                    <span class="text-[10px] font-black text-gray-400 uppercase tracking-widest">Aggregate Settlement</span>
+                    <span class="text-2xl font-black text-[#0f172a]" id="view-total">₹0</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex justify-center pt-12">
+            <button onclick="closeModal()" class="text-[10px] font-black text-gray-400 uppercase tracking-widest hover:text-gray-900 transition-colors">Terminate Review</button>
+        </div>
+    </div>
+</div>
+
+<script src="{{ url_for('admin.static', filename='js/orders.js') }}"></script>
+{% endblock %}
+

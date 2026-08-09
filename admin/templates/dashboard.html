@@ -1,1 +1,73 @@
+{% extends "layout.html" %}
+
+{% block title %}Overview{% endblock %}
+{% block header_title %}Management Hub{% endblock %}
+
+{% block content %}
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+    <!-- Stat Cards -->
+    <div class="glass-card p-10 rounded-[2rem] relative overflow-hidden group">
+        <div class="absolute top-0 right-0 w-24 h-24 bg-teal-500/5 rounded-full -mr-12 -mt-12 group-hover:scale-110 transition-transform duration-500"></div>
+        <div class="flex items-center justify-between mb-6">
+            <div class="w-14 h-14 bg-teal-50 text-teal-600 rounded-2xl flex items-center justify-center border border-teal-100/50">
+                <i class="fas fa-shopping-bag text-xl"></i>
+            </div>
+            <span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest">Active Orders</span>
+        </div>
+        <h3 class="text-4xl font-black text-[#0f172a] tracking-tight" id="total-orders">---</h3>
+        <p class="text-[11px] font-bold text-gray-400 uppercase tracking-wider mt-4">Platform utilization</p>
+    </div>
+
+    <div class="glass-card p-10 rounded-[2rem] relative overflow-hidden group">
+        <div class="absolute top-0 right-0 w-24 h-24 bg-amber-500/5 rounded-full -mr-12 -mt-12 group-hover:scale-110 transition-transform duration-500"></div>
+        <div class="flex items-center justify-between mb-6">
+            <div class="w-14 h-14 bg-amber-50 text-amber-600 rounded-2xl flex items-center justify-center border border-amber-100/50">
+                <i class="fas fa-coins text-xl"></i>
+            </div>
+            <span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest">Net Revenue</span>
+        </div>
+        <h3 class="text-4xl font-black text-[#0f172a] tracking-tight" id="total-revenue">---</h3>
+        <p class="text-[11px] font-bold text-gray-400 uppercase tracking-wider mt-4">Marketplace Earnings</p>
+    </div>
+
+    <div class="glass-card p-10 rounded-[2rem] relative overflow-hidden group">
+        <div class="absolute top-0 right-0 w-24 h-24 bg-blue-500/5 rounded-full -mr-12 -mt-12 group-hover:scale-110 transition-transform duration-500"></div>
+        <div class="flex items-center justify-between mb-6">
+            <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center border border-blue-100/50">
+                <i class="fas fa-cubes text-xl"></i>
+            </div>
+            <span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest">Catalog Items</span>
+        </div>
+        <h3 class="text-4xl font-black text-[#0f172a] tracking-tight" id="total-products">---</h3>
+        <p class="text-[11px] font-bold text-gray-400 uppercase tracking-wider mt-4">Inventoried Products</p>
+    </div>
+</div>
+
+<div class="glass-card rounded-[2.5rem] overflow-hidden border border-gray-100/50">
+    <div class="px-10 py-8 border-b border-gray-50 flex items-center justify-between bg-white/40">
+        <div>
+            <h4 class="text-lg font-black text-[#0f172a] tracking-tight">Recent Activity</h4>
+            <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mt-1">Real-time throughput</p>
+        </div>
+        <a href="{{ url_for('admin.orders') }}" class="px-6 py-2.5 bg-gray-900 text-white text-[10px] font-bold uppercase tracking-widest rounded-full hover:bg-gray-800 transition-all active:scale-95">View Ledger</a>
+    </div>
+    <div class="overflow-x-auto">
+        <table class="w-full text-left">
+            <thead>
+                <tr class="bg-gray-50/50 text-gray-400 text-[10px] font-black uppercase tracking-[0.2em] border-b border-gray-100">
+                    <th class="px-10 py-5">Order Reference</th>
+                    <th class="px-10 py-5">Origin</th>
+                    <th class="px-10 py-5">Status</th>
+                    <th class="px-10 py-5 text-right">Value</th>
+                </tr>
+            </thead>
+            <tbody id="recent-orders-list" class="divide-y divide-gray-50">
+                <!-- Data injected via logic -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="{{ url_for('admin.static', filename='js/dashboard.js') }}"></script>
+{% endblock %}
 
